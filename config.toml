@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://elastic-fermat-3dc26c.netlify.com/"
 title = "Web Archive"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
