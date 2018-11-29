@@ -1,0 +1,32 @@
+h1 {
+    font-size: 32px !important;
+}
+
+.item {
+	text-align: left;
+}
+
+.intro {
+	transform: none !important;
+}
+
+.copyright {
+	display: none !important;
+}
+
+#particles-js {
+	/* position: absolute; */
+	width: 100%;
+	height: 100px;
+	background-color: #000; /* 191970 */
+	/* background-image: url("../images/screen.jpg"); */
+	/* background-image: url("../images/screen2.png"); */
+	background-image: linear-gradient(to bottom right, black, navy,#aaa);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+  }
+
+  .logo__link {
+	  color: #fff;
+  }
