@@ -9,7 +9,7 @@ categories:
   - "book"
 tags: 
   - "architecture"
-thumbnail: "img/Conway4.png"
+thumbnail: "img/banner/conway.png"
 draft: false
 ---
 

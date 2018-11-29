@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Web Archive</title>
+    <link>https://elastic-fermat-3dc26c.netlify.com/tags/</link>
+    <description>Recent content in Tags on Web Archive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amazon</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/tags/amazon/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/amazon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anekdote</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/tags/architecture/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal Development</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/tags/personal-development/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/personal-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

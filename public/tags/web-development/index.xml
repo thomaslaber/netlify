@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on Web Archive</title>
+    <link>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</link>
+    <description>Recent content in Web Development on Web Archive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</guid>
+      <description>Create new hugo site hugo new site [path] [flags]  git init Create a new repository on the command line echo &amp;quot;# website2&amp;quot; &amp;gt;&amp;gt; README.md git init git add README.md git commit -m &amp;quot;first commit&amp;quot; git remote add origin https://github.com/thomaslaber/website2.git git push -u origin master  Push an existing repository from the command line git remote add origin https://github.com/thomaslaber/website2.git git push -u origin master  git submodule git submodule add https://github.</description>
+    </item>
+    
+    <item>
+      <title>webdevelopers.at</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/project/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/project/project1/</guid>
+      <description>Testing</description>
+    </item>
+    
+  </channel>
+</rss>

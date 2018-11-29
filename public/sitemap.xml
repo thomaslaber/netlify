@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/project/project1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/post/2018-11-20_jeff-bezos-api-mandate/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/book/the-happiness-hypothesis/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/book/so-good-they-cant-ignore-you/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/post/brookes-law/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/post/open-data-initiative/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/post/conways-law/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/amazon/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/architecture/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/categories/book/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/book/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/categories/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/personal-development/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/categories/post/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/post/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/categories/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
