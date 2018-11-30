@@ -27,6 +27,10 @@ h1 {
 	background-position: 50% 50%;
   }
 
-  .logo__link {
-	  color: #fff;
+  .post__thumbnail {
+	  width: 50%;
   }
+
+  /* .logo__link {
+	  color: #fff;
+  } */

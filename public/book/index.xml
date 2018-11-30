@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>Jeff Bezos&#39; API Mandate</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/2018-11-20_jeff-bezos-api-mandate/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/2018-11-20_jeff-bezos-api-mandate/</guid>
+      <description>The best article I&amp;rsquo;ve ever read about architecture and the management of IT.
+UPDATE
+This post was intended to be shared privately and was accidentally made public. Thanks to +Steve Yegge for allowing us to keep it out there. It&amp;rsquo;s the sort of writing people do when they think nobody is watching: honest, clear, and frank.
+The world would be a better place if more people wrote this sort of internal memoranda, and even better if they were allowed to write it for the outside world.</description>
+    </item>
+    
+    <item>
       <title>The Happiness Hypothesis</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/book/the-happiness-hypothesis/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
@@ -30,6 +42,49 @@
 Cal Newport&amp;rsquo;s 2012 book So Good They Can&amp;rsquo;t Ignore You is a career strategy book designed around four ideas.
  The first idea is that &amp;lsquo;follow your passion&amp;rsquo; is terrible career advice, and people who say this should be shot don&amp;rsquo;t know what they&amp;rsquo;re talking about. Cal Newport calls this idea of following your passion &amp;lsquo;the passion hypothesis&amp;rsquo;.
  The second idea is that instead of believing in the passion hypothesis, you should adopt what Newport calls the &amp;lsquo;craftsman mindset&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Brooks&#39; Law</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/brookes-law/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/brookes-law/</guid>
+      <description>In a Field Notes post from 2014, LeadingAgile consultant Andrew Fuqua considers Brooks’ Law in the context of the Theory of Constraints.
+ Brooks’ Law is the adage that adding manpower to a late software project makes it later.
+ Fuqua notes that Brooks observed people “and months are interchangeable commodities only when a task can be partitioned among many workers with no communication among them.”
+Effective communication is key to any project.</description>
+    </item>
+    
+    <item>
+      <title>Applied Predictive Modelling</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</guid>
+      <description>Source
+Chapter 1 Introduction Prediction Versus Interpretation, Key Ingredients of Predictive Models; Terminology; Example Data Sets and Typical Data Scenarios; Overview; Notation (15 pages, 3 figures)
+Part I: General Strategies Chapter 2 A Short Tour of the Predictive Modeling Process Case Study: Predicting Fuel Economy; Themes; Summary (8 pages, 6 figures, R packages used)
+Chapter 3 Data Pre-Processing Case Study: Cell Segmentation in High-Content Screening; Data Transformations for Individual Predictors; Data Transformations for Multiple Predictors; Dealing with Missing Values; Removing Variables; Adding Variables; Binning Variables; Computing; Exercises (32 pages, 11 figures, R packages used)</description>
+    </item>
+    
+    <item>
+      <title>Online Reads</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</guid>
+      <description> persönlicher Blog: harlecin.netlify.com Hackernews: news.ycombinator.com R-Bloggers: r-bloggers.com Data Machina: getrevue.co/profile/datamachina Reddit: reddit.com/r/MachineLearning  </description>
+    </item>
+    
+    <item>
+      <title>Conway&#39;s Law</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</guid>
+      <description>Many organizations have become adept at identifying what they need from software development projects, based on a keen understanding of their business goals. Even so, they’re often surprised to find out that the end results don’t achieve the transformative impact they were expecting. Their mistake? Overlooking the importance of Conway’s Law.
+In 1967, Melvin Conway coined a phrase at the end of his publication ‘How do committees invent?’ that was subsequently made popular by Fred Brooks in his book The Mythical Man-Month, where he dubbed it &amp;lsquo;Conway’s Law&amp;rsquo;, which states:</description>
     </item>
     
   </channel>

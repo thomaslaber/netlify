@@ -165,3 +165,89 @@ baseof.
   <script>hljs.initHighlightingOnLoad();</script>
 {{ end }}
 {{< /highlight >}}
+
+#### Adding a custom search function
+
+
+[source](http://www.johann-oberdorfer.eu/blog/2017/11/11/17-11-01_add_site_search_to_hugo_static_site_generator/)
+add to config.toml
+
+{{< highlight html >}}
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
+{{< /highlight >}}
+
+Add the following to your config.toml configuration file:
+
+Note: Make shure to locate the required index.json file in the layouts folder. Once the file exists, hugo is going to dump the index to file.
+
+The index.json file looks like:
+
+{{< highlight bash >}}
+[{{ range $index, $page := .Site.Pages }}
+{{- if ne $page.Type "json" -}}
+{{- if and $index (gt $index 0) -}},{{- end }}
+{
+    "uri": "{{ $page.Permalink }}",
+    "title": "{{ htmlEscape $page.Title}}",
+    "tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag| htmlEscape }}"{{ end }}],
+    "description": "{{ htmlEscape .Description}}",
+    "content": {{$page.Plain | jsonify}}
+}
+{{- end -}}
+{{- end -}}]
+{{< /highlight >}}
+
+Once this is done, hugo generates a lunrjs index.json at the root of your public folder. If you encounter some problems run: hugo --verbose and check messages and warnings.
+Web site configuration:
+
+../layouts/partials/header.html
+
+Typically, that’s where the css files are:
+
+{{< highlight html >}}
+<head>
+...
+{{ if not .Site.Params.disableSearch }}
+    <link href="{{ .Site.BaseURL }}css/auto-complete.css" rel="stylesheet">
+{{ end }}
+...
+</head>
+{{< /highlight >}}
+
+../layouts/partials/scripts.html
+
+Please note: as lunr.js is based on jquery, make sure jquery.js gets loaded 1st.
+
+{{< highlight html >}}
+<body>
+...
+<!-- custom search -->
+{{ if not .Site.Params.disableSearch }}
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/lunr.min.js"></script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/auto-complete.js"></script>
+            
+    <script type="text/javascript">
+        var baseurl = "{{ .Site.BaseURL }}";
+    </script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/search.js"></script>
+{{ end }}
+...
+  </body>
+{{< /highlight >}}
+
+and finally, add a search entry box somewhere in your webpage layout:
+
+{{< highlight html >}}
+{{ if not .Site.Params.disableSearch }}
+    <li class="dropdown">
+    <a>
+        <i class="fa fa-search"></i>
+        <div class="searchbox pull-right">
+        <input data-search-input id="search-by" type="text">
+        </div>
+    </a>
+    </li>
+{{ end }}
+{{< /highlight >}}
+

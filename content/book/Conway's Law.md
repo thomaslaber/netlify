@@ -29,7 +29,12 @@ As a result, if the technology department is organized around technical capabili
 
 ![Figure 1: Technical organization of teams](/img/Conway1.png)
 
+*Figure 1: Technical organization of teams*
+
 ![Figure 2: Architecture driven by technical capabilities](/img/Conway2.png)
+
+*Figure 2: Architecture driven by technical capabilities*
+
 
 Systems are dynamic, there will always be changes, and these are often caused by changes to the business definitions. If an organizational structure is driven by technical capabilities, every change in the business definitions will require work from all the technical areas of the organization, budget and time assignment.
 
@@ -40,8 +45,11 @@ Organization of teams driven by business capabilities
 
 ![Figure 3: Organization of teams driven by business capabilities](/img/Conway3.png)
 
-![Figure 4: Business-driven architecture](/img/Conway4.png)
+*Figure 3: Organization of teams driven by business capabilities*
 
+![Figure 4: Business-driven architecture](/img/Conway4.png){:height="36px" width="36px"}
+
+*Figure 4: Business-driven architecture*
 
 In the end, software is the product of an intellectual and collaborative process that will reflect the ideas of the people involved in this process and the communication structures between teams. That means, accounting for Conway’s Law should be front of mind, when it comes to structuring teams.
 

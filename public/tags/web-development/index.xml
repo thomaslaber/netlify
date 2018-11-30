@@ -6,25 +6,29 @@
     <description>Recent content in Web Development on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>hugo</title>
+      <title>hugo &amp; netlify</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</guid>
-      <description>Create new hugo site hugo new site [path] [flags]  git init Create a new repository on the command line echo &amp;quot;# website2&amp;quot; &amp;gt;&amp;gt; README.md git init git add README.md git commit -m &amp;quot;first commit&amp;quot; git remote add origin https://github.com/thomaslaber/website2.git git push -u origin master  Push an existing repository from the command line git remote add origin https://github.com/thomaslaber/website2.git git push -u origin master  git submodule git submodule add https://github.</description>
+      <description>Here is a great tutorial on how to host hugo on netlify
+Create hugo site In order to create a new hugo site simply go:
+hugo new site [path] [flags] git Create a new repository on the command line Init the git repo and push it to the guthub repo:
+echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.mdgit initgit add README.mdgit commit -m &amp;#34;first commit&amp;#34;git remote add origin https://github.</description>
     </item>
     
     <item>
       <title>webdevelopers.at</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/project/project1/</link>
+      <link>https://elastic-fermat-3dc26c.netlify.com/project/webdevelopers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/project/project1/</guid>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/project/webdevelopers/</guid>
       <description>Testing</description>
     </item>
     

@@ -6,35 +6,38 @@
     <description>Recent content on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>hugo</title>
+      <title>hugo &amp; netlify</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</guid>
-      <description>Create new hugo site hugo new site [path] [flags]  git init Create a new repository on the command line echo &amp;quot;# website2&amp;quot; &amp;gt;&amp;gt; README.md git init git add README.md git commit -m &amp;quot;first commit&amp;quot; git remote add origin https://github.com/thomaslaber/website2.git git push -u origin master  Push an existing repository from the command line git remote add origin https://github.com/thomaslaber/website2.git git push -u origin master  git submodule git submodule add https://github.</description>
+      <description>Here is a great tutorial on how to host hugo on netlify
+Create hugo site In order to create a new hugo site simply go:
+hugo new site [path] [flags] git Create a new repository on the command line Init the git repo and push it to the guthub repo:
+echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.mdgit initgit add README.mdgit commit -m &amp;#34;first commit&amp;#34;git remote add origin https://github.</description>
     </item>
     
     <item>
       <title>webdevelopers.at</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/project/project1/</link>
+      <link>https://elastic-fermat-3dc26c.netlify.com/project/webdevelopers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/project/project1/</guid>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/project/webdevelopers/</guid>
       <description>Testing</description>
     </item>
     
     <item>
       <title>Jeff Bezos&#39; API Mandate</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/post/2018-11-20_jeff-bezos-api-mandate/</link>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/2018-11-20_jeff-bezos-api-mandate/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/post/2018-11-20_jeff-bezos-api-mandate/</guid>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/2018-11-20_jeff-bezos-api-mandate/</guid>
       <description>The best article I&amp;rsquo;ve ever read about architecture and the management of IT.
 UPDATE
 This post was intended to be shared privately and was accidentally made public. Thanks to +Steve Yegge for allowing us to keep it out there. It&amp;rsquo;s the sort of writing people do when they think nobody is watching: honest, clear, and frank.
@@ -63,11 +66,11 @@ Cal Newport&amp;rsquo;s 2012 book So Good They Can&amp;rsquo;t Ignore You is a c
     </item>
     
     <item>
-      <title>Open Data Initiative</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/post/brookes-law/</link>
+      <title>Brooks&#39; Law</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/brookes-law/</link>
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/post/brookes-law/</guid>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/brookes-law/</guid>
       <description>In a Field Notes post from 2014, LeadingAgile consultant Andrew Fuqua considers Brooks’ Law in the context of the Theory of Constraints.
  Brooks’ Law is the adage that adding manpower to a late software project makes it later.
  Fuqua notes that Brooks observed people “and months are interchangeable commodities only when a task can be partitioned among many workers with no communication among them.”
@@ -85,11 +88,32 @@ Adobe, Microsoft, and SAP are partnering on the Open Data Initiative to enable d
     </item>
     
     <item>
+      <title>Applied Predictive Modelling</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</guid>
+      <description>Source
+Chapter 1 Introduction Prediction Versus Interpretation, Key Ingredients of Predictive Models; Terminology; Example Data Sets and Typical Data Scenarios; Overview; Notation (15 pages, 3 figures)
+Part I: General Strategies Chapter 2 A Short Tour of the Predictive Modeling Process Case Study: Predicting Fuel Economy; Themes; Summary (8 pages, 6 figures, R packages used)
+Chapter 3 Data Pre-Processing Case Study: Cell Segmentation in High-Content Screening; Data Transformations for Individual Predictors; Data Transformations for Multiple Predictors; Dealing with Missing Values; Removing Variables; Adding Variables; Binning Variables; Computing; Exercises (32 pages, 11 figures, R packages used)</description>
+    </item>
+    
+    <item>
+      <title>Online Reads</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</guid>
+      <description> persönlicher Blog: harlecin.netlify.com Hackernews: news.ycombinator.com R-Bloggers: r-bloggers.com Data Machina: getrevue.co/profile/datamachina Reddit: reddit.com/r/MachineLearning  </description>
+    </item>
+    
+    <item>
       <title>Conway&#39;s Law</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/post/conways-law/</link>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/post/conways-law/</guid>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</guid>
       <description>Many organizations have become adept at identifying what they need from software development projects, based on a keen understanding of their business goals. Even so, they’re often surprised to find out that the end results don’t achieve the transformative impact they were expecting. Their mistake? Overlooking the importance of Conway’s Law.
 In 1967, Melvin Conway coined a phrase at the end of his publication ‘How do committees invent?’ that was subsequently made popular by Fred Brooks in his book The Mythical Man-Month, where he dubbed it &amp;lsquo;Conway’s Law&amp;rsquo;, which states:</description>
     </item>

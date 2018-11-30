@@ -26,7 +26,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   # TL
-  custom_css = ["css/tl.css"]
+  custom_css = ["css/tl.css","css/auto-complete.css"]
   highlight = true
   highlightStyle = "monokai-sublime"
   highlightLanguages = ["r", "sql", "bash", "css"]
@@ -47,3 +47,6 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   linkedin = "thomas-laber"
   github = "thomaslaber"
   # email = "laber.thomas@gmail.com"
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]

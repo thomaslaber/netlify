@@ -41,9 +41,18 @@
 
 	{{ end }}
 
+	<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.js"></script>
+
 	<!-- END TL -->
 </head>
 <body class="body">
+	<script type="text/javascript" src="{{ .Site.BaseURL }}js/lunr.min.js"></script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/auto-complete.js"></script>
+            
+    <script type="text/javascript">
+        var baseurl = "{{ .Site.BaseURL }}";
+    </script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/search.js"></script>
 		<!--div class="sitetitle" style="width: 100px;">
 			<a class="logo__link" href="{{ "" | relLangURL }}" title="{{ .Site.Title }}" rel="home">
 				{{ .Site.Title }} - {{ .Site.Params.subtitle }}

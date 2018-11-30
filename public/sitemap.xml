@@ -4,14 +4,15 @@
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://elastic-fermat-3dc26c.netlify.com/project/project1/</loc>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/project/webdevelopers/</loc>
   </url>
   
   <url>
-    <loc>https://elastic-fermat-3dc26c.netlify.com/post/2018-11-20_jeff-bezos-api-mandate/</loc>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/book/2018-11-20_jeff-bezos-api-mandate/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -26,7 +27,7 @@
   </url>
   
   <url>
-    <loc>https://elastic-fermat-3dc26c.netlify.com/post/brookes-law/</loc>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/book/brookes-law/</loc>
     <lastmod>2018-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -36,7 +37,17 @@
   </url>
   
   <url>
-    <loc>https://elastic-fermat-3dc26c.netlify.com/post/conways-law/</loc>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</loc>
     <lastmod>2017-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -65,7 +76,7 @@
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/categories/book/</loc>
-    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,7 +88,13 @@
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/categories/</loc>
-    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/data-science/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -89,23 +106,25 @@
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/categories/post/</loc>
-    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/post/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/categories/project/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/project/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -117,12 +136,13 @@
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

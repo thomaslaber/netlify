@@ -48,11 +48,11 @@ The second reason the passion hypothesis is bad advice is that passion takes tim
 
 Why was this so? Newport believes that Self Determination Theory holds the answer. Self Determination Theory is the idea that your happiness is related to:
 
-> *Autonomy*: the feeling that you have control over your day, and that your actions are important.
+> ***Autonomy**: the feeling that you have control over your day, and that your actions are important.
 
-> *Competence*: the feeling that you are good at what you do.
+> **Competence**: the feeling that you are good at what you do.
 
-> *Relatedness*: the feeling of connection to other people.
+> **Relatedness**: the feeling of connection to other people.
 
 The assistants probably loved their jobs because increased competence led to increased autonomy. Newport writes: "when you become better at what you do, not only do you get the sense of accomplishment that comes from being good, but you're typically also rewarded with more control over your responsibilities."
 
