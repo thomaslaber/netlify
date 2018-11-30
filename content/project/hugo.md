@@ -101,7 +101,7 @@ Inside the header partial you can include every custom stylesheet from above bes
 #### Changing colors
 
 Unfortunately, the mainroad theme does not come with a built-in color-theme-support. Therefore, we have to replace color codes manually: 
-I chose to go from <span style="color: #e64946">&block;&block;&block; #e64946 &block;&block;&block;</span> with <span style="color: #191970">&block;&block;&block; #191970 &block;&block;&block;</span>. This can easily be done by runnnig a search and replace in the *style.css* after it was copied to the static/css folder. 
+I chose to go from <span style="color: #e64946">&block;&block;&block; #e64946 &block;&block;&block;</span> to <span style="color: #191970">&block;&block;&block; #191970 &block;&block;&block;</span>. This can easily be done by runnnig a search and replace in the *style.css* after it was copied to the static/css folder. 
 
 > Remember: No changes in the theme folder!
 

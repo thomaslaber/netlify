@@ -1,5 +1,5 @@
 ---
-title: "Open Data Initiative"
+title: "Brooks' Law"
 output: html_notebook
 editor_options: 
   chunk_output_type: inline
