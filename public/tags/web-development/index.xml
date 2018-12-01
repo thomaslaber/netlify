@@ -20,7 +20,7 @@
       <description>Here is a great tutorial on how to host hugo on netlify
 Create hugo site In order to create a new hugo site simply go:
 hugo new site [path] [flags] git Create a new repository on the command line Init the git repo and push it to the guthub repo:
-echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.mdgit initgit add README.mdgit commit -m &amp;#34;first commit&amp;#34;git remote add origin https://github.</description>
+echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.md git init git add README.md git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://github.</description>
     </item>
     
     <item>

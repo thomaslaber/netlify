@@ -20,7 +20,7 @@
       <description>Here is a great tutorial on how to host hugo on netlify
 Create hugo site In order to create a new hugo site simply go:
 hugo new site [path] [flags] git Create a new repository on the command line Init the git repo and push it to the guthub repo:
-echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.mdgit initgit add README.mdgit commit -m &amp;#34;first commit&amp;#34;git remote add origin https://github.</description>
+echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.md git init git add README.md git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://github.</description>
     </item>
     
     <item>
@@ -85,6 +85,37 @@ Effective communication is key to any project.</description>
       <guid>https://elastic-fermat-3dc26c.netlify.com/post/open-data-initiative/</guid>
       <description>A groundbreaking partnership with a new vision for renewable data and intelligent applications Digital transformation is how you compete and win today. It’s the path to better serve customers, build better products, and empower employees. And it&amp;rsquo;s data that is the foundational resource that allows you to transform and uncover the insights you need to drive business forward.
 Adobe, Microsoft, and SAP are partnering on the Open Data Initiative to enable data to be exchanged—and enriched—across systems, making it a renewable resource that flows into intelligent applications.</description>
+    </item>
+    
+    <item>
+      <title>Linear Regression</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_linear_regression/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_linear_regression/</guid>
+      <description>Source https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation
+$$Y= a *X + b$$
+The best way to understand linear regression is to relive this experience of childhood.</description>
+    </item>
+    
+    <item>
+      <title>Logistic Regression</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-02_logistic_regression/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-02_logistic_regression/</guid>
+      <description>Don’t get confused by its name! It is a classification not a regression algorithm. It is used to estimate discrete values (binary values like 0/1, yes/no, true/false ) based on given set of independent variable(s). In simple words, it predicts the probability of occurrence of an event by fitting data to a logit function. Hence, it is also known as logit regression. Since, it predicts the probability, its output values lies between 0 and 1 (as expected).</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Overview</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_machine_learning/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_machine_learning/</guid>
+      <description>Broadly, there are three types of Machine Learning Algorithms..
+1. Supervised Learning How it works: This algorithm consist of a target or outcome variable (or dependent variable) which is to be predicted from a given set of predictors (independent variables). Using these set of variables, we generate a function that map inputs to desired outputs. The training process continues until the model achieves a desired level of accuracy on the training data.</description>
     </item>
     
     <item>

@@ -37,6 +37,21 @@
   </url>
   
   <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_linear_regression/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-02_logistic_regression/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_machine_learning/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</loc>
     <lastmod>2017-11-20T00:00:00+00:00</lastmod>
   </url>
@@ -99,6 +114,24 @@
   </url>
   
   <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/machine-learning/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/categories/machine-learning/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/machine-learning/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/tags/personal-development/</loc>
     <lastmod>2018-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -106,7 +139,7 @@
   
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/categories/post/</loc>
-    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -125,6 +158,24 @@
   <url>
     <loc>https://elastic-fermat-3dc26c.netlify.com/project/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/python/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/r/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elastic-fermat-3dc26c.netlify.com/tags/regression/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Web Archive</title>
+    <link>https://elastic-fermat-3dc26c.netlify.com/categories/machine-learning/</link>
+    <description>Recent content in Machine Learning on Web Archive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Machine Learning Overview</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_machine_learning/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_machine_learning/</guid>
+      <description>Broadly, there are three types of Machine Learning Algorithms..
+1. Supervised Learning How it works: This algorithm consist of a target or outcome variable (or dependent variable) which is to be predicted from a given set of predictors (independent variables). Using these set of variables, we generate a function that map inputs to desired outputs. The training process continues until the model achieves a desired level of accuracy on the training data.</description>
+    </item>
+    
+  </channel>
+</rss>

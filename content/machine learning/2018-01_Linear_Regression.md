@@ -3,10 +3,12 @@ title: "Linear Regression"
 date: 2018-01-03
 categories:
   - "post"
+  - "machine learning"
 tags: 
   - "R"
   - "python"
   - "regression"
+  - "machine learning"
 draft: false
 ---
 

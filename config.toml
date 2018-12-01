@@ -1,7 +1,7 @@
 baseurl = "https://elastic-fermat-3dc26c.netlify.com/"
 title = "Web Archive"
 languageCode = "en-us"
-paginate = "10" # Number of posts per page
+paginate = "5" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
@@ -20,7 +20,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   authorbox = true
   # toc = true # Enable Table of Contents
   post_navigation = true
-  postSections = ["post", "book", "project"]
+  postSections = ["post", "book", "project", "machine learning"]
   # dateformat = "01.02.2016" # change the format of dates
   mathjax = true # Enable MathJax
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
@@ -29,7 +29,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   custom_css = ["css/tl.css","css/auto-complete.css"]
   highlight = true
   highlightStyle = "monokai-sublime"
-  highlightLanguages = ["r", "sql", "bash", "css"]
+  highlightLanguages = ["r", "python", "sql", "bash", "css"]
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
