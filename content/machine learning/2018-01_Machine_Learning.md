@@ -32,6 +32,8 @@ How it works:  Using this algorithm, the machine is trained to make specific dec
 
 ## Measurement metrics
 
+Some measures of model accuracy like mean absolute error (MAE), mean absolute percentage error (MAPE), symmetric mean absolute percentage error (SMAPE), mean squared error (MSE) and root mean squared error (RMSE).
+
 Mean squared error:
 
 $$MSE = \displaystyle\frac{1}{n}\sum_{t=1}^{n}res_t^2$$ 
