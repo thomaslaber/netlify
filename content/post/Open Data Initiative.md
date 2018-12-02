@@ -5,7 +5,7 @@ editor_options:
   chunk_output_type: inline
 date: 2018-02-06
 tags: ["architecture"]
-draft: false
+draft: true
 ---
 ## A groundbreaking partnership with a new vision for renewable data and intelligent applications
 

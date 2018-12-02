@@ -5,7 +5,7 @@ editor_options:
   chunk_output_type: inline
 date: 2018-04-02
 tags: ["personal development"]
-draft: false
+draft: true
 ---
 
 19-25 Minuten

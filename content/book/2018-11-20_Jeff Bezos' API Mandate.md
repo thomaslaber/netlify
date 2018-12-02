@@ -3,9 +3,9 @@ title: "Jeff Bezos' API Mandate"
 output: html_notebook
 editor_options: 
   chunk_output_type: inline
-date: 2018-11-20
+date: 2016-11-20
 tags: ["anekdote", "amazon"]
-draft: false
+draft: true
 ---
 The best article I've ever read about architecture and the management of IT.
 

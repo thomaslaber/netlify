@@ -9,6 +9,7 @@ tags:
   - "python"
   - "regression"
   - "machine learning"
+thumbnail: "img/banner/rstudio.png"
 draft: false
 ---
 

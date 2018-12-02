@@ -6,8 +6,7 @@ categories:
   - "project"
 tags: 
   - "web development"
-weight: 1
-thumbnail: "img/banner/hugo.png"
+thumbnail: "img/banner/hugo-netlify.png"
 draft: false
 ---
 
@@ -35,19 +34,17 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/thomaslaber/website2.git
 git push -u origin master
-{{< /highlight >}}
 
-#### Push an existing repository from the command line
+# Push an existing repository from the command line
+# Alternatively you could link it to an already existing git repo: 
 
-Alternatively you could link it to an already existing git repo: 
-
-{{< highlight bash >}}
 git remote add origin https://github.com/thomaslaber/website2.git
 git push -u origin master
 {{< /highlight >}}
 
-### git submodule
+### Theme as git submodule
 
+This is the theme I decided to go for <a href="https://themes.gohugo.io/mainroad/" taget="_blank">Mainroad</a>.
 Now you could add a theme of your choice git simply cloning it. However, it is more elegant to add it as a [submodule](https://blog.github.com/2016-02-01-working-with-submodules/). 
 
 > Submodules allow you to include or embed one or more repositories as a sub-folder inside another repository.
@@ -56,12 +53,10 @@ Now you could add a theme of your choice git simply cloning it. However, it is m
 git submodule add https://github.com/vimux/mainroad themes/mainroad
 git submodule init
 git submodule update
-{{< /highlight >}}
 
-This means it can be updated by running:
+# This means it can be updated by running:
 
-{{< highlight bash >}}
-git submodule update --remote themes/minimal
+git submodule update --remote themes/mainroad
 {{< /highlight >}}
 
 ### hugo again
@@ -85,7 +80,7 @@ We do not want to change anything in the theme folder as it will be updated and 
 
 Inside the config file we assign the path to an css file which can be found in *static/css*:
 
-{{< highlight bash >}}
+{{< highlight ini >}}
 [params]
     custom_css = ["css/tl.css"]
 {{< /highlight >}}
@@ -119,15 +114,8 @@ This is done by adding the scripts in the static/js folder.
 {{< highlight css >}}
 #particles-js {
 	/* position: absolute; */
-	width: 100%;
 	height: 100px;
-	background-color: #000; /* 191970 */
-	/* background-image: url("../images/screen.jpg"); */
-	/* background-image: url("../images/screen2.png"); */
 	background-image: linear-gradient(to bottom right, black, navy,#aaa);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
   }
 {{< /highlight >}}
 
@@ -250,4 +238,6 @@ and finally, add a search entry box somewhere in your webpage layout:
     </li>
 {{ end }}
 {{< /highlight >}}
+
+delete "Â" in "Â»" in search.js at line 80 
 

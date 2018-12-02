@@ -29,14 +29,14 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   custom_css = ["css/tl.css","css/auto-complete.css"]
   highlight = true
   highlightStyle = "monokai-sublime"
-  highlightLanguages = ["r", "python", "sql", "bash", "css"]
+  highlightLanguages = ["r", "python", "sql", "bash", "css", "ini"]
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
   single = "" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social"]
+  widgets = ["recent", "categories", "taglist", "social"] #"search", 
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget

@@ -680,13 +680,13 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin: .3125rem 0 1.25rem 1.25rem;
 }
 
-.content ul {
+/*.content ul {
 	list-style: square;
 }
 
 .content ol {
 	list-style: decimal;
-}
+}*/
 
 .content ul,
 .content ol {
