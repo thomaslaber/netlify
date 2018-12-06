@@ -6,10 +6,42 @@
     <description>Recent content on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft Big Data Overview</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/microsoft-big-data-overview/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/microsoft-big-data-overview/</guid>
+      <description>https://academy.microsoft.com/en-us/professional-program/tracks/big-data/
+Block 1 – Data Fundamentals Learn data science basics. Explore topics like data queries, data analysis, data visualization and how statistics informs data science practices. Please choose from Course 2a or Course 2b to complete the unit.
+ Course 1: Microsoft Professional Program: Introduction to Big Data Course 2a: Analyzing and Visualizing Data with Power BI Course 2b: Analyzing and Visualizing Data with Excel Course 3: Introduction to NoSQL Data Solutions Course 4: Querying Data with Transact-SQL  Unit 2 – Big Data Processing In this unit, you will learn how to use Azure services and open source technologies to implement batch processing and real-time processing of big data.</description>
+    </item>
+    
+    <item>
+      <title>Power BI</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/power-bi/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/power-bi/</guid>
+      <description>Columns vs Measures Calculated columns (and tables) are:
+ Evaluated for each row in your table, immediately after you hit &amp;lsquo;Enter&amp;rsquo; to complete the formula Saved back into the model so take up space  Calculated Measures are:
+ Evaluated when you use it in a visual, when the visual is rendered Not saved anywhere (well, actually there&amp;rsquo;s a cache in the report layer but it&amp;rsquo;s not part of the file when you hit Save)  Generally, measures are more useful, but the trade-offs are the performance hit (report runtime vs.</description>
+    </item>
+    
+    <item>
+      <title>SCRUM PSM I</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</guid>
+      <description>The complete guido can be downloaded here: scrumguides.org
+1. What is Scrum? Scrum is a framework for developing and sustaining complex products. A framework in which complex adaptive problems can be addressed. It is lightweight, simple to understand and yet difficult to master. To simplify, Scrum is not a process or a technique - it is a framework within which you can use different processes and techniques. It has roles, events, artefacts and rules that bind them together.</description>
+    </item>
     
     <item>
       <title>hugo &amp; netlify</title>
@@ -20,71 +52,7 @@
       <description>Here is a great tutorial on how to host hugo on netlify
 Create hugo site In order to create a new hugo site simply go:
 hugo new site [path] [flags] git Create a new repository on the command line Init the git repo and push it to the guthub repo:
-echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.md git init git add README.md git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://github.</description>
-    </item>
-    
-    <item>
-      <title>webdevelopers.at</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/project/webdevelopers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/project/webdevelopers/</guid>
-      <description>Testing</description>
-    </item>
-    
-    <item>
-      <title>Jeff Bezos&#39; API Mandate</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/book/2018-11-20_jeff-bezos-api-mandate/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/book/2018-11-20_jeff-bezos-api-mandate/</guid>
-      <description>The best article I&amp;rsquo;ve ever read about architecture and the management of IT.
-UPDATE
-This post was intended to be shared privately and was accidentally made public. Thanks to +Steve Yegge for allowing us to keep it out there. It&amp;rsquo;s the sort of writing people do when they think nobody is watching: honest, clear, and frank.
-The world would be a better place if more people wrote this sort of internal memoranda, and even better if they were allowed to write it for the outside world.</description>
-    </item>
-    
-    <item>
-      <title>The Happiness Hypothesis</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/book/the-happiness-hypothesis/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/book/the-happiness-hypothesis/</guid>
-      <description>The Divided Self Human thinking depends on metaphor. We understand new or complex things in relation to things we already know. For example, it&amp;rsquo;s hard to think about life in general, but once you apply the metaphor &amp;ldquo;life is a journey,&amp;rdquo; the metaphor guides you to some conclusions: You should learn the terrain, pick a direction, find some good traveling companions, and enjoy the trip, because there may be nothing at the end of the road.</description>
-    </item>
-    
-    <item>
-      <title>So Good They Can&#39;t Ignore You</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/book/so-good-they-cant-ignore-you/</link>
-      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/book/so-good-they-cant-ignore-you/</guid>
-      <description>19-25 Minuten
-Cal Newport&amp;rsquo;s 2012 book So Good They Can&amp;rsquo;t Ignore You is a career strategy book designed around four ideas.
- The first idea is that &amp;lsquo;follow your passion&amp;rsquo; is terrible career advice, and people who say this should be shot don&amp;rsquo;t know what they&amp;rsquo;re talking about. Cal Newport calls this idea of following your passion &amp;lsquo;the passion hypothesis&amp;rsquo;.
- The second idea is that instead of believing in the passion hypothesis, you should adopt what Newport calls the &amp;lsquo;craftsman mindset&amp;rsquo;.</description>
-    </item>
-    
-    <item>
-      <title>Brooks&#39; Law</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/book/brookes-law/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/book/brookes-law/</guid>
-      <description>In a Field Notes post from 2014, LeadingAgile consultant Andrew Fuqua considers Brooks’ Law in the context of the Theory of Constraints.
- Brooks’ Law is the adage that adding manpower to a late software project makes it later.
- Fuqua notes that Brooks observed people “and months are interchangeable commodities only when a task can be partitioned among many workers with no communication among them.”
-Effective communication is key to any project.</description>
-    </item>
-    
-    <item>
-      <title>Open Data Initiative</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/post/open-data-initiative/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/post/open-data-initiative/</guid>
-      <description>A groundbreaking partnership with a new vision for renewable data and intelligent applications Digital transformation is how you compete and win today. It’s the path to better serve customers, build better products, and empower employees. And it&amp;rsquo;s data that is the foundational resource that allows you to transform and uncover the insights you need to drive business forward.
-Adobe, Microsoft, and SAP are partnering on the Open Data Initiative to enable data to be exchanged—and enriched—across systems, making it a renewable resource that flows into intelligent applications.</description>
+echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.mdgit initgit add README.mdgit commit -m &amp;#34;first commit&amp;#34;git remote add origin https://github.</description>
     </item>
     
     <item>
@@ -137,6 +105,15 @@ Chapter 3 Data Pre-Processing Case Study: Cell Segmentation in High-Content Scre
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</guid>
       <description> persönlicher Blog: harlecin.netlify.com Hackernews: news.ycombinator.com R-Bloggers: r-bloggers.com Data Machina: getrevue.co/profile/datamachina Reddit: reddit.com/r/MachineLearning  </description>
+    </item>
+    
+    <item>
+      <title>The Happiness Hypothesis</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/the-happiness-hypothesis/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/the-happiness-hypothesis/</guid>
+      <description>The Divided Self Human thinking depends on metaphor. We understand new or complex things in relation to things we already know. For example, it&amp;rsquo;s hard to think about life in general, but once you apply the metaphor &amp;ldquo;life is a journey,&amp;rdquo; the metaphor guides you to some conclusions: You should learn the terrain, pick a direction, find some good traveling companions, and enjoy the trip, because there may be nothing at the end of the road.</description>
     </item>
     
     <item>

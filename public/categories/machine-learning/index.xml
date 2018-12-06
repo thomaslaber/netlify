@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>Linear Regression</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_linear_regression/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_linear_regression/</guid>
+      <description>Source https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation
+$$Y= a *X + b$$
+The best way to understand linear regression is to relive this experience of childhood.</description>
+    </item>
+    
+    <item>
       <title>Machine Learning Overview</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_machine_learning/</link>
       <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>

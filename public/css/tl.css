@@ -25,12 +25,28 @@ h1 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
-  }
+}
 
-  .post__thumbnail {
-	  width: 50%;
-  }
+.post__thumbnail {
+  width: 50%;
+}
 
-  /* .logo__link {
-	  color: #fff;
-  } */
+#search-by {
+	width: 200px;
+	position: absolute;
+	top: 7px;
+	right: 10px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+
+
+.flex-table {
+  display: flex;
+  flex-flow: row wrap;
+  border-left: solid 1px #ccc;
+  transition: 0.5s;
+}

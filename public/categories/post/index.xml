@@ -6,10 +6,42 @@
     <description>Recent content in Post on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/categories/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft Big Data Overview</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/microsoft-big-data-overview/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/microsoft-big-data-overview/</guid>
+      <description>https://academy.microsoft.com/en-us/professional-program/tracks/big-data/
+Block 1 – Data Fundamentals Learn data science basics. Explore topics like data queries, data analysis, data visualization and how statistics informs data science practices. Please choose from Course 2a or Course 2b to complete the unit.
+ Course 1: Microsoft Professional Program: Introduction to Big Data Course 2a: Analyzing and Visualizing Data with Power BI Course 2b: Analyzing and Visualizing Data with Excel Course 3: Introduction to NoSQL Data Solutions Course 4: Querying Data with Transact-SQL  Unit 2 – Big Data Processing In this unit, you will learn how to use Azure services and open source technologies to implement batch processing and real-time processing of big data.</description>
+    </item>
+    
+    <item>
+      <title>Power BI</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/power-bi/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/power-bi/</guid>
+      <description>Columns vs Measures Calculated columns (and tables) are:
+ Evaluated for each row in your table, immediately after you hit &amp;lsquo;Enter&amp;rsquo; to complete the formula Saved back into the model so take up space  Calculated Measures are:
+ Evaluated when you use it in a visual, when the visual is rendered Not saved anywhere (well, actually there&amp;rsquo;s a cache in the report layer but it&amp;rsquo;s not part of the file when you hit Save)  Generally, measures are more useful, but the trade-offs are the performance hit (report runtime vs.</description>
+    </item>
+    
+    <item>
+      <title>SCRUM PSM I</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</guid>
+      <description>The complete guido can be downloaded here: scrumguides.org
+1. What is Scrum? Scrum is a framework for developing and sustaining complex products. A framework in which complex adaptive problems can be addressed. It is lightweight, simple to understand and yet difficult to master. To simplify, Scrum is not a process or a technique - it is a framework within which you can use different processes and techniques. It has roles, events, artefacts and rules that bind them together.</description>
+    </item>
     
     <item>
       <title>Linear Regression</title>
