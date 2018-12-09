@@ -1,12 +1,16 @@
 ---
 title: "Jeff Bezos' API Mandate"
-output: html_notebook
-editor_options: 
-  chunk_output_type: inline
-date: 2016-11-20
-tags: ["anekdote", "amazon"]
-draft: true
+url: "Jeff Bezos API Mandate"
+description: How Amazon bypassed Microsoft, Google and everybody else in the cloud business
+date: 2017-02-12
+# thumbnail: img/banner/webdevelopers.png
+categories:
+  - "post"
+tags: 
+  - "anekdote"
+draft: false
 ---
+
 The best article I've ever read about architecture and the management of IT.
 
 ***UPDATE***

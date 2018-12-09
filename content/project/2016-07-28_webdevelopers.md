@@ -1,12 +1,13 @@
 ---
-title: "webdevelopers.at"
-description: "Lorem ipsum dolor sit amet"
-# repo: "https://webdevelopers.at" # delete this line if you want blog-like posts for projects
+title: "Web Development @webdevelopers.at"
+url: "webdevelopers"
+description: Some webdev stuff
+date: 2016-06-25
+thumbnail: img/banner/webdevelopers.png
 categories:
   - "project"
 tags: 
   - "web development"
-weight: 1
-draft: true 
+draft: false
 ---
 Testing

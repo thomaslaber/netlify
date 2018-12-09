@@ -1,10 +1,13 @@
 ---
 title: "The Happiness Hypothesis"
-output: html_notebook
-editor_options: 
-  chunk_output_type: inline
+url: "The Happiness Hypothesis"
+description: Amazing read
 date: 2017-11-20
-tags: ["anekdote", "amazon"]
+# thumbnail: img/banner/webdevelopers.png
+categories:
+  - "post"
+tags: 
+  - "anekdote"
 draft: false
 ---
 
