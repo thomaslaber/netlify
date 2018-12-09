@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/categories/project/</link>
-    <description>Recent content in Project on Web Archive</description>
+    <title>Webdevelopment on Web Archive</title>
+    <link>https://elastic-fermat-3dc26c.netlify.com/tags/webdevelopment/</link>
+    <description>Recent content in Webdevelopment on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/categories/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/webdevelopment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

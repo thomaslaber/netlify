@@ -6,33 +6,14 @@
     <description>Recent content in Categories on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Book</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/categories/book/</link>
-      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/categories/book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/categories/machine-learning/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/categories/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Post</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/categories/post/</link>
-      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/categories/post/</guid>
       <description></description>
@@ -41,7 +22,7 @@
     <item>
       <title>Project</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/categories/project/</link>
-      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/categories/project/</guid>
       <description></description>

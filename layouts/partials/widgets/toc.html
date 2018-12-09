@@ -1,0 +1,8 @@
+{{ if eq .Kind "page"  }}
+<div class="widget-toc" id="sticker">
+	<h4 class="widget__title">Table of Content</h4>
+	<div class="toc__menu">
+		{{ .TableOfContents }}
+	</div>
+</div>
+{{ end }}

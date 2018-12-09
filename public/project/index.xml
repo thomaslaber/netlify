@@ -6,21 +6,21 @@
     <description>Recent content in Projects on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>hugo &amp; netlify</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</link>
-      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Blogging with hugo netlify</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/hugo_netlify/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/project/hugo/</guid>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/hugo_netlify/</guid>
       <description>Here is a great tutorial on how to host hugo on netlify
 Create hugo site In order to create a new hugo site simply go:
 hugo new site [path] [flags] git Create a new repository on the command line Init the git repo and push it to the guthub repo:
-echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.mdgit initgit add README.mdgit commit -m &amp;#34;first commit&amp;#34;git remote add origin https://github.</description>
+echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.md git init git add README.md git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://github.</description>
     </item>
     
   </channel>

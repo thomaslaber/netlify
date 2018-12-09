@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Most useful git commands</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<meta name="generator" content="Hugo 0.52" />
+	<meta property="og:title" content="Most useful git commands" />
+<meta property="og:description" content="Setup Set your details
+git config --global user.name &#34;John Doe&#34; git config --global user.email &#34;john@example.com&#34; Use &ndash;global to set the configuration for all projects. If git config is used without &ndash;global and run inside a project directory, the settings are set for the specific project. Make git ignore file modes
+cd project/ git config core.filemode false
+This option is useful if the file permissions are not important to us, for example when we are on Windows." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/" /><meta property="article:published_time" content="2018-06-25T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-06-25T00:00:00&#43;00:00"/>
+
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+	
+	<link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/tl.css"><link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/auto-complete.css">
+	<div id="particles-js">
+		
+	</div>
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="https://elastic-fermat-3dc26c.netlify.com/js/particles.js"></script> 
+
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/sql.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ini.min.js"></script> 
+
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	
+
+	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.js"></script>
+
+	
+</head>
+<body class="body">
+	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/lunr.min.js"></script>
+    <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/auto-complete.js"></script>
+            
+    <script type="text/javascript">
+        var baseurl = "https:\/\/elastic-fermat-3dc26c.netlify.com\/";
+    </script>
+    <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/search.js"></script>
+			
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="Web Archive" rel="home">
+				<div class="logo__title">Web Archive</div>
+				<div class="logo__tagline">Thomas Laber</div>
+			</a>
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">About</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/categories/post/">Posts</a>
+		</li>
+		
+		<li class="menu__item">
+			<a class="menu__link" href="/categories/book/">Books</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/categories/project/">Projects</a>
+		</li>
+		<li class="dropdown">
+		    <a>
+		        
+		        <div class="searchbox pull-right">
+		        	<input data-search-input id="search-by" type="text" placeholder="Search...">
+		        </div>
+		    </a>
+	    </li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Most useful git commands</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+	<time class="meta__text" datetime="2018-06-25T00:00:00">June 25, 2018</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/post" rel="category">post</a></span>
+</div>
+</div>
+		</header>
+		<figure class="post__thumbnail">
+			<img src="/img/banner/git.png" alt="Most useful git commands">
+		</figure><div class="content post__content clearfix">
+			
+
+<h2 id="setup">Setup</h2>
+
+<p>Set your details</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> 
+git config --global user.name <span style="color:#e6db74">&#34;John Doe&#34;</span>
+git config --global user.email <span style="color:#e6db74">&#34;john@example.com&#34;</span></code></pre></div>
+
+<p>Use &ndash;global to set the configuration for all projects. If git config is used without &ndash;global and run inside a project directory, the settings are set for the specific project.
+Make git ignore file modes</p>
+
+<p>cd project/
+git config core.filemode false</p>
+
+<p>This option is useful if the file permissions are not important to us, for example when we are on Windows.
+See your settings</p>
+
+<p>git config &ndash;list</p>
+
+<p>##Starting a repo</p>
+
+<p>Initialize a git repository for existing code</p>
+
+<p>cd existing-project/
+git init</p>
+
+<p>Clone a remote repository</p>
+
+<p>git clone <a href="https://github.com/user/repository.git">https://github.com/user/repository.git</a></p>
+
+<p>This creates a new directory with the name of the repository.
+Clone a remote repository in the current directory</p>
+
+<p>git clone <a href="https://github.com/user/repository.git">https://github.com/user/repository.git</a> .</p>
+
+<p>Get help for a specific git command</p>
+
+<p>git help clone</p>
+
+<p>##Branching</p>
+
+<p>Update and merge your current branch with a remote</p>
+
+<p>cd repository/
+git pull origin master</p>
+
+<p>Where origin is the remote repository, and master the remote branch.
+If you don&rsquo;t want to merge your changes, use git fetch
+View remote urls</p>
+
+<p>git remote -v</p>
+
+<p>Change origin url</p>
+
+<p>git remote set-url origin http//github.com/repo.git</p>
+
+<p>Add remote</p>
+
+<p>git remote add remote-name <a href="https://github.com/user/repo.git">https://github.com/user/repo.git</a></p>
+
+<p>See non-staged (non-added) changes to existing files</p>
+
+<p>git diff</p>
+
+<p>Note that this does not track new files.
+See staged, non-commited changes</p>
+
+<p>git diff &ndash;cached</p>
+
+<p>See differences between local changes and master</p>
+
+<p>git diff origin/master</p>
+
+<p>Note that origin/master is one local branch, a shorthand for refs/remotes/origin/master, which is the full name of the remote-tracking branch.
+See differences between two commits</p>
+
+<p>git diff COMMIT1_ID COMMIT2_ID</p>
+
+<p>See the files that changed between two commits</p>
+
+<p>git diff &ndash;name-only COMMIT1_ID COMMIT2_ID</p>
+
+<p>See the files changed in a specific commit</p>
+
+<p>git diff-tree &ndash;no-commit-id &ndash;name-only -r COMMIT_ID</p>
+
+<p>or</p>
+
+<p>git show &ndash;pretty=&ldquo;format:&rdquo; &ndash;name-only COMMIT_ID</p>
+
+<p>Source: <a href="http://stackoverflow.com/a/424142/1391963">http://stackoverflow.com/a/424142/1391963</a>
+See diff before push</p>
+
+<p>git diff &ndash;cached origin/master</p>
+
+<p>See diff with only the changed lines (no context)</p>
+
+<p>git diff &ndash;unified=0</p>
+
+<p>See details (log message, text diff) of a commit</p>
+
+<p>git show COMMIT_ID</p>
+
+<p>Count the number of commits</p>
+
+<p>git rev-list HEAD &ndash;count</p>
+
+<p>git rev-list COMMIT_ID &ndash;count</p>
+
+<p>Check the status of the working tree (current branch, changed files&hellip;)</p>
+
+<p>git status</p>
+
+<p>Make some changes, commit them</p>
+
+<p>git add changed_file.txt
+git add folder-with-changed-files/
+git commit -m &ldquo;Commiting changes&rdquo;</p>
+
+<p>Rename/move and remove files</p>
+
+<p>git rm removeme.txt tmp/crap.txt
+git mv file_oldname.txt file_newname.txt
+git commit -m &ldquo;deleting 2 files, renaming 1&rdquo;</p>
+
+<p>Change message of last commit</p>
+
+<p>git commit &ndash;amend -m &ldquo;New commit message&rdquo;</p>
+
+<p>Push local commits to remote branch</p>
+
+<p>git push origin master</p>
+
+<p>Push commits to all remotes, in a single command</p>
+
+<p>Git does not do that, but see <a href="https://stackoverflow.com/a/18674313/1391963">https://stackoverflow.com/a/18674313/1391963</a>
+See recent commit history</p>
+
+<p>git log</p>
+
+<p>See commit history for the last two commits</p>
+
+<p>git log -2</p>
+
+<p>See commit history for the last two commits, with diff</p>
+
+<p>git log -p -2</p>
+
+<p>See commit history printed in single lines</p>
+
+<p>git log &ndash;pretty=oneline</p>
+
+<p>Revert one commit, push it</p>
+
+<p>git revert dd61ab21
+git push origin master</p>
+
+<p>Revert to the moment before one commit</p>
+
+<h1 id="reset-the-index-to-the-desired-tree">reset the index to the desired tree</h1>
+
+<p>git reset 56e05fced</p>
+
+<h1 id="move-the-branch-pointer-back-to-the-previous-head">move the branch pointer back to the previous HEAD</h1>
+
+<p>git reset &ndash;soft HEAD@{1}</p>
+
+<p>git commit -m &ldquo;Revert to 56e05fced&rdquo;</p>
+
+<h1 id="update-working-copy-to-reflect-the-new-commit">Update working copy to reflect the new commit</h1>
+
+<p>git reset &ndash;hard</p>
+
+<p>Source: <a href="http://stackoverflow.com/q/1895059/1391963">http://stackoverflow.com/q/1895059/1391963</a>
+Undo last commit, preserving local changes</p>
+
+<p>git reset &ndash;soft HEAD~1</p>
+
+<p>Undo last commit, without preserving local changes</p>
+
+<p>git reset &ndash;hard HEAD~1</p>
+
+<p>Undo last commit, preserving local changes in index</p>
+
+<p>git reset &ndash;mixed HEAD~1</p>
+
+<p>Or git reset HEAD~1
+See also <a href="http://stackoverflow.com/q/927358/1391963">http://stackoverflow.com/q/927358/1391963</a>
+Undo non-pushed commits</p>
+
+<p>git reset origin/master</p>
+
+<p>Reset to remote state</p>
+
+<p>git fetch origin
+git reset &ndash;hard origin/master</p>
+
+<p>See local branches</p>
+
+<p>git branch</p>
+
+<p>See all branches</p>
+
+<p>git branch -a</p>
+
+<p>Make some changes, create a patch</p>
+
+<p>git diff &gt; patch-issue-1.patch</p>
+
+<p>Add a file and create a patch</p>
+
+<p>git add newfile
+git diff &ndash;staged &gt; patch-issue-2.patch</p>
+
+<p>Add a file, make some changes, and create a patch</p>
+
+<p>git add newfile
+git diff HEAD &gt; patch-issue-2.patch</p>
+
+<p>Make a patch for a commit</p>
+
+<p>git format-patch COMMIT_ID</p>
+
+<p>Make patches for the last two commits</p>
+
+<p>git format-patch HEAD~2</p>
+
+<p>Make patches for all non-pushed commits</p>
+
+<p>git format-patch origin/master</p>
+
+<p>Create patches that contain binary content</p>
+
+<p>git format-patch &ndash;binary &ndash;full-index origin/master</p>
+
+<p>Apply a patch</p>
+
+<p>git apply -v patch-name.patch</p>
+
+<p>Apply a patch created using format-patch</p>
+
+<p>git am patch1.patch</p>
+
+<p>Break up multiple changes into separate commits (or commit only part of a changed file)</p>
+
+<p>git add &ndash;patch file.txt
+(press &lsquo;y&rsquo; for the chunks to add)
+git commit -m &lsquo;first part of the file&rsquo;
+(repeat if desired)</p>
+
+<p>Sources: <a href="https://stackoverflow.com/q/4948494/1391963">https://stackoverflow.com/q/4948494/1391963</a>, <a href="https://stackoverflow.com/q/1085162/1391963">https://stackoverflow.com/q/1085162/1391963</a>
+Create a tag</p>
+
+<p>git tag 7.x-1.3</p>
+
+<p>Push a tag</p>
+
+<p>git push origin 7.x-1.3</p>
+
+<p>Create a branch</p>
+
+<p>git checkout master
+git branch new-branch-name</p>
+
+<p>Here master is the starting point for the new branch. Note that with these 2 commands we don&rsquo;t move to the new branch, as we are still in master and we would need to run git checkout new-branch-name. The same can be achieved using one single command: git checkout -b new-branch-name
+Create a branch from a previous commit</p>
+
+<p>git branch branchname sha1-of-commit</p>
+
+<p>or using a symbolic reference (e.g. last commit):</p>
+
+<p>git branch branchname HEAD~1</p>
+
+<p>You can also use</p>
+
+<p>git checkout -b branchname sha1-of-commit</p>
+
+<p>Source: <a href="http://stackoverflow.com/a/2816728/1391963">http://stackoverflow.com/a/2816728/1391963</a>
+Checkout a branch</p>
+
+<p>git checkout new-branch-name</p>
+
+<p>See commit history for just the current branch</p>
+
+<p>git cherry -v master</p>
+
+<p>(master is the branch you want to compare)
+Merge branch commits</p>
+
+<p>git checkout master
+git merge branch-name</p>
+
+<p>Here we are merging all commits of branch-name to master.
+Merge a branch without committing</p>
+
+<p>git merge branch-name &ndash;no-commit &ndash;no-ff</p>
+
+<p>See differences between the current state and a branch</p>
+
+<p>git diff branch-name</p>
+
+<p>See differences in a file, between the current state and a branch</p>
+
+<p>git diff branch-name path/to/file</p>
+
+<p>Delete a branch</p>
+
+<p>git branch -d new-branch-name</p>
+
+<p>Push the new branch</p>
+
+<p>git push origin new-branch-name</p>
+
+<p>Get all branches</p>
+
+<p>git fetch origin</p>
+
+<p>Get the git root directory</p>
+
+<p>git rev-parse &ndash;show-toplevel</p>
+
+<p>Source: <a href="http://stackoverflow.com/q/957928/1391963">http://stackoverflow.com/q/957928/1391963</a>
+Remove from repository all locally deleted files</p>
+
+<p>git rm $(git ls-files &ndash;deleted)</p>
+
+<p>Source: <a href="http://stackoverflow.com/a/5147119/1391963">http://stackoverflow.com/a/5147119/1391963</a>
+Delete all untracked files</p>
+
+<p>git clean -f</p>
+
+<p>Including directories:</p>
+
+<p>git clean -f -d</p>
+
+<p>Preventing sudden cardiac arrest:</p>
+
+<p>git clean -n -f -d</p>
+
+<p>Source: <a href="http://stackoverflow.com/q/61212/1391963">http://stackoverflow.com/q/61212/1391963</a>
+Delete all files from a git repository that have already been deleted from disk:</p>
+
+<p>git ls-files &ndash;deleted -z | xargs -0 git rm</p>
+
+<p>Source (and alternatives): <a href="https://stackoverflow.com/a/5147119/1391963">https://stackoverflow.com/a/5147119/1391963</a>
+Show total file size difference between two commits</p>
+
+<p>Short answer: Git does not do that.
+Long answer: See <a href="http://stackoverflow.com/a/10847242/1391963">http://stackoverflow.com/a/10847242/1391963</a>
+Unstage (undo add) files:</p>
+
+<p>git reset HEAD file.txt</p>
+
+<p>See closest tag</p>
+
+<p>git describe &ndash;tags <code>git rev-list --tags --max-count=1</code></p>
+
+<p>Source: <a href="http://stackoverflow.com/q/1404796/1391963">http://stackoverflow.com/q/1404796/1391963</a>. See also git-describe.
+Debug SSH connection issues</p>
+
+<p>GIT_SSH_COMMAND=&ldquo;ssh -vvv&rdquo; git clone <your_repository></p>
+
+<p>Have git pull running every X seconds, with GNU Screen</p>
+
+<p>Use Ctrl+a Ctrl+d to detach the screen.
+See previous git commands executed</p>
+
+<p>history | grep git</p>
+
+<p>or</p>
+
+<p>grep &lsquo;^git&rsquo;  /root/.bash_history</p>
+
+<p>See recently used branches (i.e. branches ordered by most recent commit)</p>
+
+<p>git for-each-ref &ndash;sort=-committerdate refs/heads/ | head</p>
+
+<p>Source: <a href="http://stackoverflow.com/q/5188320/1391963">http://stackoverflow.com/q/5188320/1391963</a>
+Tar project files, excluding .git directory</p>
+
+<p>cd ..
+tar cJf project.tar.xz project/ &ndash;exclude-vcs</p>
+
+<p>Tar all locally modified files</p>
+
+<p>git diff &ndash;name-only | xargs tar -cf project.tar -T -</p>
+
+<p>Look for conflicts in your current files</p>
+
+<p>grep -H -r &ldquo;&lt;&lt;&lt;&rdquo; *
+grep -H -r &ldquo;&gt;&gt;&gt;&rdquo; *
+grep -H -r &lsquo;^=======$&rsquo; *</p>
+
+<p>There&rsquo;s also git-grep.
+Apply a patch not using git:</p>
+
+<p>patch -p1 &lt; file.patch</p>
+
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16"><path d="M16 9.5c0 .373-.24.74-.5 1l-5 5c-.275.26-.634.5-1 .5-.373 0-.74-.24-1-.5L1 8a2.853 2.853 0 0 1-.7-1C.113 6.55 0 5.973 0 5.6V1.4C0 1.034.134.669.401.401.67.134 1.034 0 1.4 0h4.2c.373 0 .95.113 1.4.3.45.187.732.432 1 .7l7.5 7.502c.26.274.5.632.5.998zM3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/devops/" rel="tag">devops</a></li>
+	</ul>
+</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Thomas Laber avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Thomas Laber</span>
+	</div>
+	<div class="authorbox__description">
+		John Doe&#39;s true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it.
+	</div>
+</div>
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="/scrum-psm-i/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">SCRUM PSM I</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next">
+		<a class="post-nav__link" href="/microsoft-big-data-overview/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Microsoft Big Data Overview</p></a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2018 Web Archive.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

@@ -6,10 +6,33 @@
     <description>Recent content in Posts on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Power BI</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/power-bi/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/power-bi/</guid>
+      <description>Columns vs Measures Calculated columns (and tables) are:
+ Evaluated for each row in your table, immediately after you hit &amp;lsquo;Enter&amp;rsquo; to complete the formula Saved back into the model so take up space  Calculated Measures are:
+ Evaluated when you use it in a visual, when the visual is rendered Not saved anywhere (well, actually there&amp;rsquo;s a cache in the report layer but it&amp;rsquo;s not part of the file when you hit Save)  Generally, measures are more useful, but the trade-offs are the performance hit (report runtime vs.</description>
+    </item>
+    
+    <item>
+      <title>SQL Server</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/sql-server/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/sql-server/</guid>
+      <description> Columns vs Measures Figure 3: Organization of teams driven by business capabilities
+Figure 3: Organization of teams driven by business capabilities
+Add user to Managed Instance
+create user DataScienceCore from external provider </description>
+    </item>
     
     <item>
       <title>Microsoft Big Data Overview</title>
@@ -23,14 +46,15 @@ Block 1 – Data Fundamentals Learn data science basics. Explore topics like dat
     </item>
     
     <item>
-      <title>Power BI</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/power-bi/</link>
-      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <title>Most useful git commands</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/power-bi/</guid>
-      <description>Columns vs Measures Calculated columns (and tables) are:
- Evaluated for each row in your table, immediately after you hit &amp;lsquo;Enter&amp;rsquo; to complete the formula Saved back into the model so take up space  Calculated Measures are:
- Evaluated when you use it in a visual, when the visual is rendered Not saved anywhere (well, actually there&amp;rsquo;s a cache in the report layer but it&amp;rsquo;s not part of the file when you hit Save)  Generally, measures are more useful, but the trade-offs are the performance hit (report runtime vs.</description>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/</guid>
+      <description>Setup Set your details
+git config --global user.name &amp;#34;John Doe&amp;#34; git config --global user.email &amp;#34;john@example.com&amp;#34; Use &amp;ndash;global to set the configuration for all projects. If git config is used without &amp;ndash;global and run inside a project directory, the settings are set for the specific project. Make git ignore file modes
+cd project/ git config core.filemode false
+This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
     </item>
     
     <item>

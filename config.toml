@@ -4,7 +4,7 @@ languageCode = "en-us"
 paginate = "5" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "UA-22322985-3" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "Thomas Laber"
@@ -34,10 +34,10 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Params.sidebar]
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
-  single = "" # Configure layout for single pages
+  single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["recent", "categories", "taglist", "social"] #"search", 
-
+  widgets = ["toc", "recent", "categories", "taglist", "social"] #"search", 
+  widgets_page = ["toc"]
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
   tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)

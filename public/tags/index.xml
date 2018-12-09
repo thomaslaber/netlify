@@ -6,46 +6,10 @@
     <description>Recent content in Tags on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Amazon</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/amazon/</link>
-      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/amazon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anekdote</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/</link>
-      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Architecture</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/architecture/</link>
-      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/architecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/data-science/</link>
-      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/data-science/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Devops</title>
@@ -57,47 +21,20 @@
     </item>
     
     <item>
-      <title>Machine Learning</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/machine-learning/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Visualization</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/tags/visualization/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/machine-learning/</guid>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/visualization/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/python/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Webdevelopment</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/tags/webdevelopment/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/r/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/regression/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Development</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</link>
-      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</guid>
+      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/webdevelopment/</guid>
       <description></description>
     </item>
     
