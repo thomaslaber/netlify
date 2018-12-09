@@ -5,7 +5,7 @@ output: html_notebook
 editor_options: 
   chunk_output_type: inline
 date: 2018-10-07
-thumbnail: "img/banner/power_bi.png"
+thumbnail: "img/banner/sql_server.png"
 categories:
   - "post"
 tags: 
@@ -13,7 +13,7 @@ tags:
 draft: false
 ---
 
-## Columns vs Measures
+## Actual Execution Plan
 
 ![Figure 3: Organization of teams driven by business capabilities](/img/actual_exec_plan1.png)
 
@@ -23,10 +23,7 @@ draft: false
 
 *Figure 3: Organization of teams driven by business capabilities*
 
+### Add user to Managed Instance
 
-
-Add user to Managed Instance
-
-{{< highlight sql >}} 
-create user DataScienceCore from external provider
+{{< highlight sql >}}create user DataScienceCore from external provider
 {{< /highlight >}} 
