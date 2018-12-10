@@ -44,11 +44,7 @@
 	<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.js"></script>
 
 	<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.sticky.js"></script>
-	<script>
-	  $(document).ready(function(){
-	    $("#sticker").sticky({topSpacing:10});
-	  });
-	</script> 
+	<script type="text/javascript" src="{{ .Site.BaseURL }}js/tl.js"></script> 
 
 	<!-- END TL -->
 </head>
@@ -78,6 +74,7 @@
 			{{ end }}
 			</div>
 			{{ partial "sidebar.html" . }}
+
 		</div>
 		{{ partial "footer" . }}
 	</div>

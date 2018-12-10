@@ -43,7 +43,9 @@ div {
   box-sizing: border-box;
 }
 
-
+/*#sticker {
+	font-size: 0.6em;
+}*/
 
 .flex-table {
   display: flex;

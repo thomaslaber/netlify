@@ -12,22 +12,21 @@ draft: false
 ---
 The Knowledge Repo project is focused on facilitating the sharing of knowledge between data scientists and other technical roles using data formats and tools that make sense in these professions. It provides various data stores (and utilities to manage them) for "knowledge posts", with a particular focus on notebooks (R Markdown and Jupyter / IPython Notebook) to better promote reproducible research.
 
-Source <https://github.com/airbnb/knowledge-repo>
-
-Tutorial: <https://github.com/airbnb/knowledge-repo/issues/401>
+* Source <https://github.com/airbnb/knowledge-repo>
+* Tutorial: <https://github.com/airbnb/knowledge-repo/issues/401>
 
 ## Activation
 
 1. Docker-compose-relevante Dateien in einen entsprechend autorisierten Zielfolder kopieren, in dem docker-compose-Befehle (vor allem “build“/“up“/“down“) auszuführen sind.
-2. Im Terminal zum Zielfolder navigieren, per [`docker-compose build`] Anwendung vorbereiten. Es wird ein git-Repository heruntergeladen („git clone“) und entsprechende Folder erzeugt.
-3. Im Terminal zum Zielfolder navigieren, per [`docker-compose up`] Anwendung starten.
-4. Anwendung im Webbrowser ansehen. (siehe [`SERVER_NAME`] in der Datei [`config_defaults.py`])
-5. SCHLIESSEN: [`STRG + C`] terminiert den Thread, hinterlässt dabei kritische Informationen im Docker-Compose-System. Erst mit [`docker-compose down`] werden alle Informationen gelöscht und ein sauberer Neustart ([`docker-compose up`]) möglich. 
+2. Im Terminal zum Zielfolder navigieren, per `docker-compose build` Anwendung vorbereiten. Es wird ein git-Repository heruntergeladen („git clone“) und entsprechende Folder erzeugt.
+3. Im Terminal zum Zielfolder navigieren, per `docker-compose up` Anwendung starten.
+4. Anwendung im Webbrowser ansehen. (siehe `SERVER_NAME` in der Datei `config_defaults.py`
+5. SCHLIESSEN: `STRG + C` terminiert den Thread, hinterlässt dabei kritische Informationen im Docker-Compose-System. Erst mit `docker-compose down` werden alle Informationen gelöscht und ein sauberer Neustart (`docker-compose up`) möglich. 
 
 
 ## Knowledge repo in docker
 
-All of the below files should be placed in your root directory, starting the local server can be done through the commands aliased in the [`Makefile`]:
+All of the below files should be placed in your root directory, starting the local server can be done through the commands aliased in the `Makefile`:
 
 {{< highlight makefile >}}
 make run
@@ -49,7 +48,7 @@ CMD bash /app/start.sh
 
 ### start.sh
 
-This clones your git post store (delete if necessary) and starts the server based on the [`RUNTIME_CONTEXT`] environment variable passed in [`docker-compose`].
+This clones your git post store (delete if necessary) and starts the server based on the `RUNTIME_CONTEXT` environment variable passed in `docker-compose`.
 
 {{< highlight bash >}}
 #!/usr/bin/env bash
