@@ -11,6 +11,12 @@ tags:
   - ""
 draft: false
 ---
+How to test the solutions
+
+{{< highlight python >}}
+python3 submit.py python_lab.py
+{{< /highlight >}}
+
 ## Lab 1: Introduction to Python—sets, lists, dictionaries, and comprehensions
 
 Python provides some simple data structures for grouping together multiple values, and integrates them with the rest of the language. These data structures are called collections. 
@@ -48,7 +54,25 @@ Python represents sequences of values using lists. In a list, order is significa
 **Slices that skip**:You can use a colon-separated triple `a:b:c` if you want the slice to include every cth element. For example, here is how you can extract from L the list consisting of even-indexed elements and the list consisting of odd-indexed elements:
 
 ### Tuples
+
 Like a list, a tuple is an ordered sequence of elements. However, tuples are immutable so they can be elements of sets. The notation for tuples is the same as that for lists except that ordinary parentheses are used instead of square brackets.
+
+### Zip
+
+Another collection that can be iterated over is a zip. A zip is constructed from other collections all of the same length. Each element of the zip is a tuple consisting of one element from each of the input collections.
+{{< highlight python >}}>>> list(zip([1,3,5],[2,4,6]))
+[(1, 2), (3, 4), (5, 6)]{{< /highlight >}}
+
+### Dictionaries
+
+We will often have occasion to use functions with finite domains. Python provides collections, called dic- tionaries, that are suitable for representing such functions. Conceptually, a dictionary is a set of key-value pairs. The syntax for specifying a dictionary in terms of its key-value pairs therefore resembles the syntax for sets—it uses curly braces—except that instead of listing the elements of the set, one lists the key-value pairs. In this syntax, each key-value pair is written using colon notation: an expression for the key, followed by the colon, followed by an expression for the value:
+
+$$key : value$$
+
+The identity function on a set D is the function with the following spec: 
+- input: an element x of D
+- output: x
+That is, the identity function simply outputs its input.
 
 #### IF
 
