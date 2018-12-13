@@ -49,6 +49,12 @@
 	<!-- END TL -->
 </head>
 <body class="body">
+	{{ if eq .Kind "page"  }}
+	<div class="sidebar_menu">
+		<span onclick="toggleBtnClick()" id="pin_button"><sup><img src="{{ .Site.BaseURL }}img/pin.png" width="25px" class="activated"></sup></span>
+		<span onclick="toggleBtnClick2()" id="hide_button"><sup><img src="{{ .Site.BaseURL }}img/eye.png" width="25px" class="activated"></sup></span>
+	</div>
+	{{ end }}
 	<script type="text/javascript" src="{{ .Site.BaseURL }}js/lunr.min.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}js/auto-complete.js"></script>
             

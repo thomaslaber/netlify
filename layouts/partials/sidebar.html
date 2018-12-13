@@ -9,7 +9,7 @@
 {{- $sidebar := $s.Get "sb" }}
 
 {{- if $sidebar -}}
-{{- if eq .Kind "home" -}}
+{{- if ne .Kind "page" -}}
 <aside class="sidebar{{ if eq $sidebar "left" }} sidebar--left{{ end }}">
 {{- $root := . }}
 {{- with (default .Site.Params.sidebar.widgets .Params.widgets) -}}

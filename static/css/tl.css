@@ -53,3 +53,18 @@ div {
   border-left: solid 1px #ccc;
   transition: 0.5s;
 }
+
+.sidebar_menu {
+	position: fixed;
+	top: 50%;
+	right: 0;
+/*	background: #fefefe;
+*/}
+
+.activated {
+	opacity: 1;
+}
+
+.deactivated {
+	opacity: 0.5;
+}
