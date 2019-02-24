@@ -29,19 +29,20 @@ Block 1 – Data Fundamentals Learn data science basics. Explore topics like dat
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/</guid>
       <description>Setup Set your details
-git config --global user.name &amp;#34;John Doe&amp;#34; git config --global user.email &amp;#34;john@example.com&amp;#34; Use &amp;ndash;global to set the configuration for all projects. If git config is used without &amp;ndash;global and run inside a project directory, the settings are set for the specific project. Make git ignore file modes
-cd project/ git config core.filemode false
-This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
+git config --global user.name &amp;#34;John Doe&amp;#34; git config --global user.email &amp;#34;john@example.com&amp;#34; Use --global to set the configuration for all projects. If git config is used without --global and run inside a project directory, the settings are set for the specific project.
+Make git ignore file modes
+cd project/ git config core.filemode false This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
     </item>
     
     <item>
-      <title>SCRUM PSM I</title>
+      <title>Scrum PSM I</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</guid>
-      <description>The complete guido can be downloaded here: scrumguides.org
-1. What is Scrum? Scrum is a framework for developing and sustaining complex products. A framework in which complex adaptive problems can be addressed. It is lightweight, simple to understand and yet difficult to master. To simplify, Scrum is not a process or a technique - it is a framework within which you can use different processes and techniques. It has roles, events, artefacts and rules that bind them together.</description>
+      <description>After getting scrum.org the PSM I I wanted to capture the relevant content.
+The complete guido can be downloaded here: scrumguides.org
+1. What is Scrum? Scrum is a framework for developing and sustaining complex products. A framework in which complex adaptive problems can be addressed. It is lightweight, simple to understand and yet difficult to master. To simplify, Scrum is not a process or a technique - it is a framework within which you can use different processes and techniques.</description>
     </item>
     
   </channel>

@@ -28,10 +28,10 @@
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/sql-server/</guid>
-      <description> Columns vs Measures Figure 3: Organization of teams driven by business capabilities
+      <description>Actual Execution Plan Figure 3: Organization of teams driven by business capabilities
 Figure 3: Organization of teams driven by business capabilities
-Add user to Managed Instance
-create user DataScienceCore from external provider </description>
+Add user to Managed Instance create user DataScienceCore from external provider There are two types of Indexes in SQL Server:
+ Clustered Index Non-Clustered Index  Clustered Index A clustered index defines the order in which data is physically stored in a table. Table data can be sorted in only way, therefore, there can be only one clustered index per table.</description>
     </item>
     
     <item>
@@ -46,25 +46,48 @@ Block 1 – Data Fundamentals Learn data science basics. Explore topics like dat
     </item>
     
     <item>
+      <title>Docker Basics</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/docker-basics/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/docker-basics/</guid>
+      <description>Docker is a tool which helps developers build and ship high quality applications, faster, anywhere. Source
+Why Docker With Docker, developers can build any app in any language using any toolchain. Dockerized apps are completely portable and can run anywhere.
+Developers can get going by just spinning any container out of list on Docker Hub. Docker manages and tracks changes and dependencies, making it easier for sysadmins to understand how the apps that developers build work.</description>
+    </item>
+    
+    <item>
+      <title>How to install Fultz&#39; grpc package</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/grpc-package/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/grpc-package/</guid>
+      <description>Instructions Link to instructions
+git clone https://github.com/grpc/grpc.git grpc.git cd grpc.git/ # git checkout tags/release-0_11_1 # does not exist Now we have to initialize the submodules and this is where it becomes tricky:
+git submodule update --init cd third_party/protobuf/ ./autogen.sh  Google changed some of its internal structures and now gmock is part of google test. Anyways, the URL in the autpgen.sh is not working anymore. There we need to manually extract gmock into protobuf:</description>
+    </item>
+    
+    <item>
       <title>Most useful git commands</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/</guid>
       <description>Setup Set your details
-git config --global user.name &amp;#34;John Doe&amp;#34; git config --global user.email &amp;#34;john@example.com&amp;#34; Use &amp;ndash;global to set the configuration for all projects. If git config is used without &amp;ndash;global and run inside a project directory, the settings are set for the specific project. Make git ignore file modes
-cd project/ git config core.filemode false
-This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
+git config --global user.name &amp;#34;John Doe&amp;#34; git config --global user.email &amp;#34;john@example.com&amp;#34; Use --global to set the configuration for all projects. If git config is used without --global and run inside a project directory, the settings are set for the specific project.
+Make git ignore file modes
+cd project/ git config core.filemode false This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
     </item>
     
     <item>
-      <title>SCRUM PSM I</title>
+      <title>Scrum PSM I</title>
       <link>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</guid>
-      <description>The complete guido can be downloaded here: scrumguides.org
-1. What is Scrum? Scrum is a framework for developing and sustaining complex products. A framework in which complex adaptive problems can be addressed. It is lightweight, simple to understand and yet difficult to master. To simplify, Scrum is not a process or a technique - it is a framework within which you can use different processes and techniques. It has roles, events, artefacts and rules that bind them together.</description>
+      <description>After getting scrum.org the PSM I I wanted to capture the relevant content.
+The complete guido can be downloaded here: scrumguides.org
+1. What is Scrum? Scrum is a framework for developing and sustaining complex products. A framework in which complex adaptive problems can be addressed. It is lightweight, simple to understand and yet difficult to master. To simplify, Scrum is not a process or a technique - it is a framework within which you can use different processes and techniques.</description>
     </item>
     
   </channel>

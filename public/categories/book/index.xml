@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on Web Archive</title>
+    <link>https://elastic-fermat-3dc26c.netlify.com/categories/book/</link>
+    <description>Recent content in Book on Web Archive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/categories/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Applied Predictive Modelling</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</guid>
+      <description>Source
+Chapter 1 Introduction Prediction Versus Interpretation, Key Ingredients of Predictive Models; Terminology; Example Data Sets and Typical Data Scenarios; Overview; Notation (15 pages, 3 figures)
+Part I: General Strategies Chapter 2 A Short Tour of the Predictive Modeling Process Case Study: Predicting Fuel Economy; Themes; Summary (8 pages, 6 figures, R packages used)
+Chapter 3 Data Pre-Processing Case Study: Cell Segmentation in High-Content Screening; Data Transformations for Individual Predictors; Data Transformations for Multiple Predictors; Dealing with Missing Values; Removing Variables; Adding Variables; Binning Variables; Computing; Exercises (32 pages, 11 figures, R packages used)</description>
+    </item>
+    
+    <item>
+      <title>Online Reads</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</guid>
+      <description> persönlicher Blog: harlecin.netlify.com Hackernews: news.ycombinator.com R-Bloggers: r-bloggers.com Data Machina: getrevue.co/profile/datamachina Reddit: reddit.com/r/MachineLearning  </description>
+    </item>
+    
+    <item>
+      <title>Conway&#39;s Law</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</guid>
+      <description>Many organizations have become adept at identifying what they need from software development projects, based on a keen understanding of their business goals. Even so, they’re often surprised to find out that the end results don’t achieve the transformative impact they were expecting. Their mistake? Overlooking the importance of Conway’s Law.
+In 1967, Melvin Conway coined a phrase at the end of his publication ‘How do committees invent?’ that was subsequently made popular by Fred Brooks in his book The Mythical Man-Month, where he dubbed it &amp;lsquo;Conway’s Law&amp;rsquo;, which states:</description>
+    </item>
+    
+  </channel>
+</rss>

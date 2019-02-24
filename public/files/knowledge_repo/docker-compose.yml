@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  app:
+    build:
+      args:
+#This can be deleted for non-git backed repositories, it should be the PAT for your post-store account
+        - GITHUB_PAT='719c9b825293e2be91ebe3a4b248be157808384b'
+      context: .
+    ports:
+      - 8888:8888
+    networks:
+      - default
+    volumes:
+      - .:/app
+    environment:
+# Fill in any Knowledge repo env variables here
+      - PORT=8888
+      - SERVER_NAME=18.195.31.68
+      - RUNTIME_CONTEXT=local

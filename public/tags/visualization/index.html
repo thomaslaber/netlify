@@ -22,6 +22,17 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="shortcut icon" href="/favicon.ico">
 		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-22322985-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 	
 	<link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/tl.css"><link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/auto-complete.css">
 	<div id="particles-js">
@@ -42,9 +53,13 @@
 
 	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.js"></script>
 
+	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/tl.js"></script> 
+
 	
 </head>
 <body class="body">
+	
 	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/lunr.min.js"></script>
     <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/auto-complete.js"></script>
             
@@ -72,6 +87,9 @@
 			<a class="menu__link" href="/about/">About</a>
 		</li>
 		<li class="menu__item">
+			<a class="menu__link" href="/book/online-reads/">Online Reads</a>
+		</li>
+		<li class="menu__item">
 			<a class="menu__link" href="/categories/post/">Posts</a>
 		</li>
 		
@@ -85,7 +103,7 @@
 		    <a>
 		        
 		        <div class="searchbox pull-right">
-		        	<input data-search-input id="search-by" type="text" placeholder="Search...">
+		        	<input data-search-input id="search-by" type="text" placeholder="&#x1F50E; Search...">
 		        </div>
 		    </a>
 	    </li>
@@ -135,7 +153,7 @@
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
 		<a href="https://elastic-fermat-3dc26c.netlify.com/sql-server/">
-			<img src="/img/banner/power_bi.png" alt="SQL Server" />
+			<img src="/img/banner/sql_server.png" alt="SQL Server" />
 		</a>
 	</figure>
 	<header class="list__header">
@@ -157,10 +175,13 @@
 </div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		 Columns vs Measures Figure 3: Organization of teams driven by business capabilities
+		Actual Execution Plan Figure 3: Organization of teams driven by business capabilities
 Figure 3: Organization of teams driven by business capabilities
-Add user to Managed Instance
-create user DataScienceCore from external provider 
+Add user to Managed Instance create user DataScienceCore from external provider There are two types of Indexes in SQL Server:
+ Clustered Index Non-Clustered Index  Clustered Index A clustered index defines the order in which data is physically stored in a table. Table data can be sorted in only way, therefore, there can be only one clustered index per table.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/sql-server/">Read more…</a>
 	</div>
 </article>
 </main>
@@ -169,6 +190,35 @@ create user DataScienceCore from external provider
 			</div>
 			
 <aside class="sidebar">
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/" title=""> (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/anekdote" title="Anekdote">Anekdote (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/architecture" title="Architecture">Architecture (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/data-science" title="Data science">Data science (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/devops" title="Devops">Devops (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/docker" title="Docker">Docker (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/grpc" title="Grpc">Grpc (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/machine-learning" title="Machine learning">Machine learning (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/python" title="Python">Python (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/r" title="R">R (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/regression" title="Regression">Regression (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/visualization" title="Visualization">Visualization (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/web-development" title="Web development">Web development (3)</a>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/book">Book</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/machine-learning">Machine learning</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/post">Post</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/project">Project</a></li>
+		</ul>
+	</div>
+</div>
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
@@ -176,26 +226,14 @@ create user DataScienceCore from external provider
 			<li class="widget__item"><a class="widget__link" href="/power-bi/">Power BI</a></li>
 			<li class="widget__item"><a class="widget__link" href="/sql-server/">SQL Server</a></li>
 			<li class="widget__item"><a class="widget__link" href="/microsoft-big-data-overview/">Microsoft Big Data Overview</a></li>
+			<li class="widget__item"><a class="widget__link" href="/docker-basics/">Docker Basics</a></li>
+			<li class="widget__item"><a class="widget__link" href="/airbnb-knowledge-repo/">Airbnb Knowledge Repo</a></li>
 			<li class="widget__item"><a class="widget__link" href="/hugo_netlify/">Blogging with hugo netlify</a></li>
+			<li class="widget__item"><a class="widget__link" href="/coding-the-matrix/">Coding the Matrix</a></li>
+			<li class="widget__item"><a class="widget__link" href="/grpc-package/">How to install Fultz&#39; grpc package</a></li>
 			<li class="widget__item"><a class="widget__link" href="/most-useful-git-commands/">Most useful git commands</a></li>
+			<li class="widget__item"><a class="widget__link" href="/scrum-psm-i/">Scrum PSM I</a></li>
 		</ul>
-	</div>
-</div>
-<div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/categories/post">Post</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/project">Project</a></li>
-		</ul>
-	</div>
-</div>
-<div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
-	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/devops" title="Devops">Devops (3)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/visualization" title="Visualization">Visualization (2)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/webdevelopment" title="Webdevelopment">Webdevelopment (1)</a>
 	</div>
 </div>
 <div class="widget-social widget">
@@ -216,12 +254,13 @@ create user DataScienceCore from external provider
 	</div>
 </div>
 </aside>
+
 		</div>
 		<footer class="footer">
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2018 Web Archive.
+			&copy; 2019 Web Archive.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

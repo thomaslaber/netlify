@@ -23,6 +23,17 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="shortcut icon" href="/favicon.ico">
 		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-22322985-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 	
 	<link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/tl.css"><link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/auto-complete.css">
 	<div id="particles-js">
@@ -43,9 +54,18 @@
 
 	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.js"></script>
 
+	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/tl.js"></script> 
+
 	
 </head>
 <body class="body">
+	
+	<div class="sidebar_menu">
+		<span onclick="toggleBtnClick()" id="pin_button"><sup><img src="https://elastic-fermat-3dc26c.netlify.com/img/pin.png" width="25px" class="activated"></sup></span>
+		<span onclick="toggleBtnClick2()" id="hide_button"><sup><img src="https://elastic-fermat-3dc26c.netlify.com/img/eye.png" width="25px" class="activated"></sup></span>
+	</div>
+	
 	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/lunr.min.js"></script>
     <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/auto-complete.js"></script>
             
@@ -73,6 +93,9 @@
 			<a class="menu__link" href="/about/">About</a>
 		</li>
 		<li class="menu__item">
+			<a class="menu__link" href="/book/online-reads/">Online Reads</a>
+		</li>
+		<li class="menu__item">
 			<a class="menu__link" href="/categories/post/">Posts</a>
 		</li>
 		
@@ -86,7 +109,7 @@
 		    <a>
 		        
 		        <div class="searchbox pull-right">
-		        	<input data-search-input id="search-by" type="text" placeholder="Search...">
+		        	<input data-search-input id="search-by" type="text" placeholder="&#x1F50E; Search...">
 		        </div>
 		    </a>
 	    </li>
@@ -150,10 +173,10 @@
 
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
-		<img alt="Thomas Laber avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+		<img alt="Thomas L. avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
-		<span class="authorbox__name">About Thomas Laber</span>
+		<span class="authorbox__name">About Thomas L.</span>
 	</div>
 	<div class="authorbox__description">
 		John Doe&#39;s true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it.
@@ -169,12 +192,30 @@
 
 			</div>
 			
+<aside class="sidebar">
+<div class="widget-toc" id="sticker">
+	<h4 class="widget__title">Table of Content</h4>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#columns-vs-measures">Columns vs Measures</a></li>
+</ul></li>
+</ul>
+</nav>
+	</div>
+</div>
+
+
+</aside>
+
 		</div>
 		<footer class="footer">
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2018 Web Archive.
+			&copy; 2019 Web Archive.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
