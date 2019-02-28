@@ -14,6 +14,8 @@ draft: false
 ---
 
 [Source](http://appliedpredictivemodeling.com)
+[cran](https://cran.r-project.org/web/packages/AppliedPredictiveModeling/index.html)
+
 
 ### Chapter 1 Introduction
 

@@ -4,7 +4,7 @@ output: html_notebook
 editor_options: 
   chunk_output_type: inline
 date: 2018-02-06
-tags: ["architecture"]
+tags: ["anekdote"]
 draft: true
 ---
 In a Field Notes post from 2014, LeadingAgile consultant Andrew Fuqua considers Brooks’ Law in the context of the Theory of Constraints. 
