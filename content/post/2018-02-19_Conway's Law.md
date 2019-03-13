@@ -1,15 +1,15 @@
 ---
 title: "Conway's Law"
+url: conways-law"
 output: html_notebook
 editor_options: 
   chunk_output_type: inline
-date: 2017-02-06
+date: 2018-02-19
 categories:
   - "post"
-  - "book"
 tags: 
+  - "anekdote"
   - "architecture"
-thumbnail: "img/banner/conway.png"
 draft: false
 ---
 
