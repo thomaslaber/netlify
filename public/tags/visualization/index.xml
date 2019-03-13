@@ -28,10 +28,7 @@
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/sql-server/</guid>
-      <description>Actual Execution Plan Figure 3: Organization of teams driven by business capabilities
-Figure 3: Organization of teams driven by business capabilities
-Add user to Managed Instance create user DataScienceCore from external provider There are two types of Indexes in SQL Server:
- Clustered Index Non-Clustered Index  Clustered Index A clustered index defines the order in which data is physically stored in a table. Table data can be sorted in only way, therefore, there can be only one clustered index per table.</description>
+      <description>Columnstore A columnstore index can provide a very high level of data compression, typically by 10 times, to significantly reduce your data warehouse storage cost. For analytics, a columnstore index offers an order of magnitude better performance than a btree index. Columnstore indexes are the preferred data storage format for data warehousing and analytics workloads. Starting with SQL Server 2016 (13.x), you can use columnstore indexes for real-time analytics on your operational workload.</description>
     </item>
     
   </channel>

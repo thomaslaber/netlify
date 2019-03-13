@@ -28,9 +28,10 @@
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/hugo_netlify/</guid>
       <description>Here is a great tutorial on how to host hugo on netlify
-Creating the hugo site In order to create a new hugo site simply go:
+Other examples using the exact same theme:
+ Tomas Westlake: https://r-mageddon.netlify.com/ Sascha Wolfer: https://rcrastinate.rbind.io/  Creating the hugo site In order to create a new hugo site simply go:
 hugo new site [path] [flags] Create a new repository via git Init the git repo and push it to the guthub repo:
-echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.md git init git add README.md git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://github.com/thomaslaber/website2.git git push -u origin master # Push an existing repository from the command line # Alternatively you could link it to an already existing git repo: git remote add origin https://github.</description>
+echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.mdgit initgit add README.</description>
     </item>
     
     <item>

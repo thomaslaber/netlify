@@ -6,10 +6,20 @@
     <description>Recent content in Python on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Cheatsheet</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/python-cheatsheet/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/python-cheatsheet/</guid>
+      <description>Source: Download text file or Fork me on GitHub 
+Main if __name__ == &amp;#39;__main__&amp;#39;:main() List &amp;lt;list&amp;gt; = &amp;lt;list&amp;gt;[from_inclusive : to_exclusive : step_size] &amp;lt;list&amp;gt;.append(&amp;lt;el&amp;gt;)&amp;lt;list&amp;gt;.extend(&amp;lt;collection&amp;gt;)&amp;lt;list&amp;gt; += [&amp;lt;el&amp;gt;]&amp;lt;list&amp;gt; += &amp;lt;collection&amp;gt; &amp;lt;list&amp;gt;.sort()&amp;lt;list&amp;gt;.reverse()&amp;lt;list&amp;gt; = sorted(&amp;lt;collection&amp;gt;)&amp;lt;iter&amp;gt; = reversed(&amp;lt;list&amp;gt;) sum_of_elements = sum(&amp;lt;collection&amp;gt;)elementwise_sum = [sum(pair) for pair in zip(list_a, list_b)]sorted_by_second = sorted(&amp;lt;collection&amp;gt;, key=lambda el: el[1])sorted_by_both = sorted(&amp;lt;collection&amp;gt;, key=lambda el: (el[1], el[0]))flatter_list = list(itertools.chain.from_iterable(&amp;lt;list&amp;gt;))product_of_elems = functools.</description>
+    </item>
     
     <item>
       <title>Linear Regression</title>

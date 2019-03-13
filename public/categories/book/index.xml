@@ -17,7 +17,7 @@
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</guid>
-      <description>Source
+      <description>Source cran
 Chapter 1 Introduction Prediction Versus Interpretation, Key Ingredients of Predictive Models; Terminology; Example Data Sets and Typical Data Scenarios; Overview; Notation (15 pages, 3 figures)
 Part I: General Strategies Chapter 2 A Short Tour of the Predictive Modeling Process Case Study: Predicting Fuel Economy; Themes; Summary (8 pages, 6 figures, R packages used)
 Chapter 3 Data Pre-Processing Case Study: Cell Segmentation in High-Content Screening; Data Transformations for Individual Predictors; Data Transformations for Multiple Predictors; Dealing with Missing Values; Removing Variables; Adding Variables; Binning Variables; Computing; Exercises (32 pages, 11 figures, R packages used)</description>

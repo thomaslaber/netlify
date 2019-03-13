@@ -29,9 +29,9 @@ Block 1 – Data Fundamentals Learn data science basics. Explore topics like dat
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/</guid>
       <description>Setup Set your details
-git config --global user.name &amp;#34;John Doe&amp;#34; git config --global user.email &amp;#34;john@example.com&amp;#34; Use --global to set the configuration for all projects. If git config is used without --global and run inside a project directory, the settings are set for the specific project.
+git config --global user.name &amp;#34;John Doe&amp;#34;git config --global user.email &amp;#34;john@example.com&amp;#34; Use --global to set the configuration for all projects. If git config is used without --global and run inside a project directory, the settings are set for the specific project.
 Make git ignore file modes
-cd project/ git config core.filemode false This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
+cd project/git config core.filemode false This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
     </item>
     
     <item>

@@ -18,8 +18,8 @@
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/grpc-package/</guid>
       <description>Instructions Link to instructions
-git clone https://github.com/grpc/grpc.git grpc.git cd grpc.git/ # git checkout tags/release-0_11_1 # does not exist Now we have to initialize the submodules and this is where it becomes tricky:
-git submodule update --init cd third_party/protobuf/ ./autogen.sh  Google changed some of its internal structures and now gmock is part of google test. Anyways, the URL in the autpgen.sh is not working anymore. There we need to manually extract gmock into protobuf:</description>
+git clone https://github.com/grpc/grpc.git grpc.gitcd grpc.git/# git checkout tags/release-0_11_1 # does not exist Now we have to initialize the submodules and this is where it becomes tricky:
+git submodule update --initcd third_party/protobuf/./autogen.sh  Google changed some of its internal structures and now gmock is part of google test. Anyways, the URL in the autpgen.sh is not working anymore. There we need to manually extract gmock into protobuf:</description>
     </item>
     
   </channel>

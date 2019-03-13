@@ -7,13 +7,12 @@
 	<title>Blogging with hugo netlify</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="Creating a personal blog with hugo netlify">
-	<meta name="generator" content="Hugo 0.52" />
+	<meta name="generator" content="Hugo 0.48" />
 	<meta property="og:title" content="Blogging with hugo netlify" />
 <meta property="og:description" content="Creating a personal blog with hugo netlify" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://elastic-fermat-3dc26c.netlify.com/hugo_netlify/" /><meta property="article:published_time" content="2018-06-25T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2018-06-25T00:00:00&#43;00:00"/>
-
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -88,9 +87,6 @@ if (!doNotTrack) {
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/about/">About</a>
-		</li>
-		<li class="menu__item">
 			<a class="menu__link" href="/book/online-reads/">Online Reads</a>
 		</li>
 		<li class="menu__item">
@@ -142,6 +138,13 @@ if (!doNotTrack) {
 
 <p>Here is a great tutorial on how to host hugo on <a href="https://gohugo.io/hosting-and-deployment/hosting-on-netlify/">netlify</a></p>
 
+<p>Other examples using the exact same theme:</p>
+
+<ul>
+<li>Tomas Westlake: <a href="https://r-mageddon.netlify.com/">https://r-mageddon.netlify.com/</a></li>
+<li>Sascha Wolfer: <a href="https://rcrastinate.rbind.io/">https://rcrastinate.rbind.io/</a></li>
+</ul>
+
 <h2 id="creating-the-hugo-site">Creating the hugo site</h2>
 
 <p>In order to create a new hugo site simply go:</p>
@@ -159,9 +162,9 @@ git commit -m <span style="color:#e6db74">&#34;first commit&#34;</span>
 git remote add origin https://github.com/thomaslaber/website2.git
 git push -u origin master
 
-<span style="color:#75715e"># Push an existing repository from the command line</span>
-<span style="color:#75715e"># Alternatively you could link it to an already existing git repo:</span> 
-
+<span style="color:#75715e"># Push an existing repository from the command line
+</span><span style="color:#75715e"># Alternatively you could link it to an already existing git repo: 
+</span><span style="color:#75715e"></span>
 git remote add origin https://github.com/thomaslaber/website2.git
 git push -u origin master</code></pre></div>
 
@@ -178,8 +181,8 @@ Now you could add a theme of your choice git simply cloning it. However, it is m
 git submodule init
 git submodule update
 
-<span style="color:#75715e"># This means it can be updated by running:</span>
-
+<span style="color:#75715e"># This means it can be updated by running:
+</span><span style="color:#75715e"></span>
 git submodule update --remote themes/mainroad</code></pre></div>
 
 <h2 id="adapting-the-theme">Adapting the theme</h2>
@@ -199,7 +202,7 @@ We start the hugo server by:</p>
 
 <p>Inside the config file we assign the path to an css file which can be found in <em>static/css</em>:</p>
 
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#66d9ef">[params]</span>
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#a6e22e">[params]</span>
     <span style="color:#a6e22e">custom_css</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">[&#34;css/tl.css&#34;]</span></code></pre></div>
 You can reference as many stylesheets as you want. Their paths need to be relative to the static folder.
 Inside the header partial you can include every custom stylesheet from above beside the original one:</p>
@@ -337,13 +340,14 @@ Please note: as <code>lunr.js</code> is based on jquery, make sure <code>jquery.
 
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
-		<img alt="Thomas L. avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+		<img alt="Thomas Laber avatar" src="/img/tl.jpg" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
-		<span class="authorbox__name">About Thomas L.</span>
+		<span class="authorbox__name">About Thomas Laber</span>
 	</div>
 	<div class="authorbox__description">
-		John Doe&#39;s true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it.
+		&#34;Failure is not an option. 
+ Everyone has to succeed.&#34; - Arnold Schwarzenegger
 	</div>
 </div>
 

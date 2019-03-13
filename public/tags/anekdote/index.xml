@@ -6,10 +6,32 @@
     <description>Recent content in Anekdote on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Laws</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/2018-09-13_laws/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/2018-09-13_laws/</guid>
+      <description>Murphy&amp;rsquo;s Law Probably one of the most famous of all laws, mostly because it is not only applicable to Software Development.
+If something can go wrong, it will.  First derivation: If it works, you probably didn&amp;rsquo;t write it. Second derivation: Cursing is the only language all programmers speak fluently. Conclusion: A computer will do what you write, not what you want.
+Defensive programming, version control, doom scenario&amp;rsquo;s (for those damned zombie-server-attacks), TDD, MDD, etc.</description>
+    </item>
+    
+    <item>
+      <title>Laws</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/post/2018-09-13_laws/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/post/2018-09-13_laws/</guid>
+      <description>Murphy&amp;rsquo;s Law Probably one of the most famous of all laws, mostly because it is not only applicable to Software Development.
+If something can go wrong, it will.  First derivation: If it works, you probably didn&amp;rsquo;t write it. Second derivation: Cursing is the only language all programmers speak fluently. Conclusion: A computer will do what you write, not what you want.
+Defensive programming, version control, doom scenario&amp;rsquo;s (for those damned zombie-server-attacks), TDD, MDD, etc.</description>
+    </item>
     
     <item>
       <title>The Happiness Hypothesis</title>

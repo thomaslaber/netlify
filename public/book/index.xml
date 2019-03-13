@@ -6,10 +6,21 @@
     <description>Recent content in Books on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/book/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Laws</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/book/2018-09-13_laws/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/book/2018-09-13_laws/</guid>
+      <description>Murphy&amp;rsquo;s Law Probably one of the most famous of all laws, mostly because it is not only applicable to Software Development.
+If something can go wrong, it will.  First derivation: If it works, you probably didn&amp;rsquo;t write it. Second derivation: Cursing is the only language all programmers speak fluently. Conclusion: A computer will do what you write, not what you want.
+Defensive programming, version control, doom scenario&amp;rsquo;s (for those damned zombie-server-attacks), TDD, MDD, etc.</description>
+    </item>
     
     <item>
       <title>Coding the Matrix</title>
@@ -28,7 +39,7 @@ Sets A set is an unordered collection in which each value occurs at most once. Y
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</guid>
-      <description>Source
+      <description>Source cran
 Chapter 1 Introduction Prediction Versus Interpretation, Key Ingredients of Predictive Models; Terminology; Example Data Sets and Typical Data Scenarios; Overview; Notation (15 pages, 3 figures)
 Part I: General Strategies Chapter 2 A Short Tour of the Predictive Modeling Process Case Study: Predicting Fuel Economy; Themes; Summary (8 pages, 6 figures, R packages used)
 Chapter 3 Data Pre-Processing Case Study: Cell Segmentation in High-Content Screening; Data Transformations for Individual Predictors; Data Transformations for Multiple Predictors; Dealing with Missing Values; Removing Variables; Adding Variables; Binning Variables; Computing; Exercises (32 pages, 11 figures, R packages used)</description>

@@ -22,5 +22,14 @@ Why Docker With Docker, developers can build any app in any language using any t
 Developers can get going by just spinning any container out of list on Docker Hub. Docker manages and tracks changes and dependencies, making it easier for sysadmins to understand how the apps that developers build work.</description>
     </item>
     
+    <item>
+      <title>Ribbons</title>
+      <link>https://elastic-fermat-3dc26c.netlify.com/docker-basics/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://elastic-fermat-3dc26c.netlify.com/docker-basics/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
