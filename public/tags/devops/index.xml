@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/tags/devops/</link>
+    <link>https://data-analytics.netlify.com/tags/devops/</link>
     <description>Recent content in Devops on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Microsoft Big Data Overview</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/microsoft-big-data-overview/</link>
+      <link>https://data-analytics.netlify.com/microsoft-big-data-overview/</link>
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/microsoft-big-data-overview/</guid>
+      <guid>https://data-analytics.netlify.com/microsoft-big-data-overview/</guid>
       <description>https://academy.microsoft.com/en-us/professional-program/tracks/big-data/
 Block 1 – Data Fundamentals Learn data science basics. Explore topics like data queries, data analysis, data visualization and how statistics informs data science practices. Please choose from Course 2a or Course 2b to complete the unit.
  Course 1: Microsoft Professional Program: Introduction to Big Data Course 2a: Analyzing and Visualizing Data with Power BI Course 2b: Analyzing and Visualizing Data with Excel Course 3: Introduction to NoSQL Data Solutions Course 4: Querying Data with Transact-SQL  Unit 2 – Big Data Processing In this unit, you will learn how to use Azure services and open source technologies to implement batch processing and real-time processing of big data.</description>
@@ -24,22 +24,22 @@ Block 1 – Data Fundamentals Learn data science basics. Explore topics like dat
     
     <item>
       <title>Most useful git commands</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/</link>
+      <link>https://data-analytics.netlify.com/most-useful-git-commands/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/most-useful-git-commands/</guid>
+      <guid>https://data-analytics.netlify.com/most-useful-git-commands/</guid>
       <description>Setup Set your details
-git config --global user.name &amp;#34;John Doe&amp;#34;git config --global user.email &amp;#34;john@example.com&amp;#34; Use --global to set the configuration for all projects. If git config is used without --global and run inside a project directory, the settings are set for the specific project.
+git config --global user.name &amp;#34;John Doe&amp;#34; git config --global user.email &amp;#34;john@example.com&amp;#34; Use --global to set the configuration for all projects. If git config is used without --global and run inside a project directory, the settings are set for the specific project.
 Make git ignore file modes
-cd project/git config core.filemode false This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
+cd project/ git config core.filemode false This option is useful if the file permissions are not important to us, for example when we are on Windows.</description>
     </item>
     
     <item>
       <title>Scrum PSM I</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</link>
+      <link>https://data-analytics.netlify.com/scrum-psm-i/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/scrum-psm-i/</guid>
+      <guid>https://data-analytics.netlify.com/scrum-psm-i/</guid>
       <description>After getting scrum.org the PSM I I wanted to capture the relevant content.
 The complete guido can be downloaded here: scrumguides.org
 1. What is Scrum? Scrum is a framework for developing and sustaining complex products. A framework in which complex adaptive problems can be addressed. It is lightweight, simple to understand and yet difficult to master. To simplify, Scrum is not a process or a technique - it is a framework within which you can use different processes and techniques.</description>

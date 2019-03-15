@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/project/</link>
+    <link>https://data-analytics.netlify.com/project/</link>
     <description>Recent content in Projects on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Airbnb Knowledge Repo</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/airbnb-knowledge-repo/</link>
+      <link>https://data-analytics.netlify.com/airbnb-knowledge-repo/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/airbnb-knowledge-repo/</guid>
+      <guid>https://data-analytics.netlify.com/airbnb-knowledge-repo/</guid>
       <description>The Knowledge Repo project is focused on facilitating the sharing of knowledge between data scientists and other technical roles using data formats and tools that make sense in these professions. It provides various data stores (and utilities to manage them) for &amp;ldquo;knowledge posts&amp;rdquo;, with a particular focus on notebooks (R Markdown and Jupyter / IPython Notebook) to better promote reproducible research.
  Source https://github.com/airbnb/knowledge-repo Tutorial: https://github.com/airbnb/knowledge-repo/issues/401  Activation  Docker-compose-relevante Dateien in einen entsprechend autorisierten Zielfolder kopieren, in dem docker-compose-Befehle (vor allem “build“/“up“/“down“) auszuführen sind.</description>
     </item>
     
     <item>
       <title>Blogging with hugo netlify</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/hugo_netlify/</link>
+      <link>https://data-analytics.netlify.com/hugo_netlify/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/hugo_netlify/</guid>
+      <guid>https://data-analytics.netlify.com/hugo_netlify/</guid>
       <description>Here is a great tutorial on how to host hugo on netlify
 Other examples using the exact same theme:
  Tomas Westlake: https://r-mageddon.netlify.com/ Sascha Wolfer: https://rcrastinate.rbind.io/  Creating the hugo site In order to create a new hugo site simply go:
 hugo new site [path] [flags] Create a new repository via git Init the git repo and push it to the guthub repo:
-echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.mdgit initgit add README.</description>
+echo &amp;#34;# website2&amp;#34; &amp;gt;&amp;gt; README.md git init git add README.</description>
     </item>
     
     <item>
       <title>Web Development @webdevelopers.at</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/webdevelopers/</link>
+      <link>https://data-analytics.netlify.com/webdevelopers/</link>
       <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/webdevelopers/</guid>
+      <guid>https://data-analytics.netlify.com/webdevelopers/</guid>
       <description>Testing</description>
     </item>
     

@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/tags/</link>
+    <link>https://data-analytics.netlify.com/tags/</link>
     <description>Recent content in Tags on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/</link>
+      <link>https://data-analytics.netlify.com/tags/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/</guid>
+      <guid>https://data-analytics.netlify.com/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anekdote</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <link>https://data-analytics.netlify.com/tags/anekdote/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/</guid>
+      <guid>https://data-analytics.netlify.com/tags/anekdote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Architecture</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/architecture/</link>
-      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      <link>https://data-analytics.netlify.com/tags/architecture/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/architecture/</guid>
+      <guid>https://data-analytics.netlify.com/tags/architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Science</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/data-science/</link>
+      <link>https://data-analytics.netlify.com/tags/data-science/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/data-science/</guid>
+      <guid>https://data-analytics.netlify.com/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Devops</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/devops/</link>
+      <link>https://data-analytics.netlify.com/tags/devops/</link>
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/devops/</guid>
+      <guid>https://data-analytics.netlify.com/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/docker/</link>
+      <link>https://data-analytics.netlify.com/tags/docker/</link>
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/docker/</guid>
+      <guid>https://data-analytics.netlify.com/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grpc</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/grpc/</link>
+      <link>https://data-analytics.netlify.com/tags/grpc/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/grpc/</guid>
+      <guid>https://data-analytics.netlify.com/tags/grpc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/machine-learning/</link>
+      <link>https://data-analytics.netlify.com/tags/machine-learning/</link>
       <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/machine-learning/</guid>
+      <guid>https://data-analytics.netlify.com/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/python/</link>
+      <link>https://data-analytics.netlify.com/tags/python/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/python/</guid>
+      <guid>https://data-analytics.netlify.com/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/r/</link>
+      <link>https://data-analytics.netlify.com/tags/r/</link>
       <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/r/</guid>
+      <guid>https://data-analytics.netlify.com/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regression</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/regression/</link>
+      <link>https://data-analytics.netlify.com/tags/regression/</link>
       <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/regression/</guid>
+      <guid>https://data-analytics.netlify.com/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/visualization/</link>
+      <link>https://data-analytics.netlify.com/tags/visualization/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/visualization/</guid>
+      <guid>https://data-analytics.netlify.com/tags/visualization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</link>
+      <link>https://data-analytics.netlify.com/tags/web-development/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/tags/web-development/</guid>
+      <guid>https://data-analytics.netlify.com/tags/web-development/</guid>
       <description></description>
     </item>
     

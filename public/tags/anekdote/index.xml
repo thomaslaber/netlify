@@ -2,32 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anekdote on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/</link>
+    <link>https://data-analytics.netlify.com/tags/anekdote/</link>
     <description>Recent content in Anekdote on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/anekdote/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/tags/anekdote/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Laws</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/book/2018-09-13_laws/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Conway&#39;s Law</title>
+      <link>https://data-analytics.netlify.com/conways-law/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/book/2018-09-13_laws/</guid>
-      <description>Murphy&amp;rsquo;s Law Probably one of the most famous of all laws, mostly because it is not only applicable to Software Development.
-If something can go wrong, it will.  First derivation: If it works, you probably didn&amp;rsquo;t write it. Second derivation: Cursing is the only language all programmers speak fluently. Conclusion: A computer will do what you write, not what you want.
-Defensive programming, version control, doom scenario&amp;rsquo;s (for those damned zombie-server-attacks), TDD, MDD, etc.</description>
+      <guid>https://data-analytics.netlify.com/conways-law/</guid>
+      <description>Many organizations have become adept at identifying what they need from software development projects, based on a keen understanding of their business goals. Even so, they’re often surprised to find out that the end results don’t achieve the transformative impact they were expecting. Their mistake? Overlooking the importance of Conway’s Law.
+In 1967, Melvin Conway coined a phrase at the end of his publication ‘How do committees invent?’ that was subsequently made popular by Fred Brooks in his book The Mythical Man-Month, where he dubbed it &amp;lsquo;Conway’s Law&amp;rsquo;, which states:</description>
     </item>
     
     <item>
-      <title>Laws</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/post/2018-09-13_laws/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Brook&#39;s Law</title>
+      <link>https://data-analytics.netlify.com/brooks-law/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/post/2018-09-13_laws/</guid>
+      <guid>https://data-analytics.netlify.com/brooks-law/</guid>
+      <description>In a Field Notes post from 2014, LeadingAgile consultant Andrew Fuqua considers Brooks’ Law in the context of the Theory of Constraints.
+ Brooks’ Law is the adage that adding manpower to a late software project makes it later.
+ Fuqua notes that Brooks observed people “and months are interchangeable commodities only when a task can be partitioned among many workers with no communication among them.”
+Effective communication is key to any project.</description>
+    </item>
+    
+    <item>
+      <title>Famous Laws of Software Development</title>
+      <link>https://data-analytics.netlify.com/famous-laws-of-software-development/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://data-analytics.netlify.com/famous-laws-of-software-development/</guid>
       <description>Murphy&amp;rsquo;s Law Probably one of the most famous of all laws, mostly because it is not only applicable to Software Development.
 If something can go wrong, it will.  First derivation: If it works, you probably didn&amp;rsquo;t write it. Second derivation: Cursing is the only language all programmers speak fluently. Conclusion: A computer will do what you write, not what you want.
 Defensive programming, version control, doom scenario&amp;rsquo;s (for those damned zombie-server-attacks), TDD, MDD, etc.</description>
@@ -35,19 +46,19 @@ Defensive programming, version control, doom scenario&amp;rsquo;s (for those dam
     
     <item>
       <title>The Happiness Hypothesis</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/the-happiness-hypothesis/</link>
+      <link>https://data-analytics.netlify.com/the-happiness-hypothesis/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/the-happiness-hypothesis/</guid>
+      <guid>https://data-analytics.netlify.com/the-happiness-hypothesis/</guid>
       <description>The Divided Self Human thinking depends on metaphor. We understand new or complex things in relation to things we already know. For example, it&amp;rsquo;s hard to think about life in general, but once you apply the metaphor &amp;ldquo;life is a journey,&amp;rdquo; the metaphor guides you to some conclusions: You should learn the terrain, pick a direction, find some good traveling companions, and enjoy the trip, because there may be nothing at the end of the road.</description>
     </item>
     
     <item>
       <title>Jeff Bezos&#39; API Mandate</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/jeff-bezos-api-mandate/</link>
+      <link>https://data-analytics.netlify.com/jeff-bezos-api-mandate/</link>
       <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/jeff-bezos-api-mandate/</guid>
+      <guid>https://data-analytics.netlify.com/jeff-bezos-api-mandate/</guid>
       <description>The best article I&amp;rsquo;ve ever read about architecture and the management of IT.
 UPDATE
 This post was intended to be shared privately and was accidentally made public. Thanks to +Steve Yegge for allowing us to keep it out there. It&amp;rsquo;s the sort of writing people do when they think nobody is watching: honest, clear, and frank.

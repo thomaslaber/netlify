@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grpc on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/tags/grpc/</link>
+    <link>https://data-analytics.netlify.com/tags/grpc/</link>
     <description>Recent content in Grpc on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/grpc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/tags/grpc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to install Fultz&#39; grpc package</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/grpc-package/</link>
+      <link>https://data-analytics.netlify.com/grpc-package/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/grpc-package/</guid>
+      <guid>https://data-analytics.netlify.com/grpc-package/</guid>
       <description>Instructions Link to instructions
-git clone https://github.com/grpc/grpc.git grpc.gitcd grpc.git/# git checkout tags/release-0_11_1 # does not exist Now we have to initialize the submodules and this is where it becomes tricky:
-git submodule update --initcd third_party/protobuf/./autogen.sh  Google changed some of its internal structures and now gmock is part of google test. Anyways, the URL in the autpgen.sh is not working anymore. There we need to manually extract gmock into protobuf:</description>
+git clone https://github.com/grpc/grpc.git grpc.git cd grpc.git/ # git checkout tags/release-0_11_1 # does not exist Now we have to initialize the submodules and this is where it becomes tricky:
+git submodule update --init cd third_party/protobuf/ ./autogen.sh  Google changed some of its internal structures and now gmock is part of google test. Anyways, the URL in the autpgen.sh is not working anymore. There we need to manually extract gmock into protobuf:</description>
     </item>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/tags/data-science/</link>
+    <link>https://data-analytics.netlify.com/tags/data-science/</link>
     <description>Recent content in Data Science on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Applied Predictive Modelling</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</link>
+      <link>https://data-analytics.netlify.com/book/applied-predictive-modelling/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/book/applied-predictive-modelling/</guid>
+      <guid>https://data-analytics.netlify.com/book/applied-predictive-modelling/</guid>
       <description>Source cran
 Chapter 1 Introduction Prediction Versus Interpretation, Key Ingredients of Predictive Models; Terminology; Example Data Sets and Typical Data Scenarios; Overview; Notation (15 pages, 3 figures)
 Part I: General Strategies Chapter 2 A Short Tour of the Predictive Modeling Process Case Study: Predicting Fuel Economy; Themes; Summary (8 pages, 6 figures, R packages used)
@@ -25,10 +25,10 @@ Chapter 3 Data Pre-Processing Case Study: Cell Segmentation in High-Content Scre
     
     <item>
       <title>Online Reads</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</link>
+      <link>https://data-analytics.netlify.com/book/online-reads/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/book/online-reads/</guid>
+      <guid>https://data-analytics.netlify.com/book/online-reads/</guid>
       <description> persönlicher Blog: harlecin.netlify.com Hackernews: news.ycombinator.com R-Bloggers: r-bloggers.com Data Machina: getrevue.co/profile/datamachina Reddit: reddit.com/r/MachineLearning  </description>
     </item>
     

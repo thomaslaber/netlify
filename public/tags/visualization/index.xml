@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visualization on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/tags/visualization/</link>
+    <link>https://data-analytics.netlify.com/tags/visualization/</link>
     <description>Recent content in Visualization on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Power BI</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/power-bi/</link>
+      <link>https://data-analytics.netlify.com/power-bi/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/power-bi/</guid>
+      <guid>https://data-analytics.netlify.com/power-bi/</guid>
       <description>Columns vs Measures Calculated columns (and tables) are:
  Evaluated for each row in your table, immediately after you hit &amp;lsquo;Enter&amp;rsquo; to complete the formula Saved back into the model so take up space  Calculated Measures are:
  Evaluated when you use it in a visual, when the visual is rendered Not saved anywhere (well, actually there&amp;rsquo;s a cache in the report layer but it&amp;rsquo;s not part of the file when you hit Save)  Generally, measures are more useful, but the trade-offs are the performance hit (report runtime vs.</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>SQL Server</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/sql-server/</link>
+      <link>https://data-analytics.netlify.com/sql-server/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/sql-server/</guid>
+      <guid>https://data-analytics.netlify.com/sql-server/</guid>
       <description>Columnstore A columnstore index can provide a very high level of data compression, typically by 10 times, to significantly reduce your data warehouse storage cost. For analytics, a columnstore index offers an order of magnitude better performance than a btree index. Columnstore indexes are the preferred data storage format for data warehousing and analytics workloads. Starting with SQL Server 2016 (13.x), you can use columnstore indexes for real-time analytics on your operational workload.</description>
     </item>
     

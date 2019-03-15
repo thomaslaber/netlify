@@ -4,15 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ribbons</title>
+	<title>Docker Basics</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-	<meta name="generator" content="Hugo 0.48" />
-	<meta property="og:title" content="Ribbons" />
-<meta property="og:description" content="" />
+	<meta name="generator" content="Hugo 0.52" />
+	<meta property="og:title" content="Docker Basics" />
+<meta property="og:description" content="Docker is a tool which helps developers build and ship high quality applications, faster, anywhere. Source
+Why Docker With Docker, developers can build any app in any language using any toolchain. Dockerized apps are completely portable and can run anywhere.
+Developers can get going by just spinning any container out of list on Docker Hub. Docker manages and tracks changes and dependencies, making it easier for sysadmins to understand how the apps that developers build work." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://elastic-fermat-3dc26c.netlify.com/docker-basics/" /><meta property="article:published_time" content="2018-07-17T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://data-analytics.netlify.com/docker-basics/" /><meta property="article:published_time" content="2018-07-17T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2018-07-17T00:00:00&#43;00:00"/>
+
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -32,12 +35,12 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 	
-	<link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/tl.css"><link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/auto-complete.css">
+	<link rel="stylesheet" href="https://data-analytics.netlify.com/css/tl.css"><link rel="stylesheet" href="https://data-analytics.netlify.com/css/auto-complete.css">
 	<div id="particles-js">
 		
 	</div>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-	<script src="https://elastic-fermat-3dc26c.netlify.com/js/particles.js"></script> 
+	<script src="https://data-analytics.netlify.com/js/particles.js"></script> 
 
 	
 
@@ -49,27 +52,27 @@ if (!doNotTrack) {
 
 	
 
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/jquery.js"></script>
 
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.sticky.js"></script>
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/tl.js"></script> 
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/tl.js"></script> 
 
 	
 </head>
 <body class="body">
 	
 	<div class="sidebar_menu">
-		<span onclick="toggleBtnClick()" id="pin_button"><sup><img src="https://elastic-fermat-3dc26c.netlify.com/img/pin.png" width="25px" class="activated"></sup></span>
-		<span onclick="toggleBtnClick2()" id="hide_button"><sup><img src="https://elastic-fermat-3dc26c.netlify.com/img/eye.png" width="25px" class="activated"></sup></span>
+		<span onclick="toggleBtnClick()" id="pin_button"><sup><img src="https://data-analytics.netlify.com/img/pin.png" width="25px" class="activated"></sup></span>
+		<span onclick="toggleBtnClick2()" id="hide_button"><sup><img src="https://data-analytics.netlify.com/img/eye.png" width="25px" class="activated"></sup></span>
 	</div>
 	
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/lunr.min.js"></script>
-    <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/auto-complete.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/lunr.min.js"></script>
+    <script type="text/javascript" src="https://data-analytics.netlify.com/js/auto-complete.js"></script>
             
     <script type="text/javascript">
-        var baseurl = "https:\/\/elastic-fermat-3dc26c.netlify.com\/";
+        var baseurl = "https:\/\/data-analytics.netlify.com\/";
     </script>
-    <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/search.js"></script>
+    <script type="text/javascript" src="https://data-analytics.netlify.com/js/search.js"></script>
 			
 	<div class="container container--outer">
 		<header class="header">
@@ -118,7 +121,7 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Ribbons</h1>
+			<h1 class="post__title">Docker Basics</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
@@ -132,9 +135,474 @@ if (!doNotTrack) {
 </div>
 		</header>
 		<figure class="post__thumbnail">
-			<img src="/img/banner/docker.png" alt="Ribbons">
+			<img src="/img/banner/docker.png" alt="Docker Basics">
 		</figure><div class="content post__content clearfix">
 			
+
+<p>Docker is a tool which helps developers build and ship high quality applications, faster, anywhere. <a href="https://github.com/gliterd/docker-cheat-sheet/blob/master/README.md" target="_blank">Source</a></p>
+
+<h2 id="why-docker">Why Docker</h2>
+
+<p>With Docker, developers can build any app in any language using any toolchain. Dockerized apps are completely portable and can run anywhere.</p>
+
+<p>Developers can get going by just spinning any container out of list on Docker Hub. Docker manages and tracks changes and dependencies, making it easier for sysadmins to understand how the apps that developers build work. And with Docker Hub, developers can automate their build pipeline and share artifacts with collaborators through public or private repositories.</p>
+
+<p>If you are a complete Docker newbie, you should probably follow the <a href="https://docs.docker.com/engine/getstarted/">series of tutorials</a> now.</p>
+
+<!--**Table of Content**
+
+* [Installation](#installation)
+* [Containers](#containers)
+* [Images](#images)
+* [Networks](#networks)
+* [Dockerfile](#dockerfile)
+* [Layers](#layers)
+* [Volumes](#volumes)
+* [Links](#links)
+* [Exposing Ports](#exposing-ports)
+* [Best Practices](#best-practices)
+* [Security](#security)
+* [Tips](#tips)
+
+## Installation
+
+### Linux
+
+Quick and easy install script provided by Docker:
+
+```
+curl -sSL https://get.docker.com/ | sh
+```
+
+If you're not willing to run a random shell script, please see the [installation](https://docs.docker.com/engine/installation/linux/) instructions for your distribution.
+
+
+### Mac OS X
+
+Download and install [Docker For Mac](https://docs.docker.com/docker-for-mac/install/)
+
+### Windows
+Use the [msi](https://download.docker.com/win/stable/InstallDocker.msi) installer
+
+-->
+
+<p><strong>First command after installation</strong></p>
+
+<pre><code>docker run hello-world
+</code></pre>
+
+<p>That&rsquo;s it, you have a running Docker container.</p>
+
+<p>If you are a complete Docker newbie, you should probably follow the <a href="https://docs.docker.com/engine/getstarted/">series of tutorials</a> now.</p>
+
+<h2 id="containers">Containers</h2>
+
+<p>Docker implements a high-level API to provide lightweight containers that run processes in <a href="http://etherealmind.com/basics-docker-containers-hypervisors-coreos/">isolation</a>.</p>
+
+<h3 id="lifecycle">Lifecycle</h3>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/create"><code>docker create</code></a> creates a container but does not start it.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/rename/"><code>docker rename</code></a> allows the container to be renamed.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/run"><code>docker run</code></a> creates and starts a container in one operation.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/rm"><code>docker rm</code></a> deletes a container.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/update/"><code>docker update</code></a> updates a container&rsquo;s resource limits.</li>
+</ul>
+
+<p>Normally if you run a container without options it will start and stop immediately, if you want keep it running you can use the command, <code>docker run -td container_id</code> this will use the option <code>-t</code> that will allocate a pseudo-TTY session and <code>-d</code> that will detach automatically the container (run container in background and print container ID)</p>
+
+<p>If you want a transient container, <code>docker run --rm</code> will remove the container after it stops.</p>
+
+<p>Another useful option is <code>docker run --name customname docker_image</code> because when you specify the <code>--name</code> inside the run command this will allow you to start and stop a container by calling it with the name the you specified when you created it.</p>
+
+<h3 id="starting-and-stopping">Starting and Stopping</h3>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/start"><code>docker start</code></a> starts a container so it is running.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/stop"><code>docker stop</code></a> stops a running container.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/restart"><code>docker restart</code></a> stops and starts a container.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/pause/"><code>docker pause</code></a> pauses a running container, &ldquo;freezing&rdquo; it in place.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/unpause/"><code>docker unpause</code></a> will unpause a running container.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/wait"><code>docker wait</code></a> blocks until running container stops.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/kill"><code>docker kill</code></a> sends a SIGKILL to a running container.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/attach"><code>docker attach</code></a> will connect to a running container.</li>
+</ul>
+
+<p>If you want to integrate a container with a <a href="https://docs.docker.com/engine/admin/host_integration/">host process manager</a>, start the daemon with <code>-r=false</code> then use <code>docker start -a</code>.</p>
+
+<p>If you want to expose container ports through the host, see the <a href="#exposing-ports">exposing ports</a> section.</p>
+
+<p>Restart policies on crashed docker instances are <a href="http://container42.com/2014/09/30/docker-restart-policies/">covered here</a>.</p>
+
+<h3 id="info">Info</h3>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/ps"><code>docker ps</code></a> shows running containers.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/logs"><code>docker logs</code></a> gets logs from container.  (You can use a custom log driver, but logs is only available for <code>json-file</code> and <code>journald</code> in 1.10).</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/inspect"><code>docker inspect</code></a> looks at all the info on a container (including IP address).</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/events"><code>docker events</code></a> gets events from container.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/port"><code>docker port</code></a> shows public facing port of container.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/top"><code>docker top</code></a> shows running processes in container.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/stats"><code>docker stats</code></a> shows containers&rsquo; resource usage statistics.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/diff"><code>docker diff</code></a> shows changed files in the container&rsquo;s FS.</li>
+</ul>
+
+<p><code>docker ps -a</code> shows running and stopped containers.</p>
+
+<p><code>docker stats --all</code> shows a running list of containers.</p>
+
+<p><strong>Import/Export</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/cp"><code>docker cp</code></a> copies files or folders between a container and the local filesystem.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/export"><code>docker export</code></a> turns container filesystem into tarball archive stream to STDOUT.</li>
+</ul>
+
+<h3 id="executing-commands">Executing Commands</h3>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/exec"><code>docker exec</code></a> to execute a command in container.</li>
+</ul>
+
+<p>To enter a running container, attach a new shell process to a running container called foo, use: <code>docker exec -it foo /bin/bash</code>.</p>
+
+<h2 id="images">Images</h2>
+
+<p>Images are just <a href="https://docs.docker.com/engine/understanding-docker/#how-does-a-docker-image-work">templates for docker containers</a>.</p>
+
+<h3 id="lifecycle-1">Lifecycle</h3>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/images"><code>docker images</code></a> shows all images.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/import"><code>docker import</code></a> creates an image from a tarball.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/build"><code>docker build</code></a> creates image from Dockerfile.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/commit"><code>docker commit</code></a> creates image from a container, pausing it temporarily if it is running.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/rmi"><code>docker rmi</code></a> removes an image.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/load"><code>docker load</code></a> loads an image from a tar archive as STDIN, including images and tags (as of 0.7).</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/save"><code>docker save</code></a> saves an image to a tar archive stream to STDOUT with all parent layers, tags &amp; versions (as of 0.7).</li>
+</ul>
+
+<h3 id="info-1">Info</h3>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/history"><code>docker history</code></a> shows history of image.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/tag"><code>docker tag</code></a> tags an image to a name (local or registry).</li>
+</ul>
+
+<h3 id="cleaning-up">Cleaning up</h3>
+
+<p>While you can use the <code>docker rmi</code> command to remove specific images, there&rsquo;s a tool called <a href="https://github.com/spotify/docker-gc">docker-gc</a> that will clean up images that are no longer used by any containers in a safe manner.</p>
+
+<p><strong>Load/Save image</strong></p>
+
+<p>Load an image from file:</p>
+
+<pre><code>docker load &lt; my_image.tar.gz
+</code></pre>
+
+<p>Save an existing image:</p>
+
+<pre><code>docker save my_image:my_tag | gzip &gt; my_image.tar.gz
+</code></pre>
+
+<p><strong>Import/Export container</strong></p>
+
+<p>Import a container as an image from file:</p>
+
+<pre><code>cat my_container.tar.gz | docker import - my_image:my_tag
+</code></pre>
+
+<p>Export an existing container:</p>
+
+<pre><code>docker export my_container | gzip &gt; my_container.tar.gz
+</code></pre>
+
+<p><strong>Difference between loading a saved image and importing an exported container as an image</strong></p>
+
+<p>Loading an image using the <code>load</code> command creates a new image including its history.<br />
+Importing a container as an image using the <code>import</code> command creates a new image excluding the history which results in a smaller image size compared to loading an image.</p>
+
+<h2 id="networks">Networks</h2>
+
+<p>Docker has a <a href="https://docs.docker.com/engine/userguide/networking/">networks</a> to configure docker containers to talk to each other without using ports. See <a href="https://docs.docker.com/engine/userguide/networking/work-with-networks/">working with networks</a> for more details.</p>
+
+<p><strong>Lifecycle</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/network_create/"><code>docker network create</code></a></li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/network_rm/"><code>docker network rm</code></a></li>
+</ul>
+
+<p><strong>Info</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/network_ls/"><code>docker network ls</code></a></li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/network_inspect/"><code>docker network inspect</code></a></li>
+</ul>
+
+<p><strong>Connection</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/network_connect/"><code>docker network connect</code></a></li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/network_disconnect/"><code>docker network disconnect</code></a></li>
+</ul>
+
+<p>You can specify a <a href="https://blog.jessfraz.com/post/ips-for-all-the-things/">specific IP address for a container</a>:</p>
+
+<pre><code># create a new bridge network with your subnet and gateway for your ip block
+docker network create --subnet 203.0.113.0/24 --gateway 203.0.113.254 iptastic
+
+# run a nginx container with a specific ip in that block
+$ docker run --rm -it --net iptastic --ip 203.0.113.2 nginx
+
+# curl the ip from any other place (assuming this is a public ip block duh)
+$ curl 203.0.113.2
+</code></pre>
+
+<h2 id="registry-repository">Registry &amp; Repository</h2>
+
+<p>A repository is a <em>hosted</em> collection of tagged images that together create the file system for a container.</p>
+
+<p>A registry is a <em>host</em> &ndash; a server that stores repositories and provides an HTTP API for <a href="https://docs.docker.com/engine/tutorials/dockerrepos/">managing the uploading and downloading of repositories</a>.</p>
+
+<p>Docker.com hosts its own <a href="https://hub.docker.com/">index</a> to a central registry which contains a large number of repositories.  Having said that, the central docker registry <a href="https://titanous.com/posts/docker-insecurity">does not do a good job of verifying images</a> and should be avoided if you&rsquo;re worried about security.</p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/login"><code>docker login</code></a> to login to a registry.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/logout"><code>docker logout</code></a> to logout from a registry.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/search"><code>docker search</code></a> searches registry for image.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/pull"><code>docker pull</code></a> pulls an image from registry to local machine.</li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/push"><code>docker push</code></a> pushes an image to the registry from local machine.</li>
+</ul>
+
+<p><strong>Run local registry</strong></p>
+
+<p>You can run a local registry by using the <a href="https://github.com/docker/distribution">docker distribution</a> project and looking at the <a href="https://github.com/docker/docker.github.io/blob/master/registry/deploying.md">local deploy</a> instructions.</p>
+
+<p>Also see the <a href="https://groups.google.com/a/dockerproject.org/forum/#!forum/distribution">mailing list</a>.</p>
+
+<h2 id="dockerfile">Dockerfile</h2>
+
+<p><a href="https://docs.docker.com/engine/reference/builder/">The configuration file</a>. Sets up a Docker container when you run <code>docker build</code> on it. Vastly preferable to <code>docker commit</code>.</p>
+
+<p>Here are some common text editors and their syntax highlighting modules you could use to create Dockerfiles:
+* If you use <a href="http://jedit.org">jEdit</a>, I&rsquo;ve put up a syntax highlighting module for <a href="https://github.com/wsargent/jedit-docker-mode">Dockerfile</a> you can use.
+* <a href="https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting">Sublime Text 2</a>
+* <a href="https://atom.io/packages/language-docker">Atom</a>
+* <a href="https://github.com/ekalinin/Dockerfile.vim">Vim</a>
+* <a href="https://github.com/spotify/dockerfile-mode">Emacs</a>
+* <a href="https://github.com/docker/docker/tree/master/contrib/syntax/textmate">TextMate</a>
+* <a href="https://github.com/Microsoft/vscode-docker">VS Code</a>
+* Also see <a href="https://domeide.github.io/">Docker meets the IDE</a></p>
+
+<p><strong>Instructions</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/builder/#dockerignore-file">.dockerignore</a></li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#from">FROM</a> Sets the Base Image for subsequent instructions.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#maintainer-deprecated">MAINTAINER (deprecated - use LABEL instead)</a> Set the Author field of the generated images.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#run">RUN</a> execute any commands in a new layer on top of the current image and commit the results.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#cmd">CMD</a> provide defaults for an executing container.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#expose">EXPOSE</a> informs Docker that the container listens on the specified network ports at runtime.  NOTE: does not actually make ports accessible.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#env">ENV</a> sets environment variable.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#add">ADD</a> copies new files, directories or remote file to container.  Invalidates caches. Avoid <code>ADD</code> and use <code>COPY</code> instead.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#copy">COPY</a> copies new files or directories to container.  Note that this only copies as root, so you have to chown manually regardless of your USER / WORKDIR setting.  See <a href="https://github.com/moby/moby/issues/30110">https://github.com/moby/moby/issues/30110</a></li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#entrypoint">ENTRYPOINT</a> configures a container that will run as an executable.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#volume">VOLUME</a> creates a mount point for externally mounted volumes or other containers.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#user">USER</a> sets the user name for following RUN / CMD / ENTRYPOINT commands.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#workdir">WORKDIR</a> sets the working directory.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#arg">ARG</a> defines a build-time variable.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#onbuild">ONBUILD</a> adds a trigger instruction when the image is used as the base for another build.</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#stopsignal">STOPSIGNAL</a> sets the system call signal that will be sent to the container to exit.</li>
+<li><a href="https://docs.docker.com/engine/userguide/labels-custom-metadata/">LABEL</a> apply key/value metadata to your images, containers, or daemons.</li>
+</ul>
+
+<p><strong>Examples</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/builder/#dockerfile-examples">Examples</a></li>
+<li><a href="https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/">Best practices for writing Dockerfiles</a></li>
+<li><a href="http://crosbymichael.com/">Michael Crosby</a> has some more <a href="http://crosbymichael.com/dockerfile-best-practices.html">Dockerfiles best practices</a> / <a href="http://crosbymichael.com/dockerfile-best-practices-take-2.html">take 2</a>.</li>
+<li><a href="http://jonathan.bergknoff.com/journal/building-good-docker-images">Building Good Docker Images</a> / <a href="http://jonathan.bergknoff.com/journal/building-better-docker-images">Building Better Docker Images</a></li>
+<li><a href="https://speakerdeck.com/garethr/managing-container-configuration-with-metadata">Managing Container Configuration with Metadata</a></li>
+</ul>
+
+<h2 id="layers">Layers</h2>
+
+<p>The versioned filesystem in Docker is based on layers. They&rsquo;re like <a href="https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/">git commits or changesets for filesystems</a>.</p>
+
+<h2 id="volumes">Volumes</h2>
+
+<p>Docker volumes are <a href="https://docs.docker.com/engine/tutorials/dockervolumes/">free-floating filesystems</a>. They don&rsquo;t have to be connected to a particular container. You should use volumes mounted from <a href="https://medium.com/@ramangupta/why-docker-data-containers-are-good-589b3c6c749e">data-only containers</a> for portability.</p>
+
+<p><strong>Lifecycle</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/volume_create/"><code>docker volume create</code></a></li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/volume_rm/"><code>docker volume rm</code></a></li>
+</ul>
+
+<p><strong>Info</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/volume_ls/"><code>docker volume ls</code></a></li>
+<li><a href="https://docs.docker.com/engine/reference/commandline/volume_inspect/"><code>docker volume inspect</code></a></li>
+</ul>
+
+<p>Volumes are useful in situations where you can&rsquo;t use links (which are TCP/IP only). For instance, if you need to have two docker instances communicate by leaving stuff on the filesystem.</p>
+
+<p>You can mount them in several docker containers at once, using <code>docker run --volumes-from</code>.</p>
+
+<p>Because volumes are isolated filesystems, they are often used to store state from computations between transient containers. That is, you can have a stateless and transient container run from a recipe, blow it away, and then have a second instance of the transient container pick up from where the last one left off.</p>
+
+<p>See <a href="http://crosbymichael.com/advanced-docker-volumes.html">advanced volumes</a> for more details. Container42 is <a href="http://container42.com/2014/11/03/docker-indepth-volumes/">also helpful</a>.</p>
+
+<p>You can <a href="https://docs.docker.com/engine/tutorials/dockervolumes/#mount-a-host-directory-as-a-data-volume">map MacOS host directories as docker volumes</a>:</p>
+
+<pre><code>docker run -v /Users/wsargent/myapp/src:/src
+</code></pre>
+
+<p>You can use remote NFS volumes if you&rsquo;re <a href="https://docs.docker.com/engine/tutorials/dockervolumes/#/mount-a-shared-storage-volume-as-a-data-volume">feeling brave</a>.</p>
+
+<p>You may also consider running data-only containers as described <a href="http://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/">here</a> to provide some data portability.</p>
+
+<p><strong>Links</strong></p>
+
+<p>Links are how Docker containers talk to each other <a href="https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/">through TCP/IP ports</a>. <a href="https://docs.docker.com/engine/examples/running_redis_service/">Linking into Redis</a> and <a href="https://blogs.atlassian.com/2013/11/docker-all-the-things-at-atlassian-automation-and-wiring/">Atlassian</a> show worked examples. You can also resolve <a href="https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/#/updating-the-etchosts-file">links by hostname</a>.</p>
+
+<p>This has been deprected to some extent by <a href="https://docs.docker.com/engine/userguide/networking/#user-defined-networks">user-defined networks</a>.</p>
+
+<p>NOTE: If you want containers to ONLY communicate with each other through links, start the docker daemon with <code>-icc=false</code> to disable inter process communication.</p>
+
+<p>If you have a container with the name CONTAINER (specified by <code>docker run --name CONTAINER</code>) and in the Dockerfile, it has an exposed port:</p>
+
+<pre><code>EXPOSE 1337
+</code></pre>
+
+<p>Then if we create another container called LINKED like so:</p>
+
+<pre><code>docker run -d --link CONTAINER:ALIAS --name LINKED user/wordpress
+</code></pre>
+
+<p>Then the exposed ports and aliases of CONTAINER will show up in LINKED with the following environment variables:</p>
+
+<pre><code>$ALIAS_PORT_1337_TCP_PORT
+$ALIAS_PORT_1337_TCP_ADDR
+</code></pre>
+
+<p>And you can connect to it that way.</p>
+
+<p>To delete links, use <code>docker rm --link</code>.</p>
+
+<p>Generally, linking between docker services is a subset of &ldquo;service discovery&rdquo;, a big problem if you&rsquo;re planning to use Docker at scale in production.  Please read <a href="https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-service-discovery-and-distributed-configuration-stores">The Docker Ecosystem: Service Discovery and Distributed Configuration Stores</a> for more info.</p>
+
+<h2 id="exposing-ports">Exposing ports</h2>
+
+<p>Exposing incoming ports through the host container is <a href="https://docs.docker.com/engine/reference/run/#expose-incoming-ports">fiddly but doable</a>.</p>
+
+<p>This is done by mapping the container port to the host port (only using localhost interface) using <code>-p</code>:</p>
+
+<pre><code>docker run -p 127.0.0.1:$HOSTPORT:$CONTAINERPORT --name CONTAINER -t someimage
+</code></pre>
+
+<p>You can tell Docker that the container listens on the specified network ports at runtime by using <a href="https://docs.docker.com/engine/reference/builder/#expose">EXPOSE</a>:</p>
+
+<pre><code>EXPOSE &lt;CONTAINERPORT&gt;
+</code></pre>
+
+<p>Note that EXPOSE does not expose the port itself &ndash; only <code>-p</code> will do that. To expose the container&rsquo;s port on your localhost&rsquo;s port:</p>
+
+<pre><code>iptables -t nat -A DOCKER -p tcp --dport &lt;LOCALHOSTPORT&gt; -j DNAT --to-destination &lt;CONTAINERIP&gt;:&lt;PORT&gt;
+</code></pre>
+
+<p>If you&rsquo;re running Docker in Virtualbox, you then need to forward the port there as well, using <a href="https://docs.vagrantup.com/v2/networking/forwarded_ports.html">forwarded_port</a>. Define a range of ports in your Vagrantfile like this so you can dynamically map them:</p>
+
+<pre><code>Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  ...
+
+  (49000..49900).each do |port|
+    config.vm.network :forwarded_port, :host =&gt; port, :guest =&gt; port
+  end
+
+  ...
+end
+</code></pre>
+
+<p>If you forget what you mapped the port to on the host container, use <code>docker port</code> to show it:</p>
+
+<pre><code>docker port CONTAINER $CONTAINERPORT
+</code></pre>
+
+<h2 id="best-practices">Best Practices</h2>
+
+<p>This is where general Docker best practices and war stories go:</p>
+
+<ul>
+<li><a href="http://gregoryszorc.com/blog/2014/10/16/the-rabbit-hole-of-using-docker-in-automated-tests/">The Rabbit Hole of Using Docker in Automated Tests</a></li>
+<li><a href="https://twitter.com/bridgetkromhout">Bridget Kromhout</a> has a useful blog post on <a href="http://sysadvent.blogspot.co.uk/2014/12/day-1-docker-in-production-reality-not.html">running Docker in production</a> at Dramafever.</li>
+<li>There&rsquo;s also a best practices <a href="http://developers.lyst.com/devops/2014/12/08/docker/">blog post</a> from Lyst.</li>
+<li><a href="https://engineering.salesforceiq.com/2013/11/05/a-docker-dev-environment-in-24-hours-part-2-of-2.html">A Docker Dev Environment in 24 Hours!</a></li>
+<li><a href="https://tersesystems.com/2013/11/20/building-a-development-environment-with-docker/">Building a Development Environment With Docker</a></li>
+<li><a href="https://samsaffron.com/archive/2013/11/07/discourse-in-a-docker-container">Discourse in a Docker Container</a></li>
+</ul>
+
+<h2 id="security">Security</h2>
+
+<p>This is where security tips about Docker go. The Docker <a href="https://docs.docker.com/engine/security/security/">security</a> page goes into more detail.</p>
+
+<p>First things first: Docker runs as root. If you are in the <code>docker</code> group, you effectively <a href="http://reventlov.com/advisories/using-the-docker-command-to-root-the-host">have root access</a>. If you expose the docker unix socket to a container, you are giving the container <a href="https://www.lvh.io/posts/dont-expose-the-docker-socket-not-even-to-a-container.html">root access to the host</a>.</p>
+
+<p>Docker should not be your only defense. You should secure and harden it.</p>
+
+<p>For an understanding of what containers leave exposed, you should read is <a href="https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/2016/april/ncc_group_understanding_hardening_linux_containers-1-1.pdf">Understanding and Hardening Linux Containers</a> by <a href="https://twitter.com/dyn___">Aaron Grattafiori</a>. This is a complete and comprehensive guide to the issues involved with containers, with a plethora of links and footnotes leading on to yet more useful content. The security tips following are useful if you&rsquo;ve already hardened containers in the past, but are not a substitute for understanding.</p>
+
+<p><strong>Security Tips</strong></p>
+
+<p>For greatest security, you want to run Docker inside a virtual machine. This is straight from the Docker Security Team Lead &ndash; <a href="http://www.slideshare.net/jpetazzo/linux-containers-lxc-docker-and-security">slides</a> / <a href="http://www.projectatomic.io/blog/2014/08/is-it-safe-a-look-at-docker-and-security-from-linuxcon/">notes</a>. Then, run with AppArmor / seccomp / SELinux / grsec etc to <a href="http://linux-audit.com/docker-security-best-practices-for-your-vessel-and-containers/">limit the container permissions</a>. See the <a href="https://blog.docker.com/2016/02/docker-engine-1-10-security/">Docker 1.10 security features</a> for more details.</p>
+
+<p>Docker image ids are <a href="https://medium.com/@quayio/your-docker-image-ids-are-secrets-and-its-time-you-treated-them-that-way-f55e9f14c1a4">sensitive information</a> and should not be exposed to the outside world. Treat them like passwords.</p>
+
+<p>See the <a href="https://github.com/konstruktoid/Docker/blob/master/Security/CheatSheet.adoc">Docker Security Cheat Sheet</a> by <a href="https://github.com/konstruktoid">Thomas Sjögren</a>: some good stuff about container hardening in there.</p>
+
+<p>ince docker 1.11 you can easily limit the number of active processes running inside a container to prevent fork bombs. This requires a linux kernel &gt;= 4.3 with CGROUP_PIDS=y to be in the kernel configuration.</p>
+
+<pre><code>docker run --pids-limit=64
+</code></pre>
+
+<p>Also available since docker 1.11 is the ability to prevent processes from gaining new privileges. This feature have been in the linux kernel since version 3.5. You can read more about it in <a href="http://www.projectatomic.io/blog/2016/03/no-new-privs-docker/">this</a> blog post.</p>
+
+<pre><code>docker run --security-opt=no-new-privileges
+</code></pre>
+
+<p>From the <a href="http://container-solutions.com/content/uploads/2015/06/15.06.15_DockerCheatSheet_A2.pdf">Docker Security Cheat Sheet</a> (it&rsquo;s in PDF which makes it hard to use, so copying below) by <a href="http://container-solutions.com/is-docker-safe-for-production/">Container Solutions</a>:</p>
+
+<p>Turn off interprocess communication with:</p>
+
+<pre><code>docker -d --icc=false --iptables
+</code></pre>
+
+<p>Set the container to be read-only:</p>
+
+<pre><code>docker run --read-only
+</code></pre>
+
+<p>Verify images with a hashsum:</p>
+
+<pre><code>docker pull debian@sha256:a25306f3850e1bd44541976aa7b5fd0a29be
+</code></pre>
+
+<p>Set volumes to be read only:</p>
+
+<pre><code>docker run -v $(pwd)/secrets:/secrets:ro debian
+</code></pre>
+
+<p><strong>Tips</strong></p>
+
+<ul>
+<li><a href="http://sssslide.com/speakerdeck.com/bmorearty/15-docker-tips-in-5-minutes">15 Docker Tips in 5 minutes</a></li>
+<li><a href="https://codefresh.io/blog/everyday-hacks-docker/">CodeFresh Everyday Hacks Docker</a></li>
+</ul>
+
 		</div>
 		
 <div class="post__tags tags clearfix">
@@ -161,10 +629,10 @@ if (!doNotTrack) {
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/grpc-package/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">How to install Fultz&#39; grpc package</p></a>
+		<a class="post-nav__link" href="/docker-basics/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Ribbons</p></a>
 	</div>
 	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/docker-basics/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Docker Basics</p></a>
+		<a class="post-nav__link" href="/microsoft-big-data-overview/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Microsoft Big Data Overview</p></a>
 	</div>
 </nav>
 
@@ -175,7 +643,35 @@ if (!doNotTrack) {
 <div class="widget-toc" id="sticker">
 	<h4 class="widget__title">Table of Content</h4>
 	<div class="toc__menu">
-		
+		<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#why-docker">Why Docker</a></li>
+<li><a href="#containers">Containers</a>
+<ul>
+<li><a href="#lifecycle">Lifecycle</a></li>
+<li><a href="#starting-and-stopping">Starting and Stopping</a></li>
+<li><a href="#info">Info</a></li>
+<li><a href="#executing-commands">Executing Commands</a></li>
+</ul></li>
+<li><a href="#images">Images</a>
+<ul>
+<li><a href="#lifecycle-1">Lifecycle</a></li>
+<li><a href="#info-1">Info</a></li>
+<li><a href="#cleaning-up">Cleaning up</a></li>
+</ul></li>
+<li><a href="#networks">Networks</a></li>
+<li><a href="#registry-repository">Registry &amp; Repository</a></li>
+<li><a href="#dockerfile">Dockerfile</a></li>
+<li><a href="#layers">Layers</a></li>
+<li><a href="#volumes">Volumes</a></li>
+<li><a href="#exposing-ports">Exposing ports</a></li>
+<li><a href="#best-practices">Best Practices</a></li>
+<li><a href="#security">Security</a></li>
+</ul></li>
+</ul>
+</nav>
 	</div>
 </div>
 

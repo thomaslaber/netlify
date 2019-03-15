@@ -7,13 +7,14 @@
 	<title>Python Cheatsheet</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-	<meta name="generator" content="Hugo 0.48" />
+	<meta name="generator" content="Hugo 0.52" />
 	<meta property="og:title" content="Python Cheatsheet" />
 <meta property="og:description" content="Source: Download text file or Fork me on GitHub 
-Main if __name__ == &#39;__main__&#39;:main() List &lt;list&gt; = &lt;list&gt;[from_inclusive : to_exclusive : step_size] &lt;list&gt;.append(&lt;el&gt;)&lt;list&gt;.extend(&lt;collection&gt;)&lt;list&gt; &#43;= [&lt;el&gt;]&lt;list&gt; &#43;= &lt;collection&gt; &lt;list&gt;.sort()&lt;list&gt;.reverse()&lt;list&gt; = sorted(&lt;collection&gt;)&lt;iter&gt; = reversed(&lt;list&gt;) sum_of_elements = sum(&lt;collection&gt;)elementwise_sum = [sum(pair) for pair in zip(list_a, list_b)]sorted_by_second = sorted(&lt;collection&gt;, key=lambda el: el[1])sorted_by_both = sorted(&lt;collection&gt;, key=lambda el: (el[1], el[0]))flatter_list = list(itertools.chain.from_iterable(&lt;list&gt;))product_of_elems = functools." />
+Main if __name__ == &#39;__main__&#39;: main() List &lt;list&gt; = &lt;list&gt;[from_inclusive : to_exclusive : step_size] &lt;list&gt;.append(&lt;el&gt;) &lt;list&gt;.extend(&lt;collection&gt;) &lt;list&gt; &#43;= [&lt;el&gt;] &lt;list&gt; &#43;= &lt;collection&gt; &lt;list&gt;.sort() &lt;list&gt;.reverse() &lt;list&gt; = sorted(&lt;collection&gt;) &lt;iter&gt; = reversed(&lt;list&gt;) sum_of_elements = sum(&lt;collection&gt;) elementwise_sum = [sum(pair) for pair in zip(list_a, list_b)] sorted_by_second = sorted(&lt;collection&gt;, key=lambda el: el[1]) sorted_by_both = sorted(&lt;collection&gt;, key=lambda el: (el[1], el[0])) flatter_list = list(itertools.chain.from_iterable(&lt;list&gt;)) product_of_elems = functools." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://elastic-fermat-3dc26c.netlify.com/python-cheatsheet/" /><meta property="article:published_time" content="2019-03-13T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://data-analytics.netlify.com/python-cheatsheet/" /><meta property="article:published_time" content="2019-03-13T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2019-03-13T00:00:00&#43;00:00"/>
+
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -33,12 +34,12 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 	
-	<link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/tl.css"><link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/auto-complete.css">
+	<link rel="stylesheet" href="https://data-analytics.netlify.com/css/tl.css"><link rel="stylesheet" href="https://data-analytics.netlify.com/css/auto-complete.css">
 	<div id="particles-js">
 		
 	</div>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-	<script src="https://elastic-fermat-3dc26c.netlify.com/js/particles.js"></script> 
+	<script src="https://data-analytics.netlify.com/js/particles.js"></script> 
 
 	
 
@@ -50,27 +51,27 @@ if (!doNotTrack) {
 
 	
 
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/jquery.js"></script>
 
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.sticky.js"></script>
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/tl.js"></script> 
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/tl.js"></script> 
 
 	
 </head>
 <body class="body">
 	
 	<div class="sidebar_menu">
-		<span onclick="toggleBtnClick()" id="pin_button"><sup><img src="https://elastic-fermat-3dc26c.netlify.com/img/pin.png" width="25px" class="activated"></sup></span>
-		<span onclick="toggleBtnClick2()" id="hide_button"><sup><img src="https://elastic-fermat-3dc26c.netlify.com/img/eye.png" width="25px" class="activated"></sup></span>
+		<span onclick="toggleBtnClick()" id="pin_button"><sup><img src="https://data-analytics.netlify.com/img/pin.png" width="25px" class="activated"></sup></span>
+		<span onclick="toggleBtnClick2()" id="hide_button"><sup><img src="https://data-analytics.netlify.com/img/eye.png" width="25px" class="activated"></sup></span>
 	</div>
 	
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/lunr.min.js"></script>
-    <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/auto-complete.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/lunr.min.js"></script>
+    <script type="text/javascript" src="https://data-analytics.netlify.com/js/auto-complete.js"></script>
             
     <script type="text/javascript">
-        var baseurl = "https:\/\/elastic-fermat-3dc26c.netlify.com\/";
+        var baseurl = "https:\/\/data-analytics.netlify.com\/";
     </script>
-    <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/search.js"></script>
+    <script type="text/javascript" src="https://data-analytics.netlify.com/js/search.js"></script>
 			
 	<div class="container container--outer">
 		<header class="header">
@@ -168,10 +169,10 @@ flatter_list     <span style="color:#f92672">=</span> list(itertools<span style=
 product_of_elems <span style="color:#f92672">=</span> functools<span style="color:#f92672">.</span>reduce(<span style="color:#66d9ef">lambda</span> out, x: out <span style="color:#f92672">*</span> x, <span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)
 list_of_chars    <span style="color:#f92672">=</span> list(<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>)</code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">index <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>index(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Returns first index of item. </span>
-<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>insert(index, <span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Inserts item at index and moves the rest to the right.</span>
-<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>pop([index])  <span style="color:#75715e"># Removes and returns item at index or from the end.</span>
-<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>remove(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)         <span style="color:#75715e"># Removes first occurrence of item or raises ValueError.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">index <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>index(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Returns first index of item. </span>
+<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>insert(index, <span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Inserts item at index and moves the rest to the right.</span>
+<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>pop([index])  <span style="color:#75715e"># Removes and returns item at index or from the end.</span>
+<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>remove(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)         <span style="color:#75715e"># Removes first occurrence of item or raises ValueError.</span>
 <span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;.</span>clear()              <span style="color:#75715e"># Removes all items.   </span></code></pre></div>
 
 <h2 id="dictionary">Dictionary</h2>
@@ -180,17 +181,17 @@ list_of_chars    <span style="color:#f92672">=</span> list(<span style="color:#f
 <span style="color:#f92672">&lt;</span>view<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>values()
 <span style="color:#f92672">&lt;</span>view<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>items()</code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">value  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>get(key, default<span style="color:#f92672">=</span>None)          <span style="color:#75715e"># Returns default if key does not exist.</span>
-value  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>setdefault(key, default<span style="color:#f92672">=</span>None)   <span style="color:#75715e"># Same, but also adds default to dict.</span>
-<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> collections<span style="color:#f92672">.</span>defaultdict(<span style="color:#f92672">&lt;</span>type<span style="color:#f92672">&gt;</span>)        <span style="color:#75715e"># Creates a dict with default value of type.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">value  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>get(key, default<span style="color:#f92672">=</span>None)          <span style="color:#75715e"># Returns default if key does not exist.</span>
+value  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>setdefault(key, default<span style="color:#f92672">=</span>None)   <span style="color:#75715e"># Same, but also adds default to dict.</span>
+<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> collections<span style="color:#f92672">.</span>defaultdict(<span style="color:#f92672">&lt;</span>type<span style="color:#f92672">&gt;</span>)        <span style="color:#75715e"># Creates a dict with default value of type.</span>
 <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> collections<span style="color:#f92672">.</span>defaultdict(<span style="color:#66d9ef">lambda</span>: <span style="color:#ae81ff">1</span>)     <span style="color:#75715e"># Creates a dict with default value 1.</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>update(<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span>)                           <span style="color:#75715e"># Or: dict_a = {**dict_a, **dict_b}.</span>
-<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> dict(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)                     <span style="color:#75715e"># Creates a dict from coll. of key-value pairs.</span>
-<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> dict(zip(keys, values))                <span style="color:#75715e"># Creates a dict from two collections.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>update(<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span>)                           <span style="color:#75715e"># Or: dict_a = {**dict_a, **dict_b}.</span>
+<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> dict(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)                     <span style="color:#75715e"># Creates a dict from coll. of key-value pairs.</span>
+<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> dict(zip(keys, values))                <span style="color:#75715e"># Creates a dict from two collections.</span>
 <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> dict<span style="color:#f92672">.</span>fromkeys(keys [, value])          <span style="color:#75715e"># Creates a dict from collection of keys.</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">value <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>pop(key)                         <span style="color:#75715e"># Removes item from dictionary.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">value <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>pop(key)                         <span style="color:#75715e"># Removes item from dictionary.</span>
 {k: v <span style="color:#66d9ef">for</span> k, v <span style="color:#f92672">in</span> <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;.</span>items() <span style="color:#66d9ef">if</span> k <span style="color:#f92672">in</span> keys}  <span style="color:#75715e"># Filters dictionary by keys.</span></code></pre></div>
 
 <h3 id="counter">Counter</h3>
@@ -211,14 +212,14 @@ Counter({<span style="color:#e6db74">&#39;blue&#39;</span>: <span style="color:#
 <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span> <span style="color:#f92672">|=</span> {<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>}
 <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span> <span style="color:#f92672">|=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>union(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)                 <span style="color:#75715e"># Or: &lt;set&gt; | &lt;set&gt;</span>
-<span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>intersection(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)          <span style="color:#75715e"># Or: &lt;set&gt; &amp; &lt;set&gt;</span>
-<span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>difference(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)            <span style="color:#75715e"># Or: &lt;set&gt; - &lt;set&gt;</span>
-<span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>symmetric_difference(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)  <span style="color:#75715e"># Or: &lt;set&gt; ^ &lt;set&gt;</span>
-<span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>issubset(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)              <span style="color:#75715e"># Or: &lt;set&gt; &lt;= &lt;set&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>union(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)                 <span style="color:#75715e"># Or: &lt;set&gt; | &lt;set&gt;</span>
+<span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>intersection(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)          <span style="color:#75715e"># Or: &lt;set&gt; &amp; &lt;set&gt;</span>
+<span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>difference(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)            <span style="color:#75715e"># Or: &lt;set&gt; - &lt;set&gt;</span>
+<span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>symmetric_difference(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)  <span style="color:#75715e"># Or: &lt;set&gt; ^ &lt;set&gt;</span>
+<span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>issubset(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)              <span style="color:#75715e"># Or: &lt;set&gt; &lt;= &lt;set&gt;</span>
 <span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>issuperset(<span style="color:#f92672">&lt;</span>coll<span style="color:#f92672">.&gt;</span>)            <span style="color:#75715e"># Or: &lt;set&gt; &gt;= &lt;set&gt;</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>remove(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)   <span style="color:#75715e"># Throws error.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>remove(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)   <span style="color:#75715e"># Throws error.</span>
 <span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;.</span>discard(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Doesn&#39;t throw error.</span></code></pre></div>
 
 <h3 id="frozenset">Frozenset</h3>
@@ -257,7 +258,7 @@ Point(x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
 <span style="color:#ae81ff">1</span>
 <span style="color:#f92672">&gt;&gt;&gt;</span> getattr(p, <span style="color:#e6db74">&#39;y&#39;</span>)
 <span style="color:#ae81ff">2</span>
-<span style="color:#f92672">&gt;&gt;&gt;</span> p<span style="color:#f92672">.</span>_fields  <span style="color:#75715e"># Or: Point._fields</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> p<span style="color:#f92672">.</span>_fields  <span style="color:#75715e"># Or: Point._fields</span>
 (<span style="color:#e6db74">&#39;x&#39;</span>, <span style="color:#e6db74">&#39;y&#39;</span>)</code></pre></div>
 
 <h2 id="iterator">Iterator</h2>
@@ -267,14 +268,14 @@ Point(x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> itertools <span style="color:#f92672">import</span> count, repeat, cycle, chain, islice</code></pre></div>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> iter(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)
-<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> iter(<span style="color:#f92672">&lt;</span>function<span style="color:#f92672">&gt;</span>, to_exclusive)     <span style="color:#75715e"># Sequence of return values until &#39;to_exclusive&#39;.</span>
+<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> iter(<span style="color:#f92672">&lt;</span>function<span style="color:#f92672">&gt;</span>, to_exclusive)     <span style="color:#75715e"># Sequence of return values until &#39;to_exclusive&#39;.</span>
 <span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> next(<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> [, default])           <span style="color:#75715e"># Raises StopIteration or returns &#39;default&#39; on end.</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> count(start<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, step<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)             <span style="color:#75715e"># Returns incremented value endlessly.</span>
-<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> repeat(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span> [, times])             <span style="color:#75715e"># Returns element endlessly or &#39;times&#39; times.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> count(start<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, step<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)             <span style="color:#75715e"># Returns incremented value endlessly.</span>
+<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> repeat(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span> [, times])             <span style="color:#75715e"># Returns element endlessly or &#39;times&#39; times.</span>
 <span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> cycle(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)                <span style="color:#75715e"># Repeats the sequence indefinitely.</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> chain(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>, <span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Empties collections in order.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> chain(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>, <span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Empties collections in order.</span>
 <span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> chain<span style="color:#f92672">.</span>from_iterable(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Empties collections inside a collection in order.</span></code></pre></div>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> islice(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>, to_exclusive)
@@ -305,24 +306,24 @@ Point(x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
 
 <h2 id="string">String</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>strip()                       <span style="color:#75715e"># Strips all whitespace characters from both ends.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>strip()                       <span style="color:#75715e"># Strips all whitespace characters from both ends.</span>
 <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>strip(<span style="color:#e6db74">&#39;&lt;chars&gt;&#39;</span>)              <span style="color:#75715e"># Strips all passed characters from both ends.</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>split()                       <span style="color:#75715e"># Splits on any whitespace character.</span>
-<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>split(sep<span style="color:#f92672">=</span>None, maxsplit<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>)  <span style="color:#75715e"># Splits on &#39;sep&#39; str at most &#39;maxsplit&#39; times.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>split()                       <span style="color:#75715e"># Splits on any whitespace character.</span>
+<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>split(sep<span style="color:#f92672">=</span>None, maxsplit<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>)  <span style="color:#75715e"># Splits on &#39;sep&#39; str at most &#39;maxsplit&#39; times.</span>
 <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>join(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)            <span style="color:#75715e"># Joins elements using string as separator.</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>replace(old, new [, count])   <span style="color:#75715e"># Replaces &#39;old&#39; with &#39;new&#39; at most &#39;count&#39; times.</span>
-<span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>startswith(<span style="color:#f92672">&lt;</span>sub_str<span style="color:#f92672">&gt;</span>)         <span style="color:#75715e"># Pass tuple of strings for multiple options.</span>
-<span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>endswith(<span style="color:#f92672">&lt;</span>sub_str<span style="color:#f92672">&gt;</span>)           <span style="color:#75715e"># Pass tuple of strings for multiple options.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>replace(old, new [, count])   <span style="color:#75715e"># Replaces &#39;old&#39; with &#39;new&#39; at most &#39;count&#39; times.</span>
+<span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>startswith(<span style="color:#f92672">&lt;</span>sub_str<span style="color:#f92672">&gt;</span>)         <span style="color:#75715e"># Pass tuple of strings for multiple options.</span>
+<span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>endswith(<span style="color:#f92672">&lt;</span>sub_str<span style="color:#f92672">&gt;</span>)           <span style="color:#75715e"># Pass tuple of strings for multiple options.</span>
 <span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>index(<span style="color:#f92672">&lt;</span>sub_str<span style="color:#f92672">&gt;</span>)              <span style="color:#75715e"># Returns start index of first match.</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>isnumeric()                   <span style="color:#75715e"># True if str contains only numeric characters.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;.</span>isnumeric()                   <span style="color:#75715e"># True if str contains only numeric characters.</span>
 <span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> textwrap<span style="color:#f92672">.</span>wrap(<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>, width)         <span style="color:#75715e"># Nicely breaks string into lines.</span></code></pre></div>
 
 <h3 id="char">Char</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> chr(<span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Converts int to unicode char.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> chr(<span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Converts int to unicode char.</span>
 <span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> ord(<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Converts unicode char to int.</span></code></pre></div>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> ord(<span style="color:#e6db74">&#39;0&#39;</span>), ord(<span style="color:#e6db74">&#39;9&#39;</span>)
@@ -335,11 +336,11 @@ Point(x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
 <h2 id="regex">Regex</h2>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> re
-<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>sub(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, new, text, count<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)  <span style="color:#75715e"># Substitutes all occurrences.</span>
-<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text)            <span style="color:#75715e"># Returns all occurrences.</span>
-<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>split(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text, maxsplit<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)  <span style="color:#75715e"># Use brackets in regex to keep the matches.</span>
-<span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>search(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text)             <span style="color:#75715e"># Searches for first occurrence of pattern.</span>
-<span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>match(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text)              <span style="color:#75715e"># Searches only at the beginning of the text.</span>
+<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>sub(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, new, text, count<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)  <span style="color:#75715e"># Substitutes all occurrences.</span>
+<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text)            <span style="color:#75715e"># Returns all occurrences.</span>
+<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>split(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text, maxsplit<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)  <span style="color:#75715e"># Use brackets in regex to keep the matches.</span>
+<span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>search(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text)             <span style="color:#75715e"># Searches for first occurrence of pattern.</span>
+<span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>match(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text)              <span style="color:#75715e"># Searches only at the beginning of the text.</span>
 <span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>finditer(<span style="color:#f92672">&lt;</span>regex<span style="color:#f92672">&gt;</span>, text)           <span style="color:#75715e"># Returns all occurrences as match objects.</span></code></pre></div>
 
 <ul>
@@ -351,17 +352,17 @@ Point(x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
 
 <h3 id="match-object">Match Object</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>group()   <span style="color:#75715e"># Whole match.</span>
-<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>group(<span style="color:#ae81ff">1</span>)  <span style="color:#75715e"># Part in first bracket.</span>
-<span style="color:#f92672">&lt;</span>tuple<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>groups()  <span style="color:#75715e"># All bracketed parts.</span>
-<span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>start()   <span style="color:#75715e"># Start index of a match.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>group()   <span style="color:#75715e"># Whole match.</span>
+<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>group(<span style="color:#ae81ff">1</span>)  <span style="color:#75715e"># Part in first bracket.</span>
+<span style="color:#f92672">&lt;</span>tuple<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>groups()  <span style="color:#75715e"># All bracketed parts.</span>
+<span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>start()   <span style="color:#75715e"># Start index of a match.</span>
 <span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span>   <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Match<span style="color:#f92672">&gt;.</span>end()     <span style="color:#75715e"># Exclusive end index of a match.</span></code></pre></div>
 
 <h3 id="special-sequences">Special Sequences</h3>
 
 <p><strong>Expressions below hold true for strings that contain only ASCII characters. Use capital letters for negation.</strong>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;\d&#39;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;[0-9]&#39;</span>          <span style="color:#75715e"># Digit</span>
-<span style="color:#e6db74">&#39;\s&#39;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;[ </span><span style="color:#ae81ff">\t\n\r\f\v</span><span style="color:#e6db74">]&#39;</span>  <span style="color:#75715e"># Whitespace</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;\d&#39;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;[0-9]&#39;</span>          <span style="color:#75715e"># Digit</span>
+<span style="color:#e6db74">&#39;\s&#39;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;[ </span><span style="color:#ae81ff">\t\n\r\f\v</span><span style="color:#e6db74">]&#39;</span>  <span style="color:#75715e"># Whitespace</span>
 <span style="color:#e6db74">&#39;\w&#39;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;[a-zA-Z0-9_]&#39;</span>   <span style="color:#75715e"># Alphanumeric</span></code></pre></div></p>
 
 <h2 id="format">Format</h2>
@@ -378,10 +379,10 @@ Point(x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
 
 <h3 id="general-options">General Options</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">10</span>}       <span style="color:#75715e"># &#39;&lt;el&gt;      &#39;</span>
-{<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">10</span>}       <span style="color:#75715e"># &#39;      &lt;el&gt;&#39;</span>
-{<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">^</span><span style="color:#ae81ff">10</span>}       <span style="color:#75715e"># &#39;   &lt;el&gt;   &#39;</span>
-{<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">10</span>}      <span style="color:#75715e"># &#39;------&lt;el&gt;&#39;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">10</span>}       <span style="color:#75715e"># &#39;&lt;el&gt;      &#39;</span>
+{<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">10</span>}       <span style="color:#75715e"># &#39;      &lt;el&gt;&#39;</span>
+{<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">^</span><span style="color:#ae81ff">10</span>}       <span style="color:#75715e"># &#39;   &lt;el&gt;   &#39;</span>
+{<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">10</span>}      <span style="color:#75715e"># &#39;------&lt;el&gt;&#39;</span>
 {<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>:<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>}        <span style="color:#75715e"># &#39;&lt;el&gt;&#39;</span></code></pre></div>
 
 <h3 id="string-options">String Options</h3>
@@ -389,23 +390,23 @@ Point(x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
 <p><strong><code>'!r'</code> calls object&rsquo;s repr() method, instead of format(), to get a string.</strong>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#e6db74">&#39;abcde&#39;</span><span style="color:#960050;background-color:#1e0010">!</span>r:<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">10</span>}  <span style="color:#75715e"># &#34;&#39;abcde&#39;   &#34;</span></code></pre></div></p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#e6db74">&#39;abcde&#39;</span>:<span style="color:#f92672">.</span><span style="color:#ae81ff">3</span>}     <span style="color:#75715e"># &#39;abc&#39;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#e6db74">&#39;abcde&#39;</span>:<span style="color:#f92672">.</span><span style="color:#ae81ff">3</span>}     <span style="color:#75715e"># &#39;abc&#39;</span>
 {<span style="color:#e6db74">&#39;abcde&#39;</span>:<span style="color:#ae81ff">10.3</span>}   <span style="color:#75715e"># &#39;abc       &#39;</span></code></pre></div>
 
 <h3 id="number-options">Number Options</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#ae81ff">1.23456</span>:<span style="color:#f92672">.</span><span style="color:#ae81ff">3</span>f}    <span style="color:#75715e"># &#39;1.235&#39;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#ae81ff">1.23456</span>:<span style="color:#f92672">.</span><span style="color:#ae81ff">3</span>f}    <span style="color:#75715e"># &#39;1.235&#39;</span>
 {<span style="color:#ae81ff">1.23456</span>:<span style="color:#ae81ff">10.3</span>f}  <span style="color:#75715e"># &#39;     1.235&#39;</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{ <span style="color:#ae81ff">123456</span>:<span style="color:#ae81ff">10</span>,}    <span style="color:#75715e"># &#39;   123,456&#39;</span>
-{ <span style="color:#ae81ff">123456</span>:<span style="color:#ae81ff">10</span>_}    <span style="color:#75715e"># &#39;   123_456&#39;</span>
-{ <span style="color:#ae81ff">123456</span>:<span style="color:#f92672">+</span><span style="color:#ae81ff">10</span>}    <span style="color:#75715e"># &#39;   +123456&#39;</span>
-{<span style="color:#f92672">-</span><span style="color:#ae81ff">123456</span>:<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>}    <span style="color:#75715e"># &#39;-   123456&#39;</span>
-{ <span style="color:#ae81ff">123456</span>: }      <span style="color:#75715e"># &#39; 123456&#39;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{ <span style="color:#ae81ff">123456</span>:<span style="color:#ae81ff">10</span>,}    <span style="color:#75715e"># &#39;   123,456&#39;</span>
+{ <span style="color:#ae81ff">123456</span>:<span style="color:#ae81ff">10</span>_}    <span style="color:#75715e"># &#39;   123_456&#39;</span>
+{ <span style="color:#ae81ff">123456</span>:<span style="color:#f92672">+</span><span style="color:#ae81ff">10</span>}    <span style="color:#75715e"># &#39;   +123456&#39;</span>
+{<span style="color:#f92672">-</span><span style="color:#ae81ff">123456</span>:<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>}    <span style="color:#75715e"># &#39;-   123456&#39;</span>
+{ <span style="color:#ae81ff">123456</span>: }      <span style="color:#75715e"># &#39; 123456&#39;</span>
 {<span style="color:#f92672">-</span><span style="color:#ae81ff">123456</span>: }      <span style="color:#75715e"># &#39;-123456&#39;</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#ae81ff">65</span>:c}           <span style="color:#75715e"># &#39;A&#39;</span>
-{<span style="color:#ae81ff">3</span>:<span style="color:#ae81ff">08</span>b}          <span style="color:#75715e"># &#39;00000011&#39; -&gt; Binary with leading zeros.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#ae81ff">65</span>:c}           <span style="color:#75715e"># &#39;A&#39;</span>
+{<span style="color:#ae81ff">3</span>:<span style="color:#ae81ff">08</span>b}          <span style="color:#75715e"># &#39;00000011&#39; -&gt; Binary with leading zeros.</span>
 {<span style="color:#ae81ff">3</span>:<span style="color:#ae81ff">0</span><span style="color:#f92672">&lt;</span><span style="color:#ae81ff">8</span>b}         <span style="color:#75715e"># &#39;11000000&#39; -&gt; Binary with trailing zeros.</span></code></pre></div>
 
 <p><strong>Float presentation types:</strong>
@@ -423,7 +424,7 @@ Point(x<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
 
 <h3 id="basic-functions">Basic Functions</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>num<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> pow(<span style="color:#f92672">&lt;</span>num<span style="color:#f92672">&gt;</span>, <span style="color:#f92672">&lt;</span>num<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Or: &lt;num&gt; ** &lt;num&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>num<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> pow(<span style="color:#f92672">&lt;</span>num<span style="color:#f92672">&gt;</span>, <span style="color:#f92672">&lt;</span>num<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Or: &lt;num&gt; ** &lt;num&gt;</span>
 <span style="color:#f92672">&lt;</span>real<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> abs(<span style="color:#f92672">&lt;</span>num<span style="color:#f92672">&gt;</span>)
 <span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> round(<span style="color:#f92672">&lt;</span>real<span style="color:#f92672">&gt;</span>)
 <span style="color:#f92672">&lt;</span>real<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> round(<span style="color:#f92672">&lt;</span>real<span style="color:#f92672">&gt;</span>, <span style="color:#960050;background-color:#1e0010">±</span>ndigits)</code></pre></div>
@@ -481,23 +482,23 @@ shuffle(<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> datetime <span style="color:#f92672">import</span> datetime
 now <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>now()
-now<span style="color:#f92672">.</span>month                      <span style="color:#75715e"># 3</span>
-now<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#39;%Y%m</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#39;</span>)         <span style="color:#75715e"># &#39;20180315&#39;</span>
-now<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#39;%Y%m</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">%H%M%S&#39;</span>)   <span style="color:#75715e"># &#39;20180315002834&#39;</span>
+now<span style="color:#f92672">.</span>month                      <span style="color:#75715e"># 3</span>
+now<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#39;%Y%m</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#39;</span>)         <span style="color:#75715e"># &#39;20180315&#39;</span>
+now<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#39;%Y%m</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">%H%M%S&#39;</span>)   <span style="color:#75715e"># &#39;20180315002834&#39;</span>
 <span style="color:#f92672">&lt;</span>datetime<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>strptime(<span style="color:#e6db74">&#39;2015-05-12 00:39&#39;</span>, <span style="color:#e6db74">&#39;%Y-%m-</span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> %H:%M&#39;</span>)</code></pre></div>
 
 <h2 id="arguments">Arguments</h2>
 
 <h3 id="inside-function-call">Inside Function Call</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>function<span style="color:#f92672">&gt;</span>(<span style="color:#f92672">&lt;</span>positional_args<span style="color:#f92672">&gt;</span>)                  <span style="color:#75715e"># f(0, 0)</span>
-<span style="color:#f92672">&lt;</span>function<span style="color:#f92672">&gt;</span>(<span style="color:#f92672">&lt;</span>keyword_args<span style="color:#f92672">&gt;</span>)                     <span style="color:#75715e"># f(x=0, y=0)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>function<span style="color:#f92672">&gt;</span>(<span style="color:#f92672">&lt;</span>positional_args<span style="color:#f92672">&gt;</span>)                  <span style="color:#75715e"># f(0, 0)</span>
+<span style="color:#f92672">&lt;</span>function<span style="color:#f92672">&gt;</span>(<span style="color:#f92672">&lt;</span>keyword_args<span style="color:#f92672">&gt;</span>)                     <span style="color:#75715e"># f(x=0, y=0)</span>
 <span style="color:#f92672">&lt;</span>function<span style="color:#f92672">&gt;</span>(<span style="color:#f92672">&lt;</span>positional_args<span style="color:#f92672">&gt;</span>, <span style="color:#f92672">&lt;</span>keyword_args<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># f(0, y=0)</span></code></pre></div>
 
 <h3 id="inside-function-definition">Inside Function Definition</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">&lt;</span>nondefault_args<span style="color:#f92672">&gt;</span>):                      <span style="color:#75715e"># def f(x, y)</span>
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">&lt;</span>default_args<span style="color:#f92672">&gt;</span>):                         <span style="color:#75715e"># def f(x=0, y=0)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">&lt;</span>nondefault_args<span style="color:#f92672">&gt;</span>):                      <span style="color:#75715e"># def f(x, y)</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">&lt;</span>default_args<span style="color:#f92672">&gt;</span>):                         <span style="color:#75715e"># def f(x=0, y=0)</span>
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">&lt;</span>nondefault_args<span style="color:#f92672">&gt;</span>, <span style="color:#f92672">&lt;</span>default_args<span style="color:#f92672">&gt;</span>):      <span style="color:#75715e"># def f(x, y=0)</span></code></pre></div>
 
 <h2 id="splat-operator">Splat Operator</h2>
@@ -522,17 +523,17 @@ func(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</s
 <span style="color:#ae81ff">6</span></code></pre></div>
 
 <p><strong>Legal argument combinations:</strong>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">*</span>args):                  <span style="color:#75715e"># f(1, 2, 3)</span>
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x, <span style="color:#f92672">*</span>args):               <span style="color:#75715e"># f(1, 2, 3)</span>
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">*</span>args, z):               <span style="color:#75715e"># f(1, 2, z=3)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">*</span>args):                  <span style="color:#75715e"># f(1, 2, 3)</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x, <span style="color:#f92672">*</span>args):               <span style="color:#75715e"># f(1, 2, 3)</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">*</span>args, z):               <span style="color:#75715e"># f(1, 2, z=3)</span>
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x, <span style="color:#f92672">*</span>args, z):            <span style="color:#75715e"># f(1, 2, z=3)</span></code></pre></div></p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">**</span>kwargs):               <span style="color:#75715e"># f(x=1, y=2, z=3)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">**</span>kwargs):               <span style="color:#75715e"># f(x=1, y=2, z=3)</span>
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x, <span style="color:#f92672">**</span>kwargs):            <span style="color:#75715e"># f(x=1, y=2, z=3) | f(1, y=2, z=3)</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):        <span style="color:#75715e"># f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3) | f(1, 2, 3)</span>
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x, <span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):     <span style="color:#75715e"># f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3) | f(1, 2, 3)</span>
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">*</span>args, y, <span style="color:#f92672">**</span>kwargs):     <span style="color:#75715e"># f(x=1, y=2, z=3) | f(1, y=2, z=3)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):        <span style="color:#75715e"># f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3) | f(1, 2, 3)</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x, <span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):     <span style="color:#75715e"># f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3) | f(1, 2, 3)</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(<span style="color:#f92672">*</span>args, y, <span style="color:#f92672">**</span>kwargs):     <span style="color:#75715e"># f(x=1, y=2, z=3) | f(1, y=2, z=3)</span>
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x, <span style="color:#f92672">*</span>args, z, <span style="color:#f92672">**</span>kwargs):  <span style="color:#75715e"># f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3)</span></code></pre></div>
 
 <h3 id="other-uses">Other Uses</h3>
@@ -553,9 +554,9 @@ func(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</s
 
 <h3 id="comprehension">Comprehension</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> [i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>)]         <span style="color:#75715e"># [1, 2, ..., 10]</span>
-<span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> {i <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>) <span style="color:#66d9ef">if</span> i <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>}  <span style="color:#75715e"># {6, 7, 8, 9}</span>
-<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> (i<span style="color:#f92672">+</span><span style="color:#ae81ff">5</span> <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>))         <span style="color:#75715e"># (5, 6, ..., 14)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> [i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>)]         <span style="color:#75715e"># [1, 2, ..., 10]</span>
+<span style="color:#f92672">&lt;</span>set<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> {i <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>) <span style="color:#66d9ef">if</span> i <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>}  <span style="color:#75715e"># {6, 7, 8, 9}</span>
+<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> (i<span style="color:#f92672">+</span><span style="color:#ae81ff">5</span> <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>))         <span style="color:#75715e"># (5, 6, ..., 14)</span>
 <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> {i: i<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span> <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>)}      <span style="color:#75715e"># {0: 0, 1: 2, ..., 9: 18}</span></code></pre></div>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">out <span style="color:#f92672">=</span> [i<span style="color:#f92672">+</span>j <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>) <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>)]</code></pre></div>
@@ -569,13 +570,13 @@ func(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</s
 <h3 id="map-filter-reduce">Map, Filter, Reduce</h3>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> functools <span style="color:#f92672">import</span> reduce
-<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> map(<span style="color:#66d9ef">lambda</span> x: x <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, range(<span style="color:#ae81ff">10</span>))            <span style="color:#75715e"># (1, 2, ..., 10)</span>
-<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> filter(<span style="color:#66d9ef">lambda</span> x: x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>, range(<span style="color:#ae81ff">10</span>))         <span style="color:#75715e"># (6, 7, 8, 9)</span>
+<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> map(<span style="color:#66d9ef">lambda</span> x: x <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, range(<span style="color:#ae81ff">10</span>))            <span style="color:#75715e"># (1, 2, ..., 10)</span>
+<span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> filter(<span style="color:#66d9ef">lambda</span> x: x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>, range(<span style="color:#ae81ff">10</span>))         <span style="color:#75715e"># (6, 7, 8, 9)</span>
 <span style="color:#f92672">&lt;</span>int<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> reduce(<span style="color:#66d9ef">lambda</span> out, x: out <span style="color:#f92672">+</span> x, range(<span style="color:#ae81ff">10</span>))  <span style="color:#75715e"># 45</span></code></pre></div>
 
 <h3 id="any-all">Any, All</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> any(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)                  <span style="color:#75715e"># False if empty.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> any(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)                  <span style="color:#75715e"># False if empty.</span>
 <span style="color:#f92672">&lt;</span>bool<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> all(el[<span style="color:#ae81ff">1</span>] <span style="color:#66d9ef">for</span> el <span style="color:#f92672">in</span> <span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># True if empty.</span></code></pre></div>
 
 <h3 id="if-else">If - Else</h3>
@@ -595,7 +596,7 @@ point     <span style="color:#f92672">=</span> Point(<span style="color:#ae81ff"
 Direction <span style="color:#f92672">=</span> Enum(<span style="color:#e6db74">&#39;Direction&#39;</span>, <span style="color:#e6db74">&#39;n e s w&#39;</span>)
 Cutlery   <span style="color:#f92672">=</span> Enum(<span style="color:#e6db74">&#39;Cutlery&#39;</span>, {<span style="color:#e6db74">&#39;fork&#39;</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#39;knife&#39;</span>: <span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#39;spoon&#39;</span>: <span style="color:#ae81ff">3</span>})</code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Warning: Objects will share the objects that are initialized in the dictionary!</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Warning: Objects will share the objects that are initialized in the dictionary!</span>
 Creature  <span style="color:#f92672">=</span> type(<span style="color:#e6db74">&#39;Creature&#39;</span>, (), {<span style="color:#e6db74">&#39;p&#39;</span>: Point(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>), <span style="color:#e6db74">&#39;d&#39;</span>: Direction<span style="color:#f92672">.</span>n})
 creature  <span style="color:#f92672">=</span> Creature()</code></pre></div>
 
@@ -929,10 +930,10 @@ arguments   <span style="color:#f92672">=</span> sys<span style="color:#f92672">
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> argparse <span style="color:#f92672">import</span> ArgumentParser, FileType
 p <span style="color:#f92672">=</span> ArgumentParser(description<span style="color:#f92672">=&lt;</span>str<span style="color:#f92672">&gt;</span>)
-p<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;-&lt;short_name&gt;&#39;</span>, <span style="color:#e6db74">&#39;--&lt;name&gt;&#39;</span>, action<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;store_true&#39;</span>)  <span style="color:#75715e"># Flag</span>
-p<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;-&lt;short_name&gt;&#39;</span>, <span style="color:#e6db74">&#39;--&lt;name&gt;&#39;</span>, type<span style="color:#f92672">=&lt;</span>type<span style="color:#f92672">&gt;</span>)          <span style="color:#75715e"># Option</span>
-p<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;&lt;name&gt;&#39;</span>, type<span style="color:#f92672">=&lt;</span>type<span style="color:#f92672">&gt;</span>, nargs<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)                    <span style="color:#75715e"># Argument</span>
-p<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;&lt;name&gt;&#39;</span>, type<span style="color:#f92672">=&lt;</span>type<span style="color:#f92672">&gt;</span>, nargs<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;+&#39;</span>)                  <span style="color:#75715e"># Arguments</span>
+p<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;-&lt;short_name&gt;&#39;</span>, <span style="color:#e6db74">&#39;--&lt;name&gt;&#39;</span>, action<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;store_true&#39;</span>)  <span style="color:#75715e"># Flag</span>
+p<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;-&lt;short_name&gt;&#39;</span>, <span style="color:#e6db74">&#39;--&lt;name&gt;&#39;</span>, type<span style="color:#f92672">=&lt;</span>type<span style="color:#f92672">&gt;</span>)          <span style="color:#75715e"># Option</span>
+p<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;&lt;name&gt;&#39;</span>, type<span style="color:#f92672">=&lt;</span>type<span style="color:#f92672">&gt;</span>, nargs<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)                    <span style="color:#75715e"># Argument</span>
+p<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;&lt;name&gt;&#39;</span>, type<span style="color:#f92672">=&lt;</span>type<span style="color:#f92672">&gt;</span>, nargs<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;+&#39;</span>)                  <span style="color:#75715e"># Arguments</span>
 args  <span style="color:#f92672">=</span> p<span style="color:#f92672">.</span>parse_args()
 value <span style="color:#f92672">=</span> args<span style="color:#f92672">.&lt;</span>name<span style="color:#f92672">&gt;</span></code></pre></div>
 
@@ -963,8 +964,8 @@ value <span style="color:#f92672">=</span> args<span style="color:#f92672">.&lt;
 
 <h3 id="seek">Seek</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>file<span style="color:#f92672">&gt;.</span>seek(<span style="color:#ae81ff">0</span>)                 <span style="color:#75715e"># Move to the start of the file.</span>
-<span style="color:#f92672">&lt;</span>file<span style="color:#f92672">&gt;.</span>seek(offset)            <span style="color:#75715e"># Move &#39;offset&#39; chars/bytes from the start.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>file<span style="color:#f92672">&gt;.</span>seek(<span style="color:#ae81ff">0</span>)                 <span style="color:#75715e"># Move to the start of the file.</span>
+<span style="color:#f92672">&lt;</span>file<span style="color:#f92672">&gt;.</span>seek(offset)            <span style="color:#75715e"># Move &#39;offset&#39; chars/bytes from the start.</span>
 <span style="color:#f92672">&lt;</span>file<span style="color:#f92672">&gt;.</span>seek(offset, <span style="color:#f92672">&lt;</span>anchor<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Anchor: 0 start, 1 current pos., 2 end.</span></code></pre></div>
 
 <h3 id="read-text-from-file">Read Text from File</h3>
@@ -1004,13 +1005,13 @@ cwd    <span style="color:#f92672">=</span> Path()
 <span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>iterdir()
 <span style="color:#f92672">&lt;</span>iter<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>glob(<span style="color:#e6db74">&#39;&lt;pattern&gt;&#39;</span>)</code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> str(<span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;</span>)               <span style="color:#75715e"># Returns path as string.</span>
-<span style="color:#f92672">&lt;</span>tup<span style="color:#f92672">.&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>parts              <span style="color:#75715e"># Returns all components as strings.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> str(<span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;</span>)               <span style="color:#75715e"># Returns path as string.</span>
+<span style="color:#f92672">&lt;</span>tup<span style="color:#f92672">.&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>parts              <span style="color:#75715e"># Returns all components as strings.</span>
 <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>resolve()          <span style="color:#75715e"># Returns absolute path without symlinks.</span></code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>name               <span style="color:#75715e"># Final component.</span>
-<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>stem               <span style="color:#75715e"># Final component without extension.</span>
-<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>suffix             <span style="color:#75715e"># Final component&#39;s extension.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>name               <span style="color:#75715e"># Final component.</span>
+<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>stem               <span style="color:#75715e"># Final component without extension.</span>
+<span style="color:#f92672">&lt;</span>str<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>suffix             <span style="color:#75715e"># Final component&#39;s extension.</span>
 <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>Path<span style="color:#f92672">&gt;.</span>parent             <span style="color:#75715e"># Path without final component.</span></code></pre></div>
 
 <h2 id="command-execution">Command Execution</h2>
@@ -1091,7 +1092,7 @@ db<span style="color:#f92672">.</span>close()</code></pre></div>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cursor <span style="color:#f92672">=</span> db<span style="color:#f92672">.</span>execute(<span style="color:#e6db74">&#39;&lt;query&gt;&#39;</span>)
 <span style="color:#66d9ef">if</span> cursor:
-    <span style="color:#f92672">&lt;</span>tuple<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> cursor<span style="color:#f92672">.</span>fetchone()  <span style="color:#75715e"># First row.</span>
+    <span style="color:#f92672">&lt;</span>tuple<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> cursor<span style="color:#f92672">.</span>fetchone()  <span style="color:#75715e"># First row.</span>
     <span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span>  <span style="color:#f92672">=</span> cursor<span style="color:#f92672">.</span>fetchall()  <span style="color:#75715e"># Remaining rows.</span></code></pre></div>
 
 <h3 id="write">Write</h3>
@@ -1195,7 +1196,7 @@ db<span style="color:#f92672">.</span>commit()</code></pre></div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>deque<span style="color:#f92672">&gt;.</span>appendleft(<span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span>)
 <span style="color:#f92672">&lt;</span>el<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</span>deque<span style="color:#f92672">&gt;.</span>popleft()</code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>deque<span style="color:#f92672">&gt;.</span>extendleft(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Collection gets reversed.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>deque<span style="color:#f92672">&gt;.</span>extendleft(<span style="color:#f92672">&lt;</span>collection<span style="color:#f92672">&gt;</span>)  <span style="color:#75715e"># Collection gets reversed.</span>
 <span style="color:#f92672">&lt;</span>deque<span style="color:#f92672">&gt;.</span>rotate(n<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)               <span style="color:#75715e"># Rotates elements to the right.</span></code></pre></div>
 
 <h2 id="threading">Threading</h2>
@@ -1222,8 +1223,8 @@ lock<span style="color:#f92672">.</span>release()</code></pre></div>
 
 <h3 id="variables">Variables</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> dir()      <span style="color:#75715e"># Names of in-scope variables.</span>
-<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> locals()   <span style="color:#75715e"># Dict of local variables. Also vars().</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> dir()      <span style="color:#75715e"># Names of in-scope variables.</span>
+<span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> locals()   <span style="color:#75715e"># Dict of local variables. Also vars().</span>
 <span style="color:#f92672">&lt;</span>dict<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> globals()  <span style="color:#75715e"># Dict of global variables.</span></code></pre></div>
 
 <h3 id="attributes">Attributes</h3>
@@ -1309,13 +1310,13 @@ last_el          <span style="color:#f92672">=</span> op<span style="color:#f926
 <span style="color:#f92672">from</span> ast <span style="color:#f92672">import</span> Num, BinOp, UnaryOp
 <span style="color:#f92672">import</span> operator <span style="color:#f92672">as</span> op
 
-LEGAL_OPERATORS <span style="color:#f92672">=</span> {ast<span style="color:#f92672">.</span>Add:    op<span style="color:#f92672">.</span>add,      <span style="color:#75715e"># &lt;el&gt; + &lt;el&gt;</span>
-                   ast<span style="color:#f92672">.</span>Sub:    op<span style="color:#f92672">.</span>sub,      <span style="color:#75715e"># &lt;el&gt; - &lt;el&gt;</span>
-                   ast<span style="color:#f92672">.</span>Mult:   op<span style="color:#f92672">.</span>mul,      <span style="color:#75715e"># &lt;el&gt; * &lt;el&gt;</span>
-                   ast<span style="color:#f92672">.</span>Div:    op<span style="color:#f92672">.</span>truediv,  <span style="color:#75715e"># &lt;el&gt; / &lt;el&gt;</span>
-                   ast<span style="color:#f92672">.</span>Pow:    op<span style="color:#f92672">.</span>pow,      <span style="color:#75715e"># &lt;el&gt; ** &lt;el&gt;</span>
-                   ast<span style="color:#f92672">.</span>BitXor: op<span style="color:#f92672">.</span>xor,      <span style="color:#75715e"># &lt;el&gt; ^ &lt;el&gt;</span>
-                   ast<span style="color:#f92672">.</span>USub:   op<span style="color:#f92672">.</span>neg}      <span style="color:#75715e"># - &lt;el&gt;</span>
+LEGAL_OPERATORS <span style="color:#f92672">=</span> {ast<span style="color:#f92672">.</span>Add:    op<span style="color:#f92672">.</span>add,      <span style="color:#75715e"># &lt;el&gt; + &lt;el&gt;</span>
+                   ast<span style="color:#f92672">.</span>Sub:    op<span style="color:#f92672">.</span>sub,      <span style="color:#75715e"># &lt;el&gt; - &lt;el&gt;</span>
+                   ast<span style="color:#f92672">.</span>Mult:   op<span style="color:#f92672">.</span>mul,      <span style="color:#75715e"># &lt;el&gt; * &lt;el&gt;</span>
+                   ast<span style="color:#f92672">.</span>Div:    op<span style="color:#f92672">.</span>truediv,  <span style="color:#75715e"># &lt;el&gt; / &lt;el&gt;</span>
+                   ast<span style="color:#f92672">.</span>Pow:    op<span style="color:#f92672">.</span>pow,      <span style="color:#75715e"># &lt;el&gt; ** &lt;el&gt;</span>
+                   ast<span style="color:#f92672">.</span>BitXor: op<span style="color:#f92672">.</span>xor,      <span style="color:#75715e"># &lt;el&gt; ^ &lt;el&gt;</span>
+                   ast<span style="color:#f92672">.</span>USub:   op<span style="color:#f92672">.</span>neg}      <span style="color:#75715e"># - &lt;el&gt;</span>
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">evaluate</span>(expression):
     root <span style="color:#f92672">=</span> ast<span style="color:#f92672">.</span>parse(expression, mode<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;eval&#39;</span>)
@@ -1395,7 +1396,7 @@ reader(adder(printer()))  <span style="color:#75715e"># 100, 101, ..., 109</span
 
 <h2 id="progress-bar">Progress Bar</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install tqdm</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install tqdm</span>
 <span style="color:#f92672">from</span> tqdm <span style="color:#f92672">import</span> tqdm
 <span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> tqdm([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>]):
@@ -1405,7 +1406,7 @@ reader(adder(printer()))  <span style="color:#75715e"># 100, 101, ..., 109</span
 
 <h2 id="plot">Plot</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install matplotlib</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install matplotlib</span>
 <span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> pyplot
 pyplot<span style="color:#f92672">.</span>plot(<span style="color:#f92672">&lt;</span>data_1<span style="color:#f92672">&gt;</span> [, <span style="color:#f92672">&lt;</span>data_2<span style="color:#f92672">&gt;</span>, <span style="color:#f92672">...</span>])
 pyplot<span style="color:#f92672">.</span>savefig(<span style="color:#f92672">&lt;</span>filename<span style="color:#f92672">&gt;</span>, transparent<span style="color:#f92672">=</span>True)
@@ -1414,7 +1415,7 @@ pyplot<span style="color:#f92672">.</span>show()</code></pre></div>
 <h2 id="table">Table</h2>
 
 <p><strong>Prints CSV file as ASCII table:</strong>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install tabulate</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install tabulate</span>
 <span style="color:#f92672">from</span> tabulate <span style="color:#f92672">import</span> tabulate
 <span style="color:#f92672">import</span> csv
 <span style="color:#66d9ef">with</span> open(<span style="color:#f92672">&lt;</span>filename<span style="color:#f92672">&gt;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> file:
@@ -1444,7 +1445,7 @@ pyplot<span style="color:#f92672">.</span>show()</code></pre></div>
 
 <h2 id="scraping">Scraping</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install requests beautifulsoup4</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install requests beautifulsoup4</span>
 <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">import</span> requests
 <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
 <span style="color:#f92672">&gt;&gt;&gt;</span> url   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://en.wikipedia.org/wiki/Python_(programming_language)&#39;</span>
@@ -1459,7 +1460,7 @@ pyplot<span style="color:#f92672">.</span>show()</code></pre></div>
 
 <h2 id="web">Web</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install bottle</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install bottle</span>
 <span style="color:#f92672">from</span> bottle <span style="color:#f92672">import</span> run, route, post, template, request, response
 <span style="color:#f92672">import</span> json</code></pre></div>
 
@@ -1491,7 +1492,7 @@ run(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;0.0
     <span style="color:#66d9ef">return</span> json<span style="color:#f92672">.</span>dumps([team, home_odds, away_odds])</code></pre></div>
 
 <p><strong>Test:</strong>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install requests</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install requests</span>
 <span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">import</span> requests
 <span style="color:#f92672">&gt;&gt;&gt;</span> url  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://localhost:8080/odds/football&#39;</span>
 <span style="color:#f92672">&gt;&gt;&gt;</span> data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;team&#39;</span>: <span style="color:#e6db74">&#39;arsenal f.c.&#39;</span>}
@@ -1504,14 +1505,14 @@ run(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;0.0
 <h3 id="basic-1">Basic</h3>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> time
-start_time <span style="color:#f92672">=</span> time()  <span style="color:#75715e"># Seconds since Epoch.</span>
+start_time <span style="color:#f92672">=</span> time()  <span style="color:#75715e"># Seconds since Epoch.</span>
 <span style="color:#f92672">...</span>
 duration <span style="color:#f92672">=</span> time() <span style="color:#f92672">-</span> start_time</code></pre></div>
 
 <h3 id="high-performance">High Performance</h3>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> perf_counter <span style="color:#66d9ef">as</span> pc
-start_time <span style="color:#f92672">=</span> pc()    <span style="color:#75715e"># Seconds since restart.</span>
+start_time <span style="color:#f92672">=</span> pc()    <span style="color:#75715e"># Seconds since restart.</span>
 <span style="color:#f92672">...</span>
 duration <span style="color:#f92672">=</span> pc() <span style="color:#f92672">-</span> start_time</code></pre></div>
 
@@ -1523,7 +1524,7 @@ timeit(<span style="color:#e6db74">&#39;&#34;-&#34;.join(str(a) for a in range(1
 
 <h3 id="line-profiler">Line Profiler</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install line_profiler</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install line_profiler</span>
 <span style="color:#a6e22e">@profile</span>
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
     a <span style="color:#f92672">=</span> [<span style="color:#f92672">*</span>range(<span style="color:#ae81ff">10000</span>)]
@@ -1543,7 +1544,7 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
 
 <p><strong>Generates a PNG image of a call graph with highlighted bottlenecks:</strong></p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install pycallgraph</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install pycallgraph</span>
 <span style="color:#f92672">from</span> pycallgraph <span style="color:#f92672">import</span> output, PyCallGraph
 <span style="color:#f92672">from</span> datetime <span style="color:#f92672">import</span> datetime
 time_str <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>now()<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#39;%Y%m</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">%H%M%S&#39;</span>)
@@ -1556,7 +1557,7 @@ drawer <span style="color:#f92672">=</span> output<span style="color:#f92672">.<
 
 <p><strong>Array manipulation mini language. Can run up to one hundred times faster than equivalent Python code.</strong></p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install numpy</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install numpy</span>
 <span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np</code></pre></div>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>array<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(<span style="color:#f92672">&lt;</span>list<span style="color:#f92672">&gt;</span>)
@@ -1578,10 +1579,10 @@ indexes <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</s
 
 <h3 id="indexing">Indexing</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;el&gt;       <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>        <span style="color:#75715e"># First element.
-</span><span style="color:#75715e"></span>&lt;1d_view&gt;  <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>           <span style="color:#75715e"># First row.
-</span><span style="color:#75715e"></span>&lt;1d_view&gt;  <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span>:, <span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>        <span style="color:#75715e"># First column. Also [..., 0].
-</span><span style="color:#75715e"></span>&lt;3d_view&gt;  <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span>None, :, :<span style="color:#f92672">]</span>  # Expanded by dimension of size <span style="color:#ae81ff">1</span>.</code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;el&gt;       <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>        <span style="color:#75715e"># First element.</span>
+&lt;1d_view&gt;  <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>           <span style="color:#75715e"># First row.</span>
+&lt;1d_view&gt;  <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span>:, <span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>        <span style="color:#75715e"># First column. Also [..., 0].</span>
+&lt;3d_view&gt;  <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span>None, :, :<span style="color:#f92672">]</span>  <span style="color:#75715e"># Expanded by dimension of size 1.</span></code></pre></div>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;1d_array&gt; <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span>&lt;1d_row_indexes&gt;, &lt;1d_column_indexes&gt;<span style="color:#f92672">]</span>
 &lt;2d_array&gt; <span style="color:#f92672">=</span> &lt;2d_array&gt;<span style="color:#f92672">[</span>&lt;2d_row_indexes&gt;, &lt;2d_column_indexes&gt;<span style="color:#f92672">]</span></code></pre></div>
@@ -1597,15 +1598,15 @@ indexes <span style="color:#f92672">=</span> <span style="color:#f92672">&lt;</s
 
 <p><strong>Broadcasting is a set of rules by which NumPy functions operate on arrays of different sizes and/or dimensions.</strong></p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left  <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</span>], [<span style="color:#ae81ff">0.6</span>], [<span style="color:#ae81ff">0.8</span>]]  <span style="color:#75715e"># Shape: (3, 1)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left  <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</span>], [<span style="color:#ae81ff">0.6</span>], [<span style="color:#ae81ff">0.8</span>]]  <span style="color:#75715e"># Shape: (3, 1)</span>
 right <span style="color:#f92672">=</span> [ <span style="color:#ae81ff">0.1</span> ,  <span style="color:#ae81ff">0.6</span> ,  <span style="color:#ae81ff">0.8</span> ]  <span style="color:#75715e"># Shape: (3)</span></code></pre></div>
 
 <p><strong>1. If array shapes differ in length, left-pad the smaller shape with ones:</strong>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left  <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</span>], [<span style="color:#ae81ff">0.6</span>], [<span style="color:#ae81ff">0.8</span>]]  <span style="color:#75715e"># Shape: (3, 1)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left  <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</span>], [<span style="color:#ae81ff">0.6</span>], [<span style="color:#ae81ff">0.8</span>]]  <span style="color:#75715e"># Shape: (3, 1)</span>
 right <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</span> ,  <span style="color:#ae81ff">0.6</span> ,  <span style="color:#ae81ff">0.8</span>]]  <span style="color:#75715e"># Shape: (1, 3) &lt;- !</span></code></pre></div></p>
 
 <p><strong>2. If any dimensions differ in size, expand the ones that have size 1 by duplicating their elements:</strong>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left  <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.1</span>], [<span style="color:#ae81ff">0.6</span>, <span style="color:#ae81ff">0.6</span>, <span style="color:#ae81ff">0.6</span>], [<span style="color:#ae81ff">0.8</span>, <span style="color:#ae81ff">0.8</span>, <span style="color:#ae81ff">0.8</span>]]  <span style="color:#75715e"># Shape: (3, 3) &lt;- !</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">left  <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.1</span>], [<span style="color:#ae81ff">0.6</span>, <span style="color:#ae81ff">0.6</span>, <span style="color:#ae81ff">0.6</span>], [<span style="color:#ae81ff">0.8</span>, <span style="color:#ae81ff">0.8</span>, <span style="color:#ae81ff">0.8</span>]]  <span style="color:#75715e"># Shape: (3, 3) &lt;- !</span>
 right <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.6</span>, <span style="color:#ae81ff">0.8</span>], [<span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.6</span>, <span style="color:#ae81ff">0.8</span>], [<span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.6</span>, <span style="color:#ae81ff">0.8</span>]]  <span style="color:#75715e"># Shape: (3, 3) &lt;- !</span></code></pre></div></p>
 
 <p><strong>3. If neither non-matching dimension has size 1, rise an error.</strong></p>
@@ -1639,7 +1640,7 @@ right <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0.1</sp
 
 <h2 id="image">Image</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install pillow</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install pillow</span>
 <span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image</code></pre></div>
 
 <p><strong>Creates PNG image of rainbow gradient:</strong>
@@ -1706,7 +1707,7 @@ frames_i  <span style="color:#f92672">=</span> (add_noise(a) <span style="color:
 write_to_wav_file(<span style="color:#e6db74">&#39;test.wav&#39;</span>, frames_i)</code></pre></div></p>
 
 <p><strong>Plays Popcorn:</strong>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install simpleaudio</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># $ pip3 install simpleaudio</span>
 <span style="color:#f92672">import</span> simpleaudio<span style="color:#f92672">,</span> math<span style="color:#f92672">,</span> struct
 <span style="color:#f92672">from</span> itertools <span style="color:#f92672">import</span> chain, repeat
 F  <span style="color:#f92672">=</span> <span style="color:#ae81ff">44100</span>
@@ -1724,8 +1725,8 @@ simpleaudio<span style="color:#f92672">.</span>play_buffer(frames_b, <span style
 
 <h2 id="basic-script-template">Basic Script Template</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
-<span style="color:#75715e"># Usage: .py</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<span style="color:#75715e"># Usage: .py</span>
 
 <span style="color:#f92672">from</span> collections <span style="color:#f92672">import</span> namedtuple
 <span style="color:#f92672">from</span> enum <span style="color:#f92672">import</span> Enum
@@ -1735,7 +1736,7 @@ simpleaudio<span style="color:#f92672">.</span>play_buffer(frames_b, <span style
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
     <span style="color:#66d9ef">pass</span>
 
-<span style="color:#75715e">##  UTIL</span>
+<span style="color:#75715e">##  UTIL</span>
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">read_file</span>(filename):
     <span style="color:#66d9ef">with</span> open(filename, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> file:
@@ -1770,7 +1771,7 @@ simpleaudio<span style="color:#f92672">.</span>play_buffer(frames_b, <span style
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/post/2018-09-13_laws/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Laws</p></a>
+		<a class="post-nav__link" href="/power-bi/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Power BI</p></a>
 	</div>
 </nav>
 

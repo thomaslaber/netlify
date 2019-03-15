@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Architecture on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/tags/architecture/</link>
+    <link>https://data-analytics.netlify.com/tags/architecture/</link>
     <description>Recent content in Architecture on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Conway&#39;s Law</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</link>
-      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      <link>https://data-analytics.netlify.com/conways-law/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/book/conways-law/</guid>
+      <guid>https://data-analytics.netlify.com/conways-law/</guid>
       <description>Many organizations have become adept at identifying what they need from software development projects, based on a keen understanding of their business goals. Even so, they’re often surprised to find out that the end results don’t achieve the transformative impact they were expecting. Their mistake? Overlooking the importance of Conway’s Law.
 In 1967, Melvin Conway coined a phrase at the end of his publication ‘How do committees invent?’ that was subsequently made popular by Fred Brooks in his book The Mythical Man-Month, where he dubbed it &amp;lsquo;Conway’s Law&amp;rsquo;, which states:</description>
     </item>

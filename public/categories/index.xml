@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/categories/</link>
+    <link>https://data-analytics.netlify.com/categories/</link>
     <description>Recent content in Categories on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Book</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/categories/book/</link>
+      <link>https://data-analytics.netlify.com/categories/book/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/categories/book/</guid>
+      <guid>https://data-analytics.netlify.com/categories/book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/categories/machine-learning/</link>
+      <link>https://data-analytics.netlify.com/categories/machine-learning/</link>
       <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/categories/machine-learning/</guid>
+      <guid>https://data-analytics.netlify.com/categories/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Post</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/categories/post/</link>
+      <link>https://data-analytics.netlify.com/categories/post/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/categories/post/</guid>
+      <guid>https://data-analytics.netlify.com/categories/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/categories/project/</link>
+      <link>https://data-analytics.netlify.com/categories/project/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/categories/project/</guid>
+      <guid>https://data-analytics.netlify.com/categories/project/</guid>
       <description></description>
     </item>
     

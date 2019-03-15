@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Web Archive</title>
-    <link>https://elastic-fermat-3dc26c.netlify.com/tags/docker/</link>
+    <link>https://data-analytics.netlify.com/tags/docker/</link>
     <description>Recent content in Docker on Web Archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elastic-fermat-3dc26c.netlify.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://data-analytics.netlify.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Docker Basics</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/docker-basics/</link>
+      <link>https://data-analytics.netlify.com/docker-basics/</link>
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/docker-basics/</guid>
+      <guid>https://data-analytics.netlify.com/docker-basics/</guid>
       <description>Docker is a tool which helps developers build and ship high quality applications, faster, anywhere. Source
 Why Docker With Docker, developers can build any app in any language using any toolchain. Dockerized apps are completely portable and can run anywhere.
 Developers can get going by just spinning any container out of list on Docker Hub. Docker manages and tracks changes and dependencies, making it easier for sysadmins to understand how the apps that developers build work.</description>
@@ -24,10 +24,10 @@ Developers can get going by just spinning any container out of list on Docker Hu
     
     <item>
       <title>Ribbons</title>
-      <link>https://elastic-fermat-3dc26c.netlify.com/docker-basics/</link>
+      <link>https://data-analytics.netlify.com/docker-basics/</link>
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://elastic-fermat-3dc26c.netlify.com/docker-basics/</guid>
+      <guid>https://data-analytics.netlify.com/docker-basics/</guid>
       <description></description>
     </item>
     

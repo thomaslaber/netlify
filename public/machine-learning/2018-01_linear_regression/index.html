@@ -7,15 +7,16 @@
 	<title>Linear Regression</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-	<meta name="generator" content="Hugo 0.48" />
+	<meta name="generator" content="Hugo 0.52" />
 	<meta property="og:title" content="Linear Regression" />
 <meta property="og:description" content="Source https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
 It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation
 $$Y= a *X &#43; b$$
 The best way to understand linear regression is to relive this experience of childhood." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://elastic-fermat-3dc26c.netlify.com/machine-learning/2018-01_linear_regression/" /><meta property="article:published_time" content="2018-01-03T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://data-analytics.netlify.com/machine-learning/2018-01_linear_regression/" /><meta property="article:published_time" content="2018-01-03T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2018-01-03T00:00:00&#43;00:00"/>
+
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -35,12 +36,12 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 	
-	<link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/tl.css"><link rel="stylesheet" href="https://elastic-fermat-3dc26c.netlify.com/css/auto-complete.css">
+	<link rel="stylesheet" href="https://data-analytics.netlify.com/css/tl.css"><link rel="stylesheet" href="https://data-analytics.netlify.com/css/auto-complete.css">
 	<div id="particles-js">
 		
 	</div>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-	<script src="https://elastic-fermat-3dc26c.netlify.com/js/particles.js"></script> 
+	<script src="https://data-analytics.netlify.com/js/particles.js"></script> 
 
 	
 
@@ -52,27 +53,27 @@ if (!doNotTrack) {
 
 	
 
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/jquery.js"></script>
 
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/jquery.sticky.js"></script>
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/tl.js"></script> 
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/tl.js"></script> 
 
 	
 </head>
 <body class="body">
 	
 	<div class="sidebar_menu">
-		<span onclick="toggleBtnClick()" id="pin_button"><sup><img src="https://elastic-fermat-3dc26c.netlify.com/img/pin.png" width="25px" class="activated"></sup></span>
-		<span onclick="toggleBtnClick2()" id="hide_button"><sup><img src="https://elastic-fermat-3dc26c.netlify.com/img/eye.png" width="25px" class="activated"></sup></span>
+		<span onclick="toggleBtnClick()" id="pin_button"><sup><img src="https://data-analytics.netlify.com/img/pin.png" width="25px" class="activated"></sup></span>
+		<span onclick="toggleBtnClick2()" id="hide_button"><sup><img src="https://data-analytics.netlify.com/img/eye.png" width="25px" class="activated"></sup></span>
 	</div>
 	
-	<script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/lunr.min.js"></script>
-    <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/auto-complete.js"></script>
+	<script type="text/javascript" src="https://data-analytics.netlify.com/js/lunr.min.js"></script>
+    <script type="text/javascript" src="https://data-analytics.netlify.com/js/auto-complete.js"></script>
             
     <script type="text/javascript">
-        var baseurl = "https:\/\/elastic-fermat-3dc26c.netlify.com\/";
+        var baseurl = "https:\/\/data-analytics.netlify.com\/";
     </script>
-    <script type="text/javascript" src="https://elastic-fermat-3dc26c.netlify.com/js/search.js"></script>
+    <script type="text/javascript" src="https://data-analytics.netlify.com/js/search.js"></script>
 			
 	<div class="container container--outer">
 		<header class="header">
@@ -164,39 +165,39 @@ b - Intercept
 
 <h2 id="r-code">R Code</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#75715e">#Load Train and Test datasets</span>
-<span style="color:#75715e">#Identify feature and response variable(s) and values must be numeric and numpy arrays</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#75715e">#Load Train and Test datasets</span>
+<span style="color:#75715e">#Identify feature and response variable(s) and values must be numeric and numpy arrays</span>
 x_train <span style="color:#f92672">&lt;-</span> input_variables_values_training_datasets
 y_train <span style="color:#f92672">&lt;-</span> target_variables_values_training_datasets
 x_test <span style="color:#f92672">&lt;-</span> input_variables_values_test_datasets
 x <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">cbind</span>(x_train,y_train)
 
-<span style="color:#75715e"># Train the model using the training sets and check score</span>
+<span style="color:#75715e"># Train the model using the training sets and check score</span>
 linear <span style="color:#f92672">&lt;-</span> lm(y_train <span style="color:#f92672">~</span> <span style="color:#ae81ff">.</span>, data <span style="color:#f92672">=</span> x)
 <span style="color:#66d9ef">summary</span>(linear)
 
-<span style="color:#75715e"># Predict Output</span>
+<span style="color:#75715e"># Predict Output</span>
 predicted <span style="color:#f92672">&lt;-</span> predict(linear,x_test) </code></pre></div>
 
 <h4 id="python-code">Python Code</h4>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Import Library</span>
-<span style="color:#75715e">#Import other necessary libraries like pandas, numpy...</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Import Library</span>
+<span style="color:#75715e">#Import other necessary libraries like pandas, numpy...</span>
 <span style="color:#f92672">from</span> sklearn <span style="color:#f92672">import</span> linear_model
-<span style="color:#75715e">#Load Train and Test datasets</span>
-<span style="color:#75715e">#Identify feature and response variable(s) and values must be numeric and numpy arrays</span>
+<span style="color:#75715e">#Load Train and Test datasets</span>
+<span style="color:#75715e">#Identify feature and response variable(s) and values must be numeric and numpy arrays</span>
 x_train <span style="color:#f92672">=</span> input_variables_values_training_datasets
 y_train <span style="color:#f92672">=</span> target_variables_values_training_datasets
 x_test <span style="color:#f92672">=</span> input_variables_values_test_datasets
-<span style="color:#75715e"># Create linear regression object</span>
+<span style="color:#75715e"># Create linear regression object</span>
 linear <span style="color:#f92672">=</span> linear_model<span style="color:#f92672">.</span>LinearRegression()
-<span style="color:#75715e"># Train the model using the training sets and check score</span>
+<span style="color:#75715e"># Train the model using the training sets and check score</span>
 linear<span style="color:#f92672">.</span>fit(x_train, y_train)
 linear<span style="color:#f92672">.</span>score(x_train, y_train)
-<span style="color:#75715e">#Equation coefficient and Intercept</span>
+<span style="color:#75715e">#Equation coefficient and Intercept</span>
 <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Coefficient: </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>, linear<span style="color:#f92672">.</span>coef_)
 <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Intercept: </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>, linear<span style="color:#f92672">.</span>intercept_)
-<span style="color:#75715e">#Predict Output</span>
+<span style="color:#75715e">#Predict Output</span>
 predicted <span style="color:#f92672">=</span> linear<span style="color:#f92672">.</span>predict(x_test)</code></pre></div>
 
 		</div>
