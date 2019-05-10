@@ -1,6 +1,6 @@
 ---
 title: "Python Cheatsheet"
-url: "Python Cheatsheet"
+url: "python-cheatsheet"
 editor_options: 
   chunk_output_type: inline
 date: 2019-03-13
@@ -22,8 +22,6 @@ or <a href="https://github.com/gto76/python-cheatsheet" target="_blank">Fork me 
 if __name__ == '__main__':
     main()
 {{< /highlight >}}
-
-
 
 ### List
 {{< highlight python >}}
