@@ -1,9 +1,8 @@
 ---
 title: "Airbnb Knowledge Repo"
-url: "Airbnb Knowledge Repo"
-description: Some webdev stuff
+url: "knowledge_repo"
 date: 2018-06-25
-thumbnail: img/banner/airbnb_know_repo.png
+thumbnail: img/banner/knowledge_repo.png
 categories:
   - "project"
 tags: 

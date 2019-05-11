@@ -4,15 +4,13 @@ url: "office_ribbons"
 editor_options: 
   chunk_output_type: inline
 date: 2018-07-17
-thumbnail: "img/banner/office.png"
+thumbnail: "img/banner/office_ribbons.png"
 categories:
   - "post"
 tags: 
 draft: false
 ---
 I am an absolute fan of adapting your work environment to your needs. Spending an hour to set up some shortcuts is virtually always a good time investment. 
-
-[Office Ribbon](https://support.office.com/en-us/article/Customize-the-ribbon-in-Office-00f24ca7-6021-48d3-9514-a31a460ecb31)
 
 ![Office Ribbons](/img/office_ribbons/office_ribbons1.png)
 
@@ -34,4 +32,4 @@ You can easily import like this:
 
 ![Office Ribbons](/img/office_ribbons/office_ribbons4.png)
 
-If you need more information on the topic please have a closer look here: https://trendblog.net/add-custom-tabs-ribbon-microsoft-office/
+If you need more information on the topic please have a closer look here: [How To Add Custom Tabs To The Ribbon In Microsoft Office](https://trendblog.net/add-custom-tabs-ribbon-microsoft-office/)
