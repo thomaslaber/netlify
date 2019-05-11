@@ -135,3 +135,10 @@ clean:
 run:
 	docker-compose up
 {{< /highlight >}} 
+
+Useful links:
+
+* [github repo](https://github.com/airbnb/knowledge-repo/)
+* [manual](https://knowledge-repo.readthedocs.io/en/latest/installation.html)
+* [docker tutorial](https://github.com/airbnb/knowledge-repo/issues/401)
+* [docker image](https://github.com/cityofcapetown/docker_knowledge_repo)

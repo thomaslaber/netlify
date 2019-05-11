@@ -13,8 +13,6 @@ tags:
 draft: false
 ---
 
-# Azure Functions
-
 This blogpost will demonstrate how to set up Azure functions with some Python code. More precisely, it will show how to call a azure function, add a parameter that specifies the name of the file that will be read and stored into a database.
 
 ## Setup
