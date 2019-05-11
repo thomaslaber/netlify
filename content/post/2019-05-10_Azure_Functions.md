@@ -47,7 +47,7 @@ py -3.6 -m venv .env
 
 Choose python as worker runtime:
 
-![Choose python as worker runtime](/img/azure_function1.png)
+![Choose python as worker runtime](/img/azure_functions/azure_function1.png)
 
 A folder named MyFunctionProj is created, which contains the following three files:
 
@@ -64,9 +64,9 @@ To add a function to your project, run the following command:
 
 Choose the HTTP trigger template and gave a name to the function:
 
-![Choose the HTTP trigger template](/img/azure_function2.png)
+![Choose the HTTP trigger template](/img/azure_functions/azure_function2.png)
 
-![Give the function a name](/img/azure_function3.png)
+![Give the function a name](/img/azure_functions/azure_function3.png)
 
 A subfolder named HttpTrigger is created, which contains the following files:
 
@@ -79,11 +79,11 @@ Each binding requires a direction, type and a unique name. The HTTP trigger has 
 {{< highlight bash >}} func host start
 {{< /highlight >}} 
 
-![Run the function locally](/img/azure_function4.png)
+![Run the function locally](/img/azure_functions/azure_function4.png)
 
 If we type `http://localhost:7071/api/HttpTrigger?name=Thomas` into the browser bar now we will get the following result. 
 
-![Working Azure Function](/img/azure_function5.png)
+![Working Azure Function](/img/azure_functions/azure_function5.png)
 
 ## Quick Check
 
@@ -237,3 +237,5 @@ def save_db(file_content):
     cursor.close()
     cnxn.close()
 {{< /highlight >}} 
+
+In the next blog post we will talk about how to make this secure. 
