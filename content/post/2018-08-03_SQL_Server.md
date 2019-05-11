@@ -67,11 +67,11 @@ Source: https://www.sqlshack.com/what-is-the-difference-between-clustered-and-no
 
 ## Actual Execution Plan
 
-![Figure 3: Organization of teams driven by business capabilities](/img/actual_exec_plan1.png)
+![Figure 3: Organization of teams driven by business capabilities](/img/sql_server/actual_exec_plan1.png)
 
 *Figure 3: Organization of teams driven by business capabilities*
  
- ![Figure 3: Organization of teams driven by business capabilities](/img/actual_exec_plan2.png)
+ ![Figure 3: Organization of teams driven by business capabilities](/img/sql_server/actual_exec_plan2.png)
 
 *Figure 3: Organization of teams driven by business capabilities*
 

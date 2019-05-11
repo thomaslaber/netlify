@@ -1,10 +1,10 @@
 ---
 title: "Conway's Law"
-url: conways-law"
-output: html_notebook
+url: "conways-law"
 editor_options: 
   chunk_output_type: inline
 date: 2018-02-19
+thumbnail: "img/banner/conway.png"
 categories:
   - "post"
 tags: 
@@ -27,11 +27,11 @@ Conway’s Law also plays a role in the time it takes to construct each of these
 
 As a result, if the technology department is organized around technical capabilities, with a work group focused on the user interface, another group to the database, a third to the infrastructure, one to the process management, another to the implementation of business logic on the server side (figure 1), the architecture of the resulting systems (figure 2) will be very similar to these communication structures.
 
-![Figure 1: Technical organization of teams](/img/conway1.png)
+![Figure 1: Technical organization of teams](/img/conway/conway1.png)
 
 *Figure 1: Technical organization of teams*
 
-![Figure 2: Architecture driven by technical capabilities](/img/conway2.png)
+![Figure 2: Architecture driven by technical capabilities](/img/conway/conway2.png)
 
 *Figure 2: Architecture driven by technical capabilities*
 
@@ -43,11 +43,11 @@ This is one of the reasons why some organizations try to group requirements to '
 On the other hand, we can find organizations that favor multidisciplinary or cross-functional teams formed by different roles and guided by the business capabilities (figure 3). Here, changes produced by new business definitions are executed from beginning to end by just one team. This avoids processes overhead, and produces different—and often more distributed—architectures (figure 4) with greater capacity to evolve.
 Organization of teams driven by business capabilities
 
-![Figure 3: Organization of teams driven by business capabilities](/img/conway3.png)
+![Figure 3: Organization of teams driven by business capabilities](/img/conway/conway3.png)
 
 *Figure 3: Organization of teams driven by business capabilities*
 
-![Figure 4: Business-driven architecture](/img/conway4.png){:height="36px" width="36px"}
+![Figure 4: Business-driven architecture](/img/conway/conway4.png)
 
 *Figure 4: Business-driven architecture*
 
