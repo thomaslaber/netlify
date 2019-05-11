@@ -1,15 +1,14 @@
 ---
-title: "Online Reads"
-output: html_notebook
+title: "Reading List"
+url: "online_reading_list"
 editor_options: 
   chunk_output_type: inline
-date: 2017-11-20
+date: 2017-11-02
+thumbnail: "img/banner/online_reading_list.jpg"
 categories:
-  - "post"
   - "book"
 tags: 
   - "data science"
-thumbnail: ""
 draft: false
 menu: main
 ---

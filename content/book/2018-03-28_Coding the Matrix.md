@@ -1,14 +1,13 @@
 ---
 title: "Coding the Matrix"
-url: "Coding the Matrix"
+url: "coding_the_matrix"
 editor_options: 
   chunk_output_type: inline
 date: 2018-06-25
 thumbnail: "img/banner/coding_the_matrix.jpg"
 categories:
-  - "post"
+  - "book"
 tags: 
-  - ""
 draft: false
 ---
 How to test the solutions

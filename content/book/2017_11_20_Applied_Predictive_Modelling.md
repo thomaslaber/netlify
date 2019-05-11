@@ -1,11 +1,10 @@
 ---
 title: "Applied Predictive Modelling"
-output: html_notebook
+url: "applied_predictive_modelling"
 editor_options: 
   chunk_output_type: inline
 date: 2017-11-20
 categories:
-  - "post"
   - "book"
 tags: 
   - "data science"

@@ -308,3 +308,13 @@ I pushed the table of content in the sidebar and made it sticky using <a href="h
   </div>
   {{ end }}
 {{< /highlight >}}
+
+### External link open a new tab
+
+The usual `target="_blank"` is not really supported in markdown, only a few subversions do. Therefore, you can add this line of jquery code to let javascript do the work: 
+
+{{< highlight javascript >}}
+//add target="_blank" to all external links
+$('.content a[href^="http"').attr('target', '_blank');
+{{< /highlight >}}
+

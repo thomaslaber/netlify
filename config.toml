@@ -29,7 +29,7 @@ googleAnalytics = "UA-22322985-3" # Enable Google Analytics by entering your tra
   custom_css = ["css/tl.css","css/auto-complete.css"]
   highlight = true
   highlightStyle = "monokai-sublime"
-  highlightLanguages = ["r", "python", "sql", "bash", "css", "ini", "javascript"]
+  highlightLanguages = ["r", "python", "sql", "bash", "css", "ini", "javascript", "yaml", "markdown"]
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
