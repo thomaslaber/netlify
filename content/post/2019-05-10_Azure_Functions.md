@@ -13,11 +13,12 @@ tags:
 draft: false
 ---
 
-This blogpost will demonstrate how to set up Azure functions with some Python code. More precisely, it will show how to call a azure function, add a parameter that specifies the name of the file that will be read and stored into a database.
+This blogpost will demonstrate how to set up Azure Functions with some Python code. More precisely, it will show how to call an Azure Function, add a parameter that specifies the name of the file that we want to read from and store that information in a database. Between reading and storing we have the chance to execute any python code we want. As long as it stays below the 30 min threshold :) 
 
 ## Setup
 
-<a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function" target="_blank">Microsoft Tutorial: Create your first function in the Azure portal</a>
+Most of the setup code is directly taken from here: <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function">Microsoft Tutorial: Create your first function in the Azure portal</a>
+As soon as the typos start, it is my code and tutorial again :)
 
 Before you start, you must have the following:
 
@@ -83,7 +84,7 @@ If we type `http://localhost:7071/api/HttpTrigger?name=Thomas` into the browser 
 
 ![Working Azure Function](/img/azure_functions/azure_function5.png)
 
-## Quick Check
+## Analysis of the code so far
 
 Let's a have closer look into `__init__.py`: 
 
@@ -112,7 +113,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         )
 {{< /highlight >}} 
 
-We can see the parameter `name` was expected. 
+We can see the parameter `name` was expected. If you need you will get an error messag. We will build directly on this stub and not even change its name. 
 
 ## Adding Storage
 
@@ -123,6 +124,7 @@ from azure.storage.file import FileService
 {{< /highlight >}} 
 
 Furthermore we add to functions:
+
 1. check_file
 2. read_file
 
@@ -175,7 +177,7 @@ if name:
         return func.HttpResponse(f"Content of file... {file_content}!")
 {{< /highlight >}} 
 
-## Entire code
+## Final code base
 
 Here is the final result: 
 
