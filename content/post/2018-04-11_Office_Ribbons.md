@@ -3,7 +3,7 @@ title: "Office Ribbons"
 url: "office_ribbons"
 editor_options: 
   chunk_output_type: inline
-date: 2018-07-17
+date: 2018-04-11
 thumbnail: "img/banner/office_ribbons.png"
 categories:
   - "post"

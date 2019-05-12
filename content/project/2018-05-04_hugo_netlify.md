@@ -2,7 +2,7 @@
 title: "Blogging with hugo & netlify"
 url: "hugo_netlify"
 description: Creating a personal blog with hugo netlify
-date: 2018-06-25
+date: 2018-05-04
 thumbnail: img/banner/hugo-netlify.png
 categories:
   - "project"

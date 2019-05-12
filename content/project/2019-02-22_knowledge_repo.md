@@ -1,7 +1,7 @@
 ---
 title: "Airbnb Knowledge Repo"
 url: "knowledge_repo"
-date: 2018-06-25
+date: 2019-02-22
 thumbnail: img/banner/knowledge_repo.png
 categories:
   - "project"

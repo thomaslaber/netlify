@@ -4,7 +4,7 @@ url: "Microsoft Big Data Overview"
 output: html_notebook
 editor_options: 
   chunk_output_type: inline
-date: 2018-10-06
+date: 2018-09-02
 thumbnail: "img/banner/microsoft_azure.png"
 categories:
   - "post"
