@@ -11,6 +11,7 @@ tags:
   - "python"
 draft: false
 ---
+The following gives an overview of the most basic concepts found in python. It serves as a quick reminder when not having coded in python for a while. 
 
 <sup>Source: <a href="https://raw.githubusercontent.com/gto76/python-cheatsheet/master/README.md" target="_blank">Download text file</a>
 or <a href="https://github.com/gto76/python-cheatsheet" target="_blank">Fork me on GitHub</a>
