@@ -100,5 +100,7 @@ docker run -i -t --rm ubuntu /bin/bash
 
 {{< /highlight >}}
 
+docker build -t vmsim:latest . 
+docker run -i -t vmsim:latest /bin/bash 
 
     
