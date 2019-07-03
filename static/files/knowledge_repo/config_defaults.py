@@ -15,7 +15,7 @@ import datetime
 # into production.
 
 ### can be relevant
-SERVER_NAME = '52.59.236.35:8888' # None
+SERVER_NAME = localhost # '52.59.236.35:8888' # None
 
 # The knowledge repository uses the secret key to sign user
 # sessions. If not specified, a unique secret key will be

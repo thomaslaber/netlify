@@ -3,7 +3,7 @@ title: "RStudio Addin"
 url: rstudio-addin
 editor_options:
   chunk_output_type: inline
-date: 2019-05-01
+date: 2019-05-09
 thumbnail: img/banner/rstudio_addin.png
 categories: 
   - "post"

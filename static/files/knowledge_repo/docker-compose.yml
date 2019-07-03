@@ -16,5 +16,5 @@ services:
     environment:
 # Fill in any Knowledge repo env variables here
       - PORT=8888
-      - SERVER_NAME=18.195.31.68
+      - SERVER_NAME=localhost #18.195.31.68
       - RUNTIME_CONTEXT=local

@@ -10,6 +10,7 @@ categories:
   - "post"
 tags: 
   - "visualization"
+  - "SQL"
 draft: false
 ---
 
