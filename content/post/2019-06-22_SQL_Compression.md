@@ -4,7 +4,7 @@ url: "SQL Server"
 output: html_notebook
 editor_options: 
   chunk_output_type: inline
-date: 2019-06-22
+date: 2019-07-22
 thumbnail: "img/banner/sql_server.png"
 categories:
   - "post"
@@ -70,7 +70,7 @@ More information here: https://docs.microsoft.com/en-us/sql/relational-databases
 CREATE TABLE [dbo].[table_name] (
 	[ShipmentId] [bigint] NOT NULL,
 	[Name] [nvarchar](40) NULL,
-	[Time] [datetime2](3) NULL,
+	[Time] [datetime2](3) NULL
 ) ON [PRIMARY] with (data_compression=page)
 GO
 

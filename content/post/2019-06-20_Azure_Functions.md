@@ -3,7 +3,7 @@ title: "Azure Functions"
 url: "azure-functions"
 editor_options: 
   chunk_output_type: inline
-date: 2019-05-10
+date: 2019-06-20
 thumbnail: "img/banner/azure_functions.png"
 categories:
   - "post"
