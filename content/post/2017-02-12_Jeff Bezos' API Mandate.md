@@ -3,7 +3,7 @@ title: "Jeff Bezos' API Mandate"
 url: "Jeff Bezos API Mandate"
 description: How Amazon bypassed Microsoft, Google and everybody else in the cloud business
 date: 2017-02-12
-# thumbnail: img/banner/webdevelopers.png
+thumbnail: img/banner/template.png
 categories:
  - "post"
 tags: 
