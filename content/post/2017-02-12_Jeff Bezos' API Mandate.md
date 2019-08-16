@@ -13,7 +13,7 @@ draft: false
 
 The best article I've ever read about architecture and the management of IT.
 
-***UPDATE***
+### ***UPDATE***
 
 This post was intended to be shared privately and was accidentally made public. Thanks to +Steve Yegge for allowing us to keep it out there. It's the sort of writing people do when they think nobody is watching: honest, clear, and frank.
 
@@ -21,7 +21,7 @@ The world would be a better place if more people wrote this sort of internal mem
 
 Hopefully Steve will not experience any negative repercussions from Google about this. On the contrary, he deserves a promotion.
 
-***UPDATE #2***
+### ***UPDATE #2***
 
 This post has received a lot of attention. For anyone here who arrived from The Greater Internet - I stand ready to remove this post if asked. As I mentioned before, I was given permission to keep it up.
 
@@ -49,19 +49,13 @@ So one day Jeff Bezos issued a mandate.  He's doing that all the time, of course
 
 His Big Mandate went something along these lines:
 
-  1) All teams will henceforth expose their data and functionality through service interfaces.
-
-  2) Teams must communicate with each other through these interfaces.
-
-  3) There will be no other form of interprocess communication allowed:  no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever.  The only communication allowed is via service interface calls over the network.
-
-  4) It doesn't matter what technology they use.  HTTP, Corba, Pubsub, custom protocols -- doesn't matter.  Bezos doesn't care.
-
-  5) All service interfaces, without exception, must be designed from the ground up to be externalizable.  That is to say, the team must plan and design to be able to expose the interface to developers in the outside world.  No exceptions.
-
-  6) Anyone who doesn't do this will be fired.
-
-  7) Thank you; have a nice day!
+  1. All teams will henceforth expose their data and functionality through service interfaces.
+  2. Teams must communicate with each other through these interfaces.
+  3. There will be no other form of interprocess communication allowed:  no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever.  The only communication allowed is via service interface calls over the network.
+  4. It doesn't matter what technology they use.  HTTP, Corba, Pubsub, custom protocols -- doesn't matter.  Bezos doesn't care.
+  5. All service interfaces, without exception, must be designed from the ground up to be externalizable.  That is to say, the team must plan and design to be able to expose the interface to developers in the outside world.  No exceptions.
+  6. Anyone who doesn't do this will be fired.
+  7. Thank you; have a nice day!
 
 Ha, ha!  You 150-odd ex-Amazon folks here will of course realize immediately that #7 was a little joke I threw in, because Bezos most definitely does not give a shit about your day.
 
@@ -95,7 +89,7 @@ The other big realization he had was that he can't always build the right thing.
 
 I'm not really sure how Bezos came to this realization -- the insight that he can't build one product and have it be right for everyone.  But it doesn't matter, because he gets it.  There's actually a formal name for this phenomenon.  It's called Accessibility, and it's the most important thing in the computing world.
 
-The. Most. Important. Thing.
+## The. Most. Important. Thing.
 
 If you're sorta thinking, "huh?  You mean like, blind and deaf people Accessibility?" then you're not alone, because I've come to understand that there are lots and LOTS of people just like you:  people for whom this idea does not have the right Accessibility, so it hasn't been able to get through to you yet.  It's not your fault for not understanding, any more than it would be your fault for being blind or deaf or motion-restricted or living with any other disability.  When software -- or idea-ware for that matter -- fails to be accessible to anyone for any reason, it is the fault of the software or of the messaging of the idea.  It is an Accessibility failure.
 
