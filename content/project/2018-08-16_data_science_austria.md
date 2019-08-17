@@ -1,8 +1,8 @@
 ---
 title: "data-science-austria.at"
 url: "data-science-austria.at"
-date: 2019-08-16
-thumbnail: img/banner/template.png
+date: 2018-08-16
+thumbnail: img/banner/data-science-austria.png
 categories:
   - "project"
 tags: 
