@@ -7,7 +7,7 @@ categories:
   - "project"
 tags: 
   - "web development"
-draft: true
+draft: false
 ---
 
 The last few months I set out to build up to build a news and event aggregator. You can see the work in progress here: <a href="https://data-science-austria.at/">data-science-austria.at</a>
