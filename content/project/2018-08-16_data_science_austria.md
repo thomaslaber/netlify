@@ -1,6 +1,6 @@
 ---
-title: "data-science-austria.at"
-url: "data-science-austria.at"
+title: "Data Science Austria"
+url: "Data Science Austria"
 date: 2018-08-16
 thumbnail: img/banner/data-science-austria.png
 categories:
