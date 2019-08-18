@@ -9,7 +9,7 @@ googleAnalytics = "UA-22322985-3" # Enable Google Analytics by entering your tra
 [Author]
   name = "Thomas Laber"
   # bio = "\"Failure is not an option. \n Everyone has to succeed.\" - Arnold Schwarzenegger"
-  bio = "\"If it bleeds, we can kill it.\" - Arnold Schwarzenegger" 
+  bio = "\"Causation does not imply correlation.\"" 
   avatar = "img/_misc/tl.jpg"
 
 [Params]
