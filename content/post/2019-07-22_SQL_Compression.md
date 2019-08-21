@@ -1,6 +1,6 @@
 ---
 title: "SQL Server Advanced"
-url: "SQL Server"
+url: "sql-server-advanced"
 output: html_notebook
 editor_options: 
   chunk_output_type: inline

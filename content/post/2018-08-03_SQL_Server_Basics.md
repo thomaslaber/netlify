@@ -1,6 +1,6 @@
 ---
 title: "SQL Server Basics"
-url: "SQL Server Basics"
+url: "sql-server-basics"
 # output: html_notebook
 editor_options: 
   chunk_output_type: inline
