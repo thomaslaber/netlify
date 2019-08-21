@@ -10,7 +10,7 @@ categories:
   - "post"
 tags: 
   - SQL
-draft: true
+draft: false
 ---
 
 Sometimes you have a series of stored procedures that themselves are managed by another master stored procedure like so. This usually just means a series of `EXEC` statements after each other. It is quite handy to create a login event after each stored procedure call in order to check its progress.
