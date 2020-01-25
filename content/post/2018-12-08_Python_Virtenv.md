@@ -45,16 +45,16 @@ In the terminal client enter the following where `yourenvname` is the name you w
 conda create -n yourenvname python=x.x anaconda
 {{< /highlight >}}
 
-### 4. Activate your virtual environment.
+### 4. Activate your virtual environment
 
-    To activate or switch into your virtual environment, simply type the following where yourenvname is the name you gave to your environement at creation.
+To activate or switch into your virtual environment, simply type the following where `yourenvname` is the name you gave to your environement at creation.
 
 {{< highlight python >}}
 source activate yourenvname
 {{< /highlight >}}
 
 
-### 5. Install additional Python packages to a virtual environment.
+### 5. Install additional Python packages to a virtual environment
 
 To install additional packages only to your virtual environment, enter the following command where `yourenvname` is the name of your environemnt, and `[package]` is the name of the package you wish to install. Failure to specify `-n yourenvname` will install the package to the root Python installation.
 
@@ -62,7 +62,7 @@ To install additional packages only to your virtual environment, enter the follo
 conda install -n yourenvname [package]
 {{< /highlight >}}
 
-### 6. Deactivate your virtual environment.
+### 6. Deactivate your virtual environment
 
 To end a session in the current environment, enter the following. There is no need to specify the envname - which ever is currently active will be deactivated, and the `PATH` and shell variables will be returned to normal.
 
@@ -78,3 +78,38 @@ To delete a conda environment, enter the following, where `yourenvname` is the n
 conda remove -n yourenvname -all
 {{< /highlight >}}
 
+## Python3
+
+If you want to work without `conda` you can work directly with `python3`.
+
+The `python3-venv` module allows us to create lightweight virtual environments with their own site directories, optionally isolated from system site directories. Given that, we will be able to run multiple Python 3 environments with varying dependencies on the same computer.
+
+### 1. Create a virtual environment for your project
+
+{{< highlight python >}}
+python3 -m venv ~/yourenvname
+{{< /highlight >}}
+
+### 2. Activate your virtual environment
+
+In order to get into your Python 3 virtual environment with your terminal window, you need to run the `activate` script. 
+
+{{< highlight python >}}
+source ~/yourenvname/bin/activate
+{{< /highlight >}}
+
+### 3. Install additional Python packages to a virtual environment
+
+After the command complete, you will find that your terminal prompt is appended with (yourenvname). While inside this virtual environment, you can install any Python dependencies with the `pip` command. 
+
+{{< highlight python >}}
+pip install [package]
+{{< /highlight >}}
+
+### 4. Deactivate your virtual environment
+
+In order to get out of your Python 3 virtual environment, run:
+
+{{< highlight python >}}
+deactivate
+{{< /highlight >}}
