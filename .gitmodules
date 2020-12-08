@@ -1,3 +1,6 @@
 [submodule "themes/mainroad"]
 	path = themes/mainroad
 	url = https://github.com/vimux/mainroad
+[submodule "themes/harbor"]
+	path = themes/harbor
+	url = https://github.com/matsuyoshi30/harbor.git
