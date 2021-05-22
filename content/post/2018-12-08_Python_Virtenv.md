@@ -104,7 +104,7 @@ After the command complete, you will find that your terminal prompt is appended 
 
 {{< highlight python >}}
 pip install [package]
-{{< /highlight >}}
+{{< highlight python >}}
 
 ### 4. Deactivate your virtual environment
 
@@ -112,4 +112,34 @@ In order to get out of your Python 3 virtual environment, run:
 
 {{< highlight python >}}
 deactivate
+{{< /highlight >}}
+
+## Jupyter Notebooks
+
+### 1. Activate your virtual environment
+
+First, activate your virtual environment and make sure you have `ipykernel` installed.
+
+{{< highlight python >}}
+source activate myenv
+pip install --user ipykernel
+{{< /highlight >}}
+
+### 2. Install kernel
+
+We need to manually add the kernel if we want to have the virtual environment in the Jupyter Notebook.
+
+{{< highlight python >}}
+python -m ipykernel install --user --name yourenvname --display-name "Python (myenv)"
+{{< /highlight >}}
+
+With this, we have set up our virtual environment kernel and ready to be used in the Jupyter Notebook.
+The notebook now has all the installed packages in this environment.
+
+### 3. Uninstall 
+
+If you want to remove it, run: 
+
+{{< highlight python >}}
+jupyter kernelspec uninstall yourenvname
 {{< /highlight >}}
