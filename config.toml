@@ -1,4 +1,4 @@
-baseurl = "https://data-analytics.netlify.com/"
+baseurl = "https://data-analytics.netlify.app/"
 title = "Web Archive"
 languageCode = "en-us"
 paginate = "5" # Number of posts per page
